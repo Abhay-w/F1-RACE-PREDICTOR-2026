@@ -1,203 +1,244 @@
-# F1 Race Predictor 2026
+ F1 Race Predictor 2026
 
-A machine learning model that predicts F1 race pace using qualifying
-data and historical race results, built with the FastF1 API.
+A machine learning project that predicts Formula 1 race pace using qualifying performance, team pace, and historical 2026 race data.
 
-## Credit
+The project uses the FastF1 API to automatically retrieve Formula 1 session data and a Gradient Boosting Regressor from Scikit-learn to generate race predictions.
 
-This project is adapted from the structure and approach of
-[`mar-antaya/2025_f1_predictions`](https://github.com/mar-antaya/2025_f1_predictions)
-(MIT License). The original used a single hardcoded qualifying-time
-feature per race. This version rebuilds it for the 2026 season with
-live data fetching and additional feature engineering (see below).
+---
 
-## What's different from the original
+ Features
 
-| Original                        # F1 Race Predictor 2026
+-  Automatically detects the next upcoming 2026 race
+-  Predicts race performance using qualifying data
+-  Analyzes completed races
+-  Uses a Gradient Boosting Regression model
+-  Uses driver and team information for feature engineering
+-  Calculates Mean Absolute Error (MAE)
+-  Fetches Formula 1 data automatically using FastF1
+-  Uses previous completed 2026 races as training data
+-  Works with new circuits that do not have previous-season data
 
-A machine learning model that predicts F1 race pace using qualifying
-data and historical race results, built with the FastF1 API.
+---
 
-## Credit
+ How It Works
 
-This project is adapted from the structure and approach of
-[`mar-antaya/2025_f1_predictions`](https://github.com/mar-antaya/2025_f1_predictions)
-(MIT License). The original used a single hardcoded qualifying-time
-feature per race. This version rebuilds it for the 2026 season with
-live data fetching and additional feature engineering (see below).
+The project follows this pipeline:
 
-## What's different from the original
+1. Find the Race
 
-| Original | This version |
-|---|---|
-| One `.py` file per race, hardcoded qualifying times | Modular files, qualifying data pulled live via FastF1 |
-| Manually typed 2025 driver list | Updated 2026 grid (Audi, Cadillac, all driver moves) |
-| Single feature: qualifying time | Two features: qualifying time + team average pace |
-| No team information | Driver-to-team mapping used for feature engineering |
-| Trained on "same race, previous year" | Trained on **this season's average pace across all rounds run so far** |
+The program reads the 2026 Formula 1 calendar through FastF1.
 
-### Why the training approach changed
+It provides two modes:
 
-The original always trained on the exact same Grand Prix from the
-previous season (e.g. 2024 Chinese GP → predict 2025 Chinese GP).
-That breaks for a race with no history — **Madrid is brand new to the
-2026 calendar**, so there is no "2025 Madrid GP" to learn from.
+1.  Predict next upcoming race
+2.  Analyze completed race
 
-Instead, this version trains on each driver's **average race pace
-across every 2026 round completed so far**. This has two benefits:
-it works for new circuits, and it reflects each driver's *current*
-form rather than a single race from over a year ago.
+2. Collect Training Data
 
-## Project structure
+For the selected race, the model uses previously completed 2026 races as training data.
 
-```
+Average race lap pace is calculated for each driver.
+
+3. Collect Qualifying Data
+
+For the target race, the driver's best qualifying lap is retrieved using FastF1.
+
+Qualifying performance is used as an important prediction feature.
+
+If qualifying has not happened yet, the program correctly waits instead of generating a prediction.
+
+4. Feature Engineering
+
+The model uses:
+
+- Driver qualifying time
+- Team average qualifying pace
+
+Team information helps the model account for the performance of the car as well as the individual driver.
+
+5. Machine Learning
+
+The project uses:
+
+Gradient Boosting Regressor
+
+from "scikit-learn".
+
+The model learns the relationship between qualifying/team pace and race pace.
+
+6. Prediction
+
+The model predicts race pace for each driver and ranks them from fastest to slowest.
+
+The program displays:
+
+- Predicted position
+- Driver
+- Team
+- Predicted race time
+- Predicted winner
+- Model MAE
+
+7. Completed Race Analysis
+
+For completed races, the program can compare predicted performance with the available race data.
+
+This allows the prediction system to be tested against races that have already happened.
+
+---
+
+ Project Structure
+
 f1_predictor_2026/
-├── drivers_2026.py   # 2026 driver codes and team mapping
-├── fetch_data.py      # FastF1 API calls (race laps, qualifying)
-├── features.py         # Feature engineering (team pace features)
-├── train_model.py      # Model training, prediction, evaluation
-├── main.py              # Runs the full pipeline
+│
+├── drivers_2026.py
+│   └── 2026 driver codes and team mapping
+│
+├── fetch_data.py
+│   └── FastF1 data collection
+│
+├── features.py
+│   └── Feature engineering
+│
+├── train_model.py
+│   └── Model training, prediction and MAE evaluation
+│
+├── main.py
+│   └── Main program and race selection
+│
 └── README.md
-```
 
-## How it works
+---
 
-1. **Training data**: pulls average race lap time per driver from the
-   equivalent Grand Prix in the previous season.
-2. **Prediction input**: pulls each driver's best qualifying lap for
-   the target 2026 race.
-3. **Feature engineering**: adds a `TeamAvgTime` feature — the average
-   qualifying pace of both teammates — so the model captures car
-   performance, not just one driver's single lap.
-4. **Model**: Gradient Boosting Regressor (`scikit-learn`), same
-   family as the original project.
-5. **Evaluation**: Mean Absolute Error (MAE) on a held-out test split.
+ Technologies Used
 
-## Usage
+- Python
+- FastF1
+- Pandas
+- NumPy
+- Scikit-learn
+- Gradient Boosting Regression
+- Machine Learning
+- Feature Engineering
 
-```bash
+---
+
+ Installation
+
+Install the required Python libraries:
+
 pip install fastf1 pandas numpy scikit-learn
+
+Then run:
+
 python main.py
-```
 
-To predict a different Grand Prix, edit the config block at the top
-of `main.py`:
+---
 
-```python
-RACE_NAME = "Spanish GP (Madrid)"
-TRAIN_YEAR = 2026
-TRAIN_ROUNDS = list(range(1, 16))   # all rounds run so far
-PREDICT_YEAR, PREDICT_ROUND = 2026, 16
-```
+ Usage
 
-`ROUND` is the numeric position of the race on that season's calendar
-(1 = first race, 2 = second, etc.) — check the FastF1 or F1 calendar
-for the exact round number of the race you want. `TRAIN_ROUNDS`
-should cover every round already completed at the time you run the
-script.
+After running the program:
 
-## Notes / limitations
+ F1 RACE PREDICTOR 2026
 
-- Requires the target qualifying session to have already happened
-  (FastF1 can't fetch a session that hasn't run yet).
-- Driver lineup in `drivers_2026.py` reflects the season-opening grid;
-  update it if a mid-season driver change occurs.
-- MAE will vary race to race — a chaotic race (safety cars, rain,
-  incidents) is harder to predict than a clean one.
+1.  Predict next upcoming race
+2.  Analyze completed race
 
-## Future improvements
+Enter 1 or 2:
 
-- Add weather data as a feature
-- Incorporate pit stop strategy
-- Track-specific historical performance per driver
-- Try LightGBM/XGBoost and compare against Gradient Boosting
+Option 1 — Upcoming Race
 
-## License
+The program automatically finds the next race on the 2026 calendar.
 
-MIT — same as the original project this is adapted from.| This version |
-|---|---|
-| One `.py` file per race, hardcoded qualifying times | Modular files, qualifying data pulled live via FastF1 |
-| Manually typed 2025 driver list | Updated 2026 grid (Audi, Cadillac, all driver moves) |
-| Single feature: qualifying time | Two features: qualifying time + team average pace |
-| No team information | Driver-to-team mapping used for feature engineering |
-| Trained on "same race, previous year" | Trained on **this season's average pace across all rounds run so far** |
+If qualifying has already taken place, the model generates a prediction.
 
-### Why the training approach changed
+If qualifying has not happened yet, the program informs the user and waits for the qualifying session.
 
-The original always trained on the exact same Grand Prix from the
-previous season (e.g. 2024 Chinese GP → predict 2025 Chinese GP).
-That breaks for a race with no history — **Madrid is brand new to the
-2026 calendar**, so there is no "2025 Madrid GP" to learn from.
+Option 2 — Completed Race
 
-Instead, this version trains on each driver's **average race pace
-across every 2026 round completed so far**. This has two benefits:
-it works for new circuits, and it reflects each driver's *current*
-form rather than a single race from over a year ago.
+The program displays completed 2026 races.
 
-## Project structure
+The user selects a round number, and the model generates a prediction and comparison using the completed race data.
 
-```
-f1_predictor_2026/
-├── drivers_2026.py   # 2026 driver codes and team mapping
-├── fetch_data.py      # FastF1 API calls (race laps, qualifying)
-├── features.py         # Feature engineering (team pace features)
-├── train_model.py      # Model training, prediction, evaluation
-├── main.py              # Runs the full pipeline
-└── README.md
-```
+---
 
-## How it works
+ Example Output
 
-1. **Training data**: pulls average race lap time per driver from the
-   equivalent Grand Prix in the previous season.
-2. **Prediction input**: pulls each driver's best qualifying lap for
-   the target 2026 race.
-3. **Feature engineering**: adds a `TeamAvgTime` feature — the average
-   qualifying pace of both teammates — so the model captures car
-   performance, not just one driver's single lap.
-4. **Model**: Gradient Boosting Regressor (`scikit-learn`), same
-   family as the original project.
-5. **Evaluation**: Mean Absolute Error (MAE) on a held-out test split.
+ PREDICTED RACE RESULT
 
-## Usage
+ Predicted Position   Driver              Team
+ 1                    Driver A            Team A
+ 2                    Driver B            Team B
+ 3                    Driver C            Team C
+ ...
 
-```bash
-pip install fastf1 pandas numpy scikit-learn
-python main.py
-```
+ Predicted Winner: Driver A
+Team: Team A
+Model MAE: 1.25 seconds
 
-To predict a different Grand Prix, edit the config block at the top
-of `main.py`:
+For completed races, the program can also display predicted versus actual race performance.
 
-```python
-RACE_NAME = "Spanish GP (Madrid)"
-TRAIN_YEAR = 2026
-TRAIN_ROUNDS = list(range(1, 16))   # all rounds run so far
-PREDICT_YEAR, PREDICT_ROUND = 2026, 16
-```
+---
 
-`ROUND` is the numeric position of the race on that season's calendar
-(1 = first race, 2 = second, etc.) — check the FastF1 or F1 calendar
-for the exact round number of the race you want. `TRAIN_ROUNDS`
-should cover every round already completed at the time you run the
-script.
+ Why This Project?
 
-## Notes / limitations
+Traditional approaches may rely on manually entered data or previous-season results for the same Grand Prix.
 
-- Requires the target qualifying session to have already happened
-  (FastF1 can't fetch a session that hasn't run yet).
-- Driver lineup in `drivers_2026.py` reflects the season-opening grid;
-  update it if a mid-season driver change occurs.
-- MAE will vary race to race — a chaotic race (safety cars, rain,
-  incidents) is harder to predict than a clean one.
+That approach becomes difficult when predicting a new circuit.
 
-## Future improvements
+This project instead uses the driver's current-season performance from completed races.
 
-- Add weather data as a feature
-- Incorporate pit stop strategy
-- Track-specific historical performance per driver
-- Try LightGBM/XGBoost and compare against Gradient Boosting
+This allows the model to work even when a circuit does not have comparable previous-season data.
 
-## License
+---
 
-MIT — same as the original project this is adapted from.
+ Limitations
+
+The current model predicts race pace, not the exact official finishing order.
+
+Actual Formula 1 races are affected by many factors that are not currently included, such as:
+
+- Weather
+- Safety Cars
+- Red Flags
+- Pit-stop strategy
+- Tire strategy
+- Mechanical failures
+- Crashes
+- Track-specific performance
+- Race incidents
+
+Therefore, the prediction should be considered a machine learning estimate, not a guaranteed race result.
+
+---
+
+ Future Improvements
+
+Possible improvements include:
+
+-  Weather data
+-  Tire compound and degradation
+-  Pit-stop strategy
+-  Track-specific driver performance
+-  More historical features
+-  XGBoost / LightGBM comparison
+-  More advanced ensemble models
+-  Driver form and recent-performance features
+
+---
+
+ Credit
+
+This project is adapted from the structure and approach of:
+
+"mar-antaya/2025_f1_predictions"
+
+The original project is licensed under the MIT License.
+
+This version was rebuilt and extended for the 2026 Formula 1 season, including live FastF1 data fetching, modular architecture, team-based feature engineering, automatic race detection, and completed-race analysis.
+
+---
+
+ License
+
+MIT License — based on the licensing of the original project.
