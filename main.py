@@ -19,27 +19,47 @@ YEAR = 2026
 
 def calendar():
     schedule = fastf1.get_event_schedule(YEAR)
+
     schedule = schedule[
-        pd.to_numeric(schedule["RoundNumber"], errors="coerce").notna()
+        pd.to_numeric(
+            schedule["RoundNumber"],
+            errors="coerce"
+        ).notna()
     ].copy()
 
     schedule["RoundNumber"] = schedule["RoundNumber"].astype(int)
+
     schedule["EventDate"] = pd.to_datetime(
-        schedule["EventDate"], utc=True, errors="coerce"
+        schedule["EventDate"],
+        utc=True,
+        errors="coerce"
     )
 
     return schedule[schedule["RoundNumber"] > 0]
 
 
 def prepare(qualifying, race_data):
-    code_to_name = {v: k for k, v in DRIVER_CODES.items()}
+    code_to_name = {
+        v: k for k, v in DRIVER_CODES.items()
+    }
 
     qualifying = qualifying.copy()
-    qualifying["Driver"] = qualifying["DriverCode"].map(code_to_name)
-    qualifying.dropna(subset=["Driver"], inplace=True)
+
+    qualifying["Driver"] = qualifying[
+        "DriverCode"
+    ].map(code_to_name)
+
+    qualifying.dropna(
+        subset=["Driver"],
+        inplace=True
+    )
 
     features = build_feature_set(qualifying)
-    features.dropna(subset=FEATURE_COLUMNS, inplace=True)
+
+    features.dropna(
+        subset=FEATURE_COLUMNS,
+        inplace=True
+    )
 
     merged = features.merge(
         race_data,
@@ -51,8 +71,13 @@ def prepare(qualifying, race_data):
     return features, merged, code_to_name
 
 
-def predict_race(round_no, race_name, schedule, compare=False):
-    print(f"\n {race_name} — Round {round_no}")
+def predict_race(
+    round_no,
+    race_name,
+    schedule,
+    compare=False
+):
+    print(f"\n{race_name} — Round {round_no}")
 
     # Use only races before the target race for training.
     train_rounds = schedule[
@@ -60,50 +85,80 @@ def predict_race(round_no, race_name, schedule, compare=False):
     ]["RoundNumber"].tolist()
 
     if not train_rounds:
-        print("Not enough previous races to train the model.")
-        return
+        print(
+            "Not enough previous races "
+            "to train the model."
+        )
+        return None
 
-    print(f"Training on rounds 1-{round_no - 1}...")
+    print(
+        f"Training on rounds 1-{round_no - 1}..."
+    )
 
     try:
-        race_data = get_season_avg_pace(YEAR, train_rounds)
-        qualifying = get_qualifying_times(YEAR, round_no)
-    except Exception:
-        print("\n Qualifying data is not available yet.")
-        print("Run the program again after qualifying.")
-        return
+        race_data = get_season_avg_pace(
+            YEAR,
+            train_rounds
+        )
+
+        qualifying = get_qualifying_times(
+            YEAR,
+            round_no
+        )
+
+    except Exception as e:
+        print(
+            f"\nQualifying/data is not available: {e}"
+        )
+        return None
 
     if qualifying.empty:
-        print("\n No qualifying data available yet.")
-        return
+        print(
+            "\nNo qualifying data available yet."
+        )
+        return None
 
     try:
         features, merged, code_to_name = prepare(
-            qualifying, race_data
+            qualifying,
+            race_data
         )
+
     except Exception as e:
-        print(f"\n Data preparation error: {e}")
-        return
+        print(
+            f"\nData preparation error: {e}"
+        )
+        return None
 
     if merged.empty:
-        print("\n No matching driver data.")
-        return
+        print(
+            "\nNo matching driver data."
+        )
+        return None
 
-    print("Training Gradient Boosting model...")
+    print(
+        "Training Gradient Boosting model..."
+    )
 
     model, mae = train(merged)
 
     features["PredictedRaceTime (s)"] = predict(
-        model, features
+        model,
+        features
     )
 
     results = features.sort_values(
         "PredictedRaceTime (s)"
     ).reset_index(drop=True)
 
-    results["Predicted Position"] = results.index + 1
+    results["Predicted Position"] = (
+        results.index + 1
+    )
 
-    print(f"\n PREDICTED {race_name.upper()} RESULT\n")
+    print(
+        f"\nPREDICTED "
+        f"{race_name.upper()} RESULT\n"
+    )
 
     print(
         results[
@@ -118,22 +173,58 @@ def predict_race(round_no, race_name, schedule, compare=False):
 
     winner = results.iloc[0]
 
-    print(f"\n Predicted Winner: {winner['Driver']}")
-    print(f"Team: {winner['Team']}")
-    print(f"Model MAE: {mae:.2f} seconds")
+    print(
+        f"\nPredicted Winner: "
+        f"{winner['Driver']}"
+    )
+
+    print(
+        f"Team: {winner['Team']}"
+    )
+
+    print(
+        f"Model MAE: {mae:.2f} seconds"
+    )
+
+    # ------------------------------------------------
+    # Streamlit result
+    # ------------------------------------------------
+
+    prediction_result = {
+        "Race": race_name,
+        "Predicted Winner": winner["Driver"],
+        "Team": winner["Team"],
+        "Model MAE": f"{mae:.2f} seconds",
+        "Results": results[
+            [
+                "Predicted Position",
+                "Driver",
+                "Team",
+                "PredictedRaceTime (s)"
+            ]
+        ].copy()
+    }
 
     # Compare with actual result when requested.
     if compare:
+
         try:
             actual = get_season_avg_pace(
-                YEAR, [round_no]
+                YEAR,
+                [round_no]
             )
+
         except Exception:
-            print("\n Actual race data unavailable.")
-            return
+            print(
+                "\nActual race data unavailable."
+            )
+
+            return prediction_result
 
         actual = actual.rename(
-            columns={"LapTime (s)": "ActualRaceTime (s)"}
+            columns={
+                "LapTime (s)": "ActualRaceTime (s)"
+            }
         )
 
         comparison = results.merge(
@@ -148,7 +239,9 @@ def predict_race(round_no, race_name, schedule, compare=False):
             - comparison["ActualRaceTime (s)"]
         ).abs()
 
-        print("\n PREDICTED VS ACTUAL\n")
+        print(
+            "\nPREDICTED VS ACTUAL\n"
+        )
 
         print(
             comparison[
@@ -164,8 +257,9 @@ def predict_race(round_no, race_name, schedule, compare=False):
         )
 
         actual_winner_code = (
-            actual.sort_values("ActualRaceTime (s)")
-            .iloc[0]["Driver"]
+            actual.sort_values(
+                "ActualRaceTime (s)"
+            ).iloc[0]["Driver"]
         )
 
         actual_winner = code_to_name.get(
@@ -173,25 +267,63 @@ def predict_race(round_no, race_name, schedule, compare=False):
             actual_winner_code
         )
 
-        print(f"\nPredicted Winner: {winner['Driver']}")
-        print(f"Actual Winner: {actual_winner}")
+        print(
+            f"\nPredicted Winner: "
+            f"{winner['Driver']}"
+        )
+
+        print(
+            f"Actual Winner: "
+            f"{actual_winner}"
+        )
+
+        correct_prediction = (
+            winner["Driver"] == actual_winner
+        )
+
         print(
             f"Correct Prediction: "
-            f"{winner['Driver'] == actual_winner}"
+            f"{correct_prediction}"
         )
+
+        prediction_result[
+            "Actual Winner"
+        ] = actual_winner
+
+        prediction_result[
+            "Correct Prediction"
+        ] = correct_prediction
+
+    # IMPORTANT:
+    # Return the result to Streamlit.
+    return prediction_result
 
 
 def main():
-    print("\n F1 RACE PREDICTOR 2026")
-    print("\n1.  Predict next upcoming race")
-    print("2.  Analyze completed race")
 
-    choice = input("\nEnter 1 or 2: ").strip()
+    print(
+        "\nF1 RACE PREDICTOR 2026"
+    )
+
+    print(
+        "\n1. Predict next upcoming race"
+    )
+
+    print(
+        "2. Analyze a completed race"
+    )
+
+    choice = input(
+        "\nEnter 1 or 2: "
+    ).strip()
 
     try:
         schedule = calendar()
+
     except Exception as e:
-        print(f"\n Could not load F1 calendar: {e}")
+        print(
+            f"\nCould not load F1 calendar: {e}"
+        )
         return
 
     today = pd.Timestamp.now(tz="UTC")
@@ -203,7 +335,9 @@ def main():
         ].sort_values("RoundNumber")
 
         if upcoming.empty:
-            print("\nNo upcoming races found.")
+            print(
+                "\nNo upcoming races found."
+            )
             return
 
         race = upcoming.iloc[0]
@@ -221,9 +355,12 @@ def main():
             schedule["EventDate"] < today
         ].sort_values("RoundNumber")
 
-        print("\nCompleted races:")
+        print(
+            "\nCompleted races:"
+        )
 
         for _, race in completed.iterrows():
+
             print(
                 f"{int(race['RoundNumber'])} - "
                 f"{race['EventName']}"
@@ -231,14 +368,23 @@ def main():
 
         try:
             round_no = int(
-                input("\nEnter round number: ")
+                input(
+                    "\nEnter round number: "
+                )
             )
+
         except ValueError:
-            print("\n Enter a valid round number.")
+            print(
+                "\nEnter a valid round number."
+            )
             return
 
-        if round_no not in completed["RoundNumber"].values:
-            print("\n That race is not completed.")
+        if round_no not in (
+            completed["RoundNumber"].values
+        ):
+            print(
+                "\nThat race is not completed."
+            )
             return
 
         race_name = completed.loc[
@@ -254,7 +400,11 @@ def main():
         )
 
     else:
-        print("\n Invalid choice. Enter 1 or 2.")
+
+        print(
+            "\nInvalid choice. "
+            "Enter 1 or 2."
+        )
 
 
 if __name__ == "__main__":
