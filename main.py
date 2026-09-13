@@ -85,11 +85,12 @@ def predict_race(
     ]["RoundNumber"].tolist()
 
     if not train_rounds:
-        print(
+        message = (
             "Not enough previous races "
             "to train the model."
         )
-        return None
+        print(message)
+        return {"error": message}
 
     print(
         f"Training on rounds 1-{round_no - 1}..."
@@ -107,16 +108,14 @@ def predict_race(
         )
 
     except Exception as e:
-        print(
-            f"\nQualifying/data is not available: {e}"
-        )
-        return None
+        message = f"Qualifying/data is not available: {e}"
+        print(f"\n{message}")
+        return {"error": message}
 
     if qualifying.empty:
-        print(
-            "\nNo qualifying data available yet."
-        )
-        return None
+        message = "No qualifying data available yet."
+        print(f"\n{message}")
+        return {"error": message}
 
     try:
         features, merged, code_to_name = prepare(
@@ -125,16 +124,14 @@ def predict_race(
         )
 
     except Exception as e:
-        print(
-            f"\nData preparation error: {e}"
-        )
-        return None
+        message = f"Data preparation error: {e}"
+        print(f"\n{message}")
+        return {"error": message}
 
     if merged.empty:
-        print(
-            "\nNo matching driver data."
-        )
-        return None
+        message = "No matching driver data."
+        print(f"\n{message}")
+        return {"error": message}
 
     print(
         "Training Gradient Boosting model..."
@@ -409,3 +406,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

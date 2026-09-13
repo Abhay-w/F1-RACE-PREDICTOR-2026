@@ -3,16 +3,16 @@ from main import calendar, predict_race
 
 st.set_page_config(
     page_title="F1 Race Predictor 2026",
-    page_icon="🏎️",
+    page_icon="",
     layout="wide"
 )
 
-st.title("🏎️ F1 Race Predictor 2026")
+st.title(" F1 Race Predictor 2026")
 st.write("Machine Learning based Formula 1 Race Prediction")
 
 st.divider()
 
-st.subheader("🏁 Race Prediction")
+st.subheader(" Race Prediction")
 
 try:
     # Load F1 calendar
@@ -29,7 +29,7 @@ try:
         list(race_options.keys())
     )
 
-    if st.button("🔮 Predict Race"):
+    if st.button(" Predict Race"):
 
         round_no = race_options[selected_race]
 
@@ -48,13 +48,14 @@ try:
                 compare=False
             )
 
-        st.success("✅ Prediction completed!")
-
         st.divider()
-        st.subheader("🏆 Prediction Result")
+        st.subheader(" Prediction Result")
 
         # Display whatever predict_race() returns
-        if result is not None:
+        if isinstance(result, dict) and "error" in result:
+            st.warning(result["error"])
+        elif result is not None:
+            st.success(" Prediction completed!")
             if isinstance(result, dict):
                 for key, value in result.items():
                     st.write(f"**{key}:** {value}")
@@ -71,7 +72,7 @@ except Exception as e:
 
 st.divider()
 
-st.subheader("🤖 Model Information")
+st.subheader(" Model Information")
 
 col1, col2 = st.columns(2)
 
@@ -80,3 +81,4 @@ with col1:
 
 with col2:
     st.write("**Evaluation Metric:** MAE")
+    
