@@ -2,25 +2,24 @@
 fetch_data.py
 
 Handles FastF1 API calls for:
-- historical race data used for training
-- qualifying data used for future prediction
+- Historical race data used for training
+- Qualifying data used for predictions
 """
 
 import fastf1
 import pandas as pd
+import streamlit as st
 
 
 fastf1.Cache.enable_cache("f1_cache")
 
 
+@st.cache_data(show_spinner=False)
 def get_race_lap_times(
     year: int,
     round_no: int
 ) -> pd.DataFrame:
-
-    """
-    Get average race lap time per driver.
-    """
+    """Get average race lap time per driver."""
 
     session = fastf1.get_session(
         year,
@@ -40,38 +39,36 @@ def get_race_lap_times(
     )
 
     laps["LapTime (s)"] = (
-        laps["LapTime"]
-        .dt.total_seconds()
+        laps["LapTime"].dt.total_seconds()
     )
 
-    avg_laps = (
-        laps
-        .groupby(
+    return (
+        laps.groupby(
             "Driver",
             as_index=False
         )["LapTime (s)"]
         .mean()
     )
 
-    return avg_laps
 
-
+@st.cache_data(show_spinner=False)
 def get_season_avg_pace(
     year: int,
-    rounds: list
+    rounds: tuple
 ) -> pd.DataFrame:
-
     """
-    Calculate each driver's average race pace
-    across all completed training rounds.
+    Calculate average driver race pace across
+    the specified training rounds.
+
+    The rounds argument is a tuple so that it can
+    be used consistently as a cache key.
     """
 
     all_laps = []
+    failed_rounds = []
 
     for round_no in rounds:
-
         try:
-
             laps = get_race_lap_times(
                 year,
                 round_no
@@ -79,18 +76,25 @@ def get_season_avg_pace(
 
             if not laps.empty:
                 all_laps.append(laps)
+            else:
+                failed_rounds.append(round_no)
 
-        except Exception as e:
+        except Exception as exc:
+            failed_rounds.append(round_no)
 
             print(
-                f"  Skipping round "
-                f"{round_no}: {e}"
+                f"Round {round_no} failed: {exc}"
             )
 
     if not all_laps:
-
         raise ValueError(
-            "No race data could be loaded."
+            "No historical race data could be loaded."
+        )
+
+    if failed_rounds:
+        print(
+            "Historical rounds that failed to load: "
+            f"{failed_rounds}"
         )
 
     combined = pd.concat(
@@ -99,8 +103,7 @@ def get_season_avg_pace(
     )
 
     season_avg = (
-        combined
-        .groupby(
+        combined.groupby(
             "Driver",
             as_index=False
         )["LapTime (s)"]
@@ -110,16 +113,12 @@ def get_season_avg_pace(
     return season_avg
 
 
+@st.cache_data(show_spinner=False)
 def get_qualifying_times(
     year: int,
     round_no: int
 ) -> pd.DataFrame:
-
-    """
-    Get each driver's fastest qualifying lap.
-
-    This is the prediction input for the target race.
-    """
+    """Get each driver's fastest qualifying lap."""
 
     session = fastf1.get_session(
         year,
@@ -139,13 +138,11 @@ def get_qualifying_times(
     )
 
     quali["QualifyingTime (s)"] = (
-        quali["LapTime"]
-        .dt.total_seconds()
+        quali["LapTime"].dt.total_seconds()
     )
 
     best_quali = (
-        quali
-        .groupby(
+        quali.groupby(
             "Driver",
             as_index=False
         )["QualifyingTime (s)"]

@@ -1,0 +1,19 @@
+{
+    "model": "Gradient Boosting Regressor",
+    "features": [
+        "QualifyingPosition"
+    ],
+    "target": "FinishPosition",
+    "training_period": "2018-2024",
+    "testing_period": "2025",
+    "final_model_training_period": "2018-2025",
+    "training_records": 738,
+    "testing_records": 140,
+    "model_mae": 3.225837800419049,
+    "baseline_mae": 3.2357142857142858,
+    "relative_improvement_percent": 0.3052335411331418,
+    "random_state": 42,
+    "n_estimators": 100,
+    "learning_rate": 0.05,
+    "max_depth": 2
+}
