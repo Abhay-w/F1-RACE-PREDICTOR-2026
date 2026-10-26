@@ -7,6 +7,7 @@ import requests
 import streamlit as st
 
 from jolpica_data import fetch_qualifying, fetch_results
+from forecast_page import render_forecast_page
 
 BASE_URL = "https://api.jolpi.ca/ergast/f1"
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -265,6 +266,7 @@ with st.sidebar:
         "NAVIGATION",
         [
             "Race Predictor",
+            "Next Race Forecast",
             "Race Calendar",
             "Model Analytics",
             "About Project",
@@ -578,6 +580,10 @@ if page == "Race Predictor":
                 "The available qualifying and race-result records "
                 "could not be matched by driver code."
             )
+
+elif page == "Next Race Forecast":
+
+    render_forecast_page(SEASON, fetch_schedule, make_podium_card)
 
 elif page == "Race Calendar":
 
