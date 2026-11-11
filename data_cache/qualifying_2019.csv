@@ -1,0 +1,419 @@
+Season,Round,DriverCode,Driver,Team,QualifyingPosition
+2019,1,HAM,Lewis Hamilton,Mercedes,1
+2019,1,BOT,Valtteri Bottas,Mercedes,2
+2019,1,VET,Sebastian Vettel,Ferrari,3
+2019,1,VER,Max Verstappen,Red Bull,4
+2019,1,LEC,Charles Leclerc,Ferrari,5
+2019,1,GRO,Romain Grosjean,Haas F1 Team,6
+2019,1,MAG,Kevin Magnussen,Haas F1 Team,7
+2019,1,NOR,Lando Norris,McLaren,8
+2019,1,RAI,Kimi Räikkönen,Alfa Romeo,9
+2019,1,PER,Sergio Pérez,Racing Point,10
+2019,1,HUL,Nico Hülkenberg,Renault,11
+2019,1,RIC,Daniel Ricciardo,Renault,12
+2019,1,ALB,Alexander Albon,Toro Rosso,13
+2019,1,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2019,1,KVY,Daniil Kvyat,Toro Rosso,15
+2019,1,STR,Lance Stroll,Racing Point,16
+2019,1,GAS,Pierre Gasly,Red Bull,17
+2019,1,SAI,Carlos Sainz,McLaren,18
+2019,1,RUS,George Russell,Williams,19
+2019,1,KUB,Robert Kubica,Williams,20
+2019,2,LEC,Charles Leclerc,Ferrari,1
+2019,2,VET,Sebastian Vettel,Ferrari,2
+2019,2,HAM,Lewis Hamilton,Mercedes,3
+2019,2,BOT,Valtteri Bottas,Mercedes,4
+2019,2,VER,Max Verstappen,Red Bull,5
+2019,2,MAG,Kevin Magnussen,Haas F1 Team,6
+2019,2,SAI,Carlos Sainz,McLaren,7
+2019,2,GRO,Romain Grosjean,Haas F1 Team,8
+2019,2,RAI,Kimi Räikkönen,Alfa Romeo,9
+2019,2,NOR,Lando Norris,McLaren,10
+2019,2,RIC,Daniel Ricciardo,Renault,11
+2019,2,ALB,Alexander Albon,Toro Rosso,12
+2019,2,GAS,Pierre Gasly,Red Bull,13
+2019,2,PER,Sergio Pérez,Racing Point,14
+2019,2,KVY,Daniil Kvyat,Toro Rosso,15
+2019,2,GIO,Antonio Giovinazzi,Alfa Romeo,16
+2019,2,HUL,Nico Hülkenberg,Renault,17
+2019,2,STR,Lance Stroll,Racing Point,18
+2019,2,RUS,George Russell,Williams,19
+2019,2,KUB,Robert Kubica,Williams,20
+2019,3,BOT,Valtteri Bottas,Mercedes,1
+2019,3,HAM,Lewis Hamilton,Mercedes,2
+2019,3,VET,Sebastian Vettel,Ferrari,3
+2019,3,LEC,Charles Leclerc,Ferrari,4
+2019,3,VER,Max Verstappen,Red Bull,5
+2019,3,GAS,Pierre Gasly,Red Bull,6
+2019,3,RIC,Daniel Ricciardo,Renault,7
+2019,3,HUL,Nico Hülkenberg,Renault,8
+2019,3,MAG,Kevin Magnussen,Haas F1 Team,9
+2019,3,GRO,Romain Grosjean,Haas F1 Team,10
+2019,3,KVY,Daniil Kvyat,Toro Rosso,11
+2019,3,PER,Sergio Pérez,Racing Point,12
+2019,3,RAI,Kimi Räikkönen,Alfa Romeo,13
+2019,3,SAI,Carlos Sainz,McLaren,14
+2019,3,NOR,Lando Norris,McLaren,15
+2019,3,STR,Lance Stroll,Racing Point,16
+2019,3,RUS,George Russell,Williams,17
+2019,3,KUB,Robert Kubica,Williams,18
+2019,4,BOT,Valtteri Bottas,Mercedes,1
+2019,4,HAM,Lewis Hamilton,Mercedes,2
+2019,4,VET,Sebastian Vettel,Ferrari,3
+2019,4,VER,Max Verstappen,Red Bull,4
+2019,4,PER,Sergio Pérez,Racing Point,5
+2019,4,KVY,Daniil Kvyat,Toro Rosso,6
+2019,4,NOR,Lando Norris,McLaren,7
+2019,4,GIO,Antonio Giovinazzi,Alfa Romeo,8
+2019,4,LEC,Charles Leclerc,Ferrari,9
+2019,4,SAI,Carlos Sainz,McLaren,10
+2019,4,RIC,Daniel Ricciardo,Renault,11
+2019,4,ALB,Alexander Albon,Toro Rosso,12
+2019,4,MAG,Kevin Magnussen,Haas F1 Team,13
+2019,4,STR,Lance Stroll,Racing Point,14
+2019,4,GRO,Romain Grosjean,Haas F1 Team,15
+2019,4,HUL,Nico Hülkenberg,Renault,16
+2019,4,RUS,George Russell,Williams,17
+2019,4,KUB,Robert Kubica,Williams,18
+2019,4,RAI,Kimi Räikkönen,Alfa Romeo,19
+2019,4,GAS,Pierre Gasly,Red Bull,20
+2019,5,BOT,Valtteri Bottas,Mercedes,1
+2019,5,HAM,Lewis Hamilton,Mercedes,2
+2019,5,VET,Sebastian Vettel,Ferrari,3
+2019,5,VER,Max Verstappen,Red Bull,4
+2019,5,LEC,Charles Leclerc,Ferrari,5
+2019,5,GAS,Pierre Gasly,Red Bull,6
+2019,5,GRO,Romain Grosjean,Haas F1 Team,7
+2019,5,MAG,Kevin Magnussen,Haas F1 Team,8
+2019,5,KVY,Daniil Kvyat,Toro Rosso,9
+2019,5,RIC,Daniel Ricciardo,Renault,10
+2019,5,NOR,Lando Norris,McLaren,11
+2019,5,ALB,Alexander Albon,Toro Rosso,12
+2019,5,SAI,Carlos Sainz,McLaren,13
+2019,5,RAI,Kimi Räikkönen,Alfa Romeo,14
+2019,5,PER,Sergio Pérez,Racing Point,15
+2019,5,HUL,Nico Hülkenberg,Renault,16
+2019,5,STR,Lance Stroll,Racing Point,17
+2019,5,GIO,Antonio Giovinazzi,Alfa Romeo,18
+2019,5,RUS,George Russell,Williams,19
+2019,5,KUB,Robert Kubica,Williams,20
+2019,6,HAM,Lewis Hamilton,Mercedes,1
+2019,6,BOT,Valtteri Bottas,Mercedes,2
+2019,6,VER,Max Verstappen,Red Bull,3
+2019,6,VET,Sebastian Vettel,Ferrari,4
+2019,6,GAS,Pierre Gasly,Red Bull,5
+2019,6,MAG,Kevin Magnussen,Haas F1 Team,6
+2019,6,RIC,Daniel Ricciardo,Renault,7
+2019,6,KVY,Daniil Kvyat,Toro Rosso,8
+2019,6,SAI,Carlos Sainz,McLaren,9
+2019,6,ALB,Alexander Albon,Toro Rosso,10
+2019,6,HUL,Nico Hülkenberg,Renault,11
+2019,6,NOR,Lando Norris,McLaren,12
+2019,6,GRO,Romain Grosjean,Haas F1 Team,13
+2019,6,RAI,Kimi Räikkönen,Alfa Romeo,14
+2019,6,GIO,Antonio Giovinazzi,Alfa Romeo,15
+2019,6,LEC,Charles Leclerc,Ferrari,16
+2019,6,PER,Sergio Pérez,Racing Point,17
+2019,6,STR,Lance Stroll,Racing Point,18
+2019,6,RUS,George Russell,Williams,19
+2019,6,KUB,Robert Kubica,Williams,20
+2019,7,VET,Sebastian Vettel,Ferrari,1
+2019,7,HAM,Lewis Hamilton,Mercedes,2
+2019,7,LEC,Charles Leclerc,Ferrari,3
+2019,7,RIC,Daniel Ricciardo,Renault,4
+2019,7,GAS,Pierre Gasly,Red Bull,5
+2019,7,BOT,Valtteri Bottas,Mercedes,6
+2019,7,HUL,Nico Hülkenberg,Renault,7
+2019,7,NOR,Lando Norris,McLaren,8
+2019,7,SAI,Carlos Sainz,McLaren,9
+2019,7,MAG,Kevin Magnussen,Haas F1 Team,10
+2019,7,VER,Max Verstappen,Red Bull,11
+2019,7,KVY,Daniil Kvyat,Toro Rosso,12
+2019,7,GIO,Antonio Giovinazzi,Alfa Romeo,13
+2019,7,ALB,Alexander Albon,Toro Rosso,14
+2019,7,GRO,Romain Grosjean,Haas F1 Team,15
+2019,7,PER,Sergio Pérez,Racing Point,16
+2019,7,RAI,Kimi Räikkönen,Alfa Romeo,17
+2019,7,STR,Lance Stroll,Racing Point,18
+2019,7,RUS,George Russell,Williams,19
+2019,7,KUB,Robert Kubica,Williams,20
+2019,8,HAM,Lewis Hamilton,Mercedes,1
+2019,8,BOT,Valtteri Bottas,Mercedes,2
+2019,8,LEC,Charles Leclerc,Ferrari,3
+2019,8,VER,Max Verstappen,Red Bull,4
+2019,8,NOR,Lando Norris,McLaren,5
+2019,8,SAI,Carlos Sainz,McLaren,6
+2019,8,VET,Sebastian Vettel,Ferrari,7
+2019,8,RIC,Daniel Ricciardo,Renault,8
+2019,8,GAS,Pierre Gasly,Red Bull,9
+2019,8,GIO,Antonio Giovinazzi,Alfa Romeo,10
+2019,8,ALB,Alexander Albon,Toro Rosso,11
+2019,8,RAI,Kimi Räikkönen,Alfa Romeo,12
+2019,8,HUL,Nico Hülkenberg,Renault,13
+2019,8,PER,Sergio Pérez,Racing Point,14
+2019,8,MAG,Kevin Magnussen,Haas F1 Team,15
+2019,8,KVY,Daniil Kvyat,Toro Rosso,16
+2019,8,GRO,Romain Grosjean,Haas F1 Team,17
+2019,8,STR,Lance Stroll,Racing Point,18
+2019,8,RUS,George Russell,Williams,19
+2019,8,KUB,Robert Kubica,Williams,20
+2019,9,LEC,Charles Leclerc,Ferrari,1
+2019,9,HAM,Lewis Hamilton,Mercedes,2
+2019,9,VER,Max Verstappen,Red Bull,3
+2019,9,BOT,Valtteri Bottas,Mercedes,4
+2019,9,MAG,Kevin Magnussen,Haas F1 Team,5
+2019,9,NOR,Lando Norris,McLaren,6
+2019,9,RAI,Kimi Räikkönen,Alfa Romeo,7
+2019,9,GIO,Antonio Giovinazzi,Alfa Romeo,8
+2019,9,GAS,Pierre Gasly,Red Bull,9
+2019,9,VET,Sebastian Vettel,Ferrari,10
+2019,9,GRO,Romain Grosjean,Haas F1 Team,11
+2019,9,HUL,Nico Hülkenberg,Renault,12
+2019,9,ALB,Alexander Albon,Toro Rosso,13
+2019,9,RIC,Daniel Ricciardo,Renault,14
+2019,9,SAI,Carlos Sainz,McLaren,15
+2019,9,PER,Sergio Pérez,Racing Point,16
+2019,9,STR,Lance Stroll,Racing Point,17
+2019,9,KVY,Daniil Kvyat,Toro Rosso,18
+2019,9,RUS,George Russell,Williams,19
+2019,9,KUB,Robert Kubica,Williams,20
+2019,10,BOT,Valtteri Bottas,Mercedes,1
+2019,10,HAM,Lewis Hamilton,Mercedes,2
+2019,10,LEC,Charles Leclerc,Ferrari,3
+2019,10,VER,Max Verstappen,Red Bull,4
+2019,10,GAS,Pierre Gasly,Red Bull,5
+2019,10,VET,Sebastian Vettel,Ferrari,6
+2019,10,RIC,Daniel Ricciardo,Renault,7
+2019,10,NOR,Lando Norris,McLaren,8
+2019,10,ALB,Alexander Albon,Toro Rosso,9
+2019,10,HUL,Nico Hülkenberg,Renault,10
+2019,10,GIO,Antonio Giovinazzi,Alfa Romeo,11
+2019,10,RAI,Kimi Räikkönen,Alfa Romeo,12
+2019,10,SAI,Carlos Sainz,McLaren,13
+2019,10,GRO,Romain Grosjean,Haas F1 Team,14
+2019,10,PER,Sergio Pérez,Racing Point,15
+2019,10,MAG,Kevin Magnussen,Haas F1 Team,16
+2019,10,KVY,Daniil Kvyat,Toro Rosso,17
+2019,10,STR,Lance Stroll,Racing Point,18
+2019,10,RUS,George Russell,Williams,19
+2019,10,KUB,Robert Kubica,Williams,20
+2019,11,HAM,Lewis Hamilton,Mercedes,1
+2019,11,VER,Max Verstappen,Red Bull,2
+2019,11,BOT,Valtteri Bottas,Mercedes,3
+2019,11,GAS,Pierre Gasly,Red Bull,4
+2019,11,RAI,Kimi Räikkönen,Alfa Romeo,5
+2019,11,GRO,Romain Grosjean,Haas F1 Team,6
+2019,11,SAI,Carlos Sainz,McLaren,7
+2019,11,PER,Sergio Pérez,Racing Point,8
+2019,11,HUL,Nico Hülkenberg,Renault,9
+2019,11,LEC,Charles Leclerc,Ferrari,10
+2019,11,GIO,Antonio Giovinazzi,Alfa Romeo,11
+2019,11,MAG,Kevin Magnussen,Haas F1 Team,12
+2019,11,RIC,Daniel Ricciardo,Renault,13
+2019,11,KVY,Daniil Kvyat,Toro Rosso,14
+2019,11,STR,Lance Stroll,Racing Point,15
+2019,11,NOR,Lando Norris,McLaren,16
+2019,11,ALB,Alexander Albon,Toro Rosso,17
+2019,11,RUS,George Russell,Williams,18
+2019,11,KUB,Robert Kubica,Williams,19
+2019,11,VET,Sebastian Vettel,Ferrari,20
+2019,12,VER,Max Verstappen,Red Bull,1
+2019,12,BOT,Valtteri Bottas,Mercedes,2
+2019,12,HAM,Lewis Hamilton,Mercedes,3
+2019,12,LEC,Charles Leclerc,Ferrari,4
+2019,12,VET,Sebastian Vettel,Ferrari,5
+2019,12,GAS,Pierre Gasly,Red Bull,6
+2019,12,NOR,Lando Norris,McLaren,7
+2019,12,SAI,Carlos Sainz,McLaren,8
+2019,12,GRO,Romain Grosjean,Haas F1 Team,9
+2019,12,RAI,Kimi Räikkönen,Alfa Romeo,10
+2019,12,HUL,Nico Hülkenberg,Renault,11
+2019,12,ALB,Alexander Albon,Toro Rosso,12
+2019,12,KVY,Daniil Kvyat,Toro Rosso,13
+2019,12,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2019,12,MAG,Kevin Magnussen,Haas F1 Team,15
+2019,12,RUS,George Russell,Williams,16
+2019,12,PER,Sergio Pérez,Racing Point,17
+2019,12,RIC,Daniel Ricciardo,Renault,18
+2019,12,STR,Lance Stroll,Racing Point,19
+2019,12,KUB,Robert Kubica,Williams,20
+2019,13,LEC,Charles Leclerc,Ferrari,1
+2019,13,VET,Sebastian Vettel,Ferrari,2
+2019,13,HAM,Lewis Hamilton,Mercedes,3
+2019,13,BOT,Valtteri Bottas,Mercedes,4
+2019,13,VER,Max Verstappen,Red Bull,5
+2019,13,RIC,Daniel Ricciardo,Renault,6
+2019,13,HUL,Nico Hülkenberg,Renault,7
+2019,13,RAI,Kimi Räikkönen,Alfa Romeo,8
+2019,13,PER,Sergio Pérez,Racing Point,9
+2019,13,MAG,Kevin Magnussen,Haas F1 Team,10
+2019,13,GRO,Romain Grosjean,Haas F1 Team,11
+2019,13,NOR,Lando Norris,McLaren,12
+2019,13,STR,Lance Stroll,Racing Point,13
+2019,13,ALB,Alexander Albon,Red Bull,14
+2019,13,GIO,Antonio Giovinazzi,Alfa Romeo,15
+2019,13,GAS,Pierre Gasly,Toro Rosso,16
+2019,13,SAI,Carlos Sainz,McLaren,17
+2019,13,KVY,Daniil Kvyat,Toro Rosso,18
+2019,13,RUS,George Russell,Williams,19
+2019,13,KUB,Robert Kubica,Williams,20
+2019,14,LEC,Charles Leclerc,Ferrari,1
+2019,14,HAM,Lewis Hamilton,Mercedes,2
+2019,14,BOT,Valtteri Bottas,Mercedes,3
+2019,14,VET,Sebastian Vettel,Ferrari,4
+2019,14,RIC,Daniel Ricciardo,Renault,5
+2019,14,HUL,Nico Hülkenberg,Renault,6
+2019,14,SAI,Carlos Sainz,McLaren,7
+2019,14,ALB,Alexander Albon,Red Bull,8
+2019,14,STR,Lance Stroll,Racing Point,9
+2019,14,RAI,Kimi Räikkönen,Alfa Romeo,10
+2019,14,GIO,Antonio Giovinazzi,Alfa Romeo,11
+2019,14,MAG,Kevin Magnussen,Haas F1 Team,12
+2019,14,KVY,Daniil Kvyat,Toro Rosso,13
+2019,14,NOR,Lando Norris,McLaren,14
+2019,14,GAS,Pierre Gasly,Toro Rosso,15
+2019,14,GRO,Romain Grosjean,Haas F1 Team,16
+2019,14,PER,Sergio Pérez,Racing Point,17
+2019,14,RUS,George Russell,Williams,18
+2019,14,KUB,Robert Kubica,Williams,19
+2019,14,VER,Max Verstappen,Red Bull,20
+2019,15,LEC,Charles Leclerc,Ferrari,1
+2019,15,HAM,Lewis Hamilton,Mercedes,2
+2019,15,VET,Sebastian Vettel,Ferrari,3
+2019,15,VER,Max Verstappen,Red Bull,4
+2019,15,BOT,Valtteri Bottas,Mercedes,5
+2019,15,ALB,Alexander Albon,Red Bull,6
+2019,15,SAI,Carlos Sainz,McLaren,7
+2019,15,HUL,Nico Hülkenberg,Renault,8
+2019,15,NOR,Lando Norris,McLaren,9
+2019,15,PER,Sergio Pérez,Racing Point,10
+2019,15,GIO,Antonio Giovinazzi,Alfa Romeo,11
+2019,15,GAS,Pierre Gasly,Toro Rosso,12
+2019,15,RAI,Kimi Räikkönen,Alfa Romeo,13
+2019,15,MAG,Kevin Magnussen,Haas F1 Team,14
+2019,15,KVY,Daniil Kvyat,Toro Rosso,15
+2019,15,STR,Lance Stroll,Racing Point,16
+2019,15,GRO,Romain Grosjean,Haas F1 Team,17
+2019,15,RUS,George Russell,Williams,18
+2019,15,KUB,Robert Kubica,Williams,19
+2019,15,RIC,Daniel Ricciardo,Renault,20
+2019,16,LEC,Charles Leclerc,Ferrari,1
+2019,16,HAM,Lewis Hamilton,Mercedes,2
+2019,16,VET,Sebastian Vettel,Ferrari,3
+2019,16,VER,Max Verstappen,Red Bull,4
+2019,16,BOT,Valtteri Bottas,Mercedes,5
+2019,16,SAI,Carlos Sainz,McLaren,6
+2019,16,HUL,Nico Hülkenberg,Renault,7
+2019,16,NOR,Lando Norris,McLaren,8
+2019,16,GRO,Romain Grosjean,Haas F1 Team,9
+2019,16,RIC,Daniel Ricciardo,Renault,10
+2019,16,GAS,Pierre Gasly,Toro Rosso,11
+2019,16,PER,Sergio Pérez,Racing Point,12
+2019,16,GIO,Antonio Giovinazzi,Alfa Romeo,13
+2019,16,MAG,Kevin Magnussen,Haas F1 Team,14
+2019,16,STR,Lance Stroll,Racing Point,15
+2019,16,RAI,Kimi Räikkönen,Alfa Romeo,16
+2019,16,RUS,George Russell,Williams,17
+2019,16,KUB,Robert Kubica,Williams,18
+2019,16,ALB,Alexander Albon,Red Bull,19
+2019,16,KVY,Daniil Kvyat,Toro Rosso,20
+2019,17,VET,Sebastian Vettel,Ferrari,1
+2019,17,LEC,Charles Leclerc,Ferrari,2
+2019,17,BOT,Valtteri Bottas,Mercedes,3
+2019,17,HAM,Lewis Hamilton,Mercedes,4
+2019,17,VER,Max Verstappen,Red Bull,5
+2019,17,ALB,Alexander Albon,Red Bull,6
+2019,17,SAI,Carlos Sainz,McLaren,7
+2019,17,NOR,Lando Norris,McLaren,8
+2019,17,GAS,Pierre Gasly,Toro Rosso,9
+2019,17,GRO,Romain Grosjean,Haas F1 Team,10
+2019,17,GIO,Antonio Giovinazzi,Alfa Romeo,11
+2019,17,STR,Lance Stroll,Racing Point,12
+2019,17,RAI,Kimi Räikkönen,Alfa Romeo,13
+2019,17,KVY,Daniil Kvyat,Toro Rosso,14
+2019,17,HUL,Nico Hülkenberg,Renault,15
+2019,17,RIC,Daniel Ricciardo,Renault,16
+2019,17,PER,Sergio Pérez,Racing Point,17
+2019,17,RUS,George Russell,Williams,18
+2019,17,MAG,Kevin Magnussen,Haas F1 Team,19
+2019,17,KUB,Robert Kubica,Williams,20
+2019,18,VER,Max Verstappen,Red Bull,1
+2019,18,LEC,Charles Leclerc,Ferrari,2
+2019,18,VET,Sebastian Vettel,Ferrari,3
+2019,18,HAM,Lewis Hamilton,Mercedes,4
+2019,18,ALB,Alexander Albon,Red Bull,5
+2019,18,BOT,Valtteri Bottas,Mercedes,6
+2019,18,SAI,Carlos Sainz,McLaren,7
+2019,18,NOR,Lando Norris,McLaren,8
+2019,18,KVY,Daniil Kvyat,Toro Rosso,9
+2019,18,GAS,Pierre Gasly,Toro Rosso,10
+2019,18,PER,Sergio Pérez,Racing Point,11
+2019,18,HUL,Nico Hülkenberg,Renault,12
+2019,18,RIC,Daniel Ricciardo,Renault,13
+2019,18,RAI,Kimi Räikkönen,Alfa Romeo,14
+2019,18,GIO,Antonio Giovinazzi,Alfa Romeo,15
+2019,18,STR,Lance Stroll,Racing Point,16
+2019,18,MAG,Kevin Magnussen,Haas F1 Team,17
+2019,18,GRO,Romain Grosjean,Haas F1 Team,18
+2019,18,RUS,George Russell,Williams,19
+2019,18,KUB,Robert Kubica,Williams,20
+2019,19,BOT,Valtteri Bottas,Mercedes,1
+2019,19,VET,Sebastian Vettel,Ferrari,2
+2019,19,VER,Max Verstappen,Red Bull,3
+2019,19,LEC,Charles Leclerc,Ferrari,4
+2019,19,HAM,Lewis Hamilton,Mercedes,5
+2019,19,ALB,Alexander Albon,Red Bull,6
+2019,19,SAI,Carlos Sainz,McLaren,7
+2019,19,NOR,Lando Norris,McLaren,8
+2019,19,RIC,Daniel Ricciardo,Renault,9
+2019,19,GAS,Pierre Gasly,Toro Rosso,10
+2019,19,HUL,Nico Hülkenberg,Renault,11
+2019,19,MAG,Kevin Magnussen,Haas F1 Team,12
+2019,19,KVY,Daniil Kvyat,Toro Rosso,13
+2019,19,STR,Lance Stroll,Racing Point,14
+2019,19,GRO,Romain Grosjean,Haas F1 Team,15
+2019,19,GIO,Antonio Giovinazzi,Alfa Romeo,16
+2019,19,RAI,Kimi Räikkönen,Alfa Romeo,17
+2019,19,RUS,George Russell,Williams,18
+2019,19,PER,Sergio Pérez,Racing Point,19
+2019,19,KUB,Robert Kubica,Williams,20
+2019,20,VER,Max Verstappen,Red Bull,1
+2019,20,VET,Sebastian Vettel,Ferrari,2
+2019,20,HAM,Lewis Hamilton,Mercedes,3
+2019,20,LEC,Charles Leclerc,Ferrari,4
+2019,20,BOT,Valtteri Bottas,Mercedes,5
+2019,20,ALB,Alexander Albon,Red Bull,6
+2019,20,GAS,Pierre Gasly,Toro Rosso,7
+2019,20,GRO,Romain Grosjean,Haas F1 Team,8
+2019,20,RAI,Kimi Räikkönen,Alfa Romeo,9
+2019,20,MAG,Kevin Magnussen,Haas F1 Team,10
+2019,20,NOR,Lando Norris,McLaren,11
+2019,20,RIC,Daniel Ricciardo,Renault,12
+2019,20,GIO,Antonio Giovinazzi,Alfa Romeo,13
+2019,20,HUL,Nico Hülkenberg,Renault,14
+2019,20,PER,Sergio Pérez,Racing Point,15
+2019,20,KVY,Daniil Kvyat,Toro Rosso,16
+2019,20,STR,Lance Stroll,Racing Point,17
+2019,20,RUS,George Russell,Williams,18
+2019,20,KUB,Robert Kubica,Williams,19
+2019,20,SAI,Carlos Sainz,McLaren,20
+2019,21,HAM,Lewis Hamilton,Mercedes,1
+2019,21,BOT,Valtteri Bottas,Mercedes,2
+2019,21,VER,Max Verstappen,Red Bull,3
+2019,21,LEC,Charles Leclerc,Ferrari,4
+2019,21,VET,Sebastian Vettel,Ferrari,5
+2019,21,ALB,Alexander Albon,Red Bull,6
+2019,21,NOR,Lando Norris,McLaren,7
+2019,21,RIC,Daniel Ricciardo,Renault,8
+2019,21,SAI,Carlos Sainz,McLaren,9
+2019,21,HUL,Nico Hülkenberg,Renault,10
+2019,21,PER,Sergio Pérez,Racing Point,11
+2019,21,GAS,Pierre Gasly,Toro Rosso,12
+2019,21,STR,Lance Stroll,Racing Point,13
+2019,21,KVY,Daniil Kvyat,Toro Rosso,14
+2019,21,MAG,Kevin Magnussen,Haas F1 Team,15
+2019,21,GRO,Romain Grosjean,Haas F1 Team,16
+2019,21,GIO,Antonio Giovinazzi,Alfa Romeo,17
+2019,21,RAI,Kimi Räikkönen,Alfa Romeo,18
+2019,21,RUS,George Russell,Williams,19
+2019,21,KUB,Robert Kubica,Williams,20

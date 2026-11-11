@@ -1,0 +1,441 @@
+Season,Round,DriverCode,Driver,Team,QualifyingPosition
+2022,1,LEC,Charles Leclerc,Ferrari,1
+2022,1,VER,Max Verstappen,Red Bull,2
+2022,1,SAI,Carlos Sainz,Ferrari,3
+2022,1,PER,Sergio Pérez,Red Bull,4
+2022,1,HAM,Lewis Hamilton,Mercedes,5
+2022,1,BOT,Valtteri Bottas,Alfa Romeo,6
+2022,1,MAG,Kevin Magnussen,Haas F1 Team,7
+2022,1,ALO,Fernando Alonso,Alpine F1 Team,8
+2022,1,RUS,George Russell,Mercedes,9
+2022,1,GAS,Pierre Gasly,AlphaTauri,10
+2022,1,OCO,Esteban Ocon,Alpine F1 Team,11
+2022,1,MSC,Mick Schumacher,Haas F1 Team,12
+2022,1,NOR,Lando Norris,McLaren,13
+2022,1,ALB,Alexander Albon,Williams,14
+2022,1,ZHO,Guanyu Zhou,Alfa Romeo,15
+2022,1,TSU,Yuki Tsunoda,AlphaTauri,16
+2022,1,HUL,Nico Hülkenberg,Aston Martin,17
+2022,1,RIC,Daniel Ricciardo,McLaren,18
+2022,1,STR,Lance Stroll,Aston Martin,19
+2022,1,LAT,Nicholas Latifi,Williams,20
+2022,2,PER,Sergio Pérez,Red Bull,1
+2022,2,LEC,Charles Leclerc,Ferrari,2
+2022,2,SAI,Carlos Sainz,Ferrari,3
+2022,2,VER,Max Verstappen,Red Bull,4
+2022,2,OCO,Esteban Ocon,Alpine F1 Team,5
+2022,2,RUS,George Russell,Mercedes,6
+2022,2,ALO,Fernando Alonso,Alpine F1 Team,7
+2022,2,BOT,Valtteri Bottas,Alfa Romeo,8
+2022,2,GAS,Pierre Gasly,AlphaTauri,9
+2022,2,MAG,Kevin Magnussen,Haas F1 Team,10
+2022,2,NOR,Lando Norris,McLaren,11
+2022,2,RIC,Daniel Ricciardo,McLaren,12
+2022,2,ZHO,Guanyu Zhou,Alfa Romeo,13
+2022,2,MSC,Mick Schumacher,Haas F1 Team,14
+2022,2,STR,Lance Stroll,Aston Martin,15
+2022,2,HAM,Lewis Hamilton,Mercedes,16
+2022,2,ALB,Alexander Albon,Williams,17
+2022,2,HUL,Nico Hülkenberg,Aston Martin,18
+2022,2,LAT,Nicholas Latifi,Williams,19
+2022,2,TSU,Yuki Tsunoda,AlphaTauri,20
+2022,3,LEC,Charles Leclerc,Ferrari,1
+2022,3,VER,Max Verstappen,Red Bull,2
+2022,3,PER,Sergio Pérez,Red Bull,3
+2022,3,NOR,Lando Norris,McLaren,4
+2022,3,HAM,Lewis Hamilton,Mercedes,5
+2022,3,RUS,George Russell,Mercedes,6
+2022,3,RIC,Daniel Ricciardo,McLaren,7
+2022,3,OCO,Esteban Ocon,Alpine F1 Team,8
+2022,3,SAI,Carlos Sainz,Ferrari,9
+2022,3,ALO,Fernando Alonso,Alpine F1 Team,10
+2022,3,GAS,Pierre Gasly,AlphaTauri,11
+2022,3,BOT,Valtteri Bottas,Alfa Romeo,12
+2022,3,TSU,Yuki Tsunoda,AlphaTauri,13
+2022,3,ZHO,Guanyu Zhou,Alfa Romeo,14
+2022,3,MSC,Mick Schumacher,Haas F1 Team,15
+2022,3,ALB,Alexander Albon,Williams,16
+2022,3,MAG,Kevin Magnussen,Haas F1 Team,17
+2022,3,VET,Sebastian Vettel,Aston Martin,18
+2022,3,LAT,Nicholas Latifi,Williams,19
+2022,3,STR,Lance Stroll,Aston Martin,20
+2022,4,VER,Max Verstappen,Red Bull,1
+2022,4,LEC,Charles Leclerc,Ferrari,2
+2022,4,NOR,Lando Norris,McLaren,3
+2022,4,MAG,Kevin Magnussen,Haas F1 Team,4
+2022,4,ALO,Fernando Alonso,Alpine F1 Team,5
+2022,4,RIC,Daniel Ricciardo,McLaren,6
+2022,4,PER,Sergio Pérez,Red Bull,7
+2022,4,BOT,Valtteri Bottas,Alfa Romeo,8
+2022,4,VET,Sebastian Vettel,Aston Martin,9
+2022,4,SAI,Carlos Sainz,Ferrari,10
+2022,4,RUS,George Russell,Mercedes,11
+2022,4,MSC,Mick Schumacher,Haas F1 Team,12
+2022,4,HAM,Lewis Hamilton,Mercedes,13
+2022,4,ZHO,Guanyu Zhou,Alfa Romeo,14
+2022,4,STR,Lance Stroll,Aston Martin,15
+2022,4,TSU,Yuki Tsunoda,AlphaTauri,16
+2022,4,GAS,Pierre Gasly,AlphaTauri,17
+2022,4,LAT,Nicholas Latifi,Williams,18
+2022,4,OCO,Esteban Ocon,Alpine F1 Team,19
+2022,4,ALB,Alexander Albon,Williams,20
+2022,5,LEC,Charles Leclerc,Ferrari,1
+2022,5,SAI,Carlos Sainz,Ferrari,2
+2022,5,VER,Max Verstappen,Red Bull,3
+2022,5,PER,Sergio Pérez,Red Bull,4
+2022,5,BOT,Valtteri Bottas,Alfa Romeo,5
+2022,5,HAM,Lewis Hamilton,Mercedes,6
+2022,5,GAS,Pierre Gasly,AlphaTauri,7
+2022,5,NOR,Lando Norris,McLaren,8
+2022,5,TSU,Yuki Tsunoda,AlphaTauri,9
+2022,5,STR,Lance Stroll,Aston Martin,10
+2022,5,ALO,Fernando Alonso,Alpine F1 Team,11
+2022,5,RUS,George Russell,Mercedes,12
+2022,5,VET,Sebastian Vettel,Aston Martin,13
+2022,5,RIC,Daniel Ricciardo,McLaren,14
+2022,5,MSC,Mick Schumacher,Haas F1 Team,15
+2022,5,MAG,Kevin Magnussen,Haas F1 Team,16
+2022,5,ZHO,Guanyu Zhou,Alfa Romeo,17
+2022,5,ALB,Alexander Albon,Williams,18
+2022,5,LAT,Nicholas Latifi,Williams,19
+2022,5,OCO,Esteban Ocon,Alpine F1 Team,20
+2022,6,LEC,Charles Leclerc,Ferrari,1
+2022,6,VER,Max Verstappen,Red Bull,2
+2022,6,SAI,Carlos Sainz,Ferrari,3
+2022,6,RUS,George Russell,Mercedes,4
+2022,6,PER,Sergio Pérez,Red Bull,5
+2022,6,HAM,Lewis Hamilton,Mercedes,6
+2022,6,BOT,Valtteri Bottas,Alfa Romeo,7
+2022,6,MAG,Kevin Magnussen,Haas F1 Team,8
+2022,6,RIC,Daniel Ricciardo,McLaren,9
+2022,6,MSC,Mick Schumacher,Haas F1 Team,10
+2022,6,NOR,Lando Norris,McLaren,11
+2022,6,OCO,Esteban Ocon,Alpine F1 Team,12
+2022,6,TSU,Yuki Tsunoda,AlphaTauri,13
+2022,6,GAS,Pierre Gasly,AlphaTauri,14
+2022,6,ZHO,Guanyu Zhou,Alfa Romeo,15
+2022,6,VET,Sebastian Vettel,Aston Martin,16
+2022,6,ALO,Fernando Alonso,Alpine F1 Team,17
+2022,6,STR,Lance Stroll,Aston Martin,18
+2022,6,ALB,Alexander Albon,Williams,19
+2022,6,LAT,Nicholas Latifi,Williams,20
+2022,7,LEC,Charles Leclerc,Ferrari,1
+2022,7,SAI,Carlos Sainz,Ferrari,2
+2022,7,PER,Sergio Pérez,Red Bull,3
+2022,7,VER,Max Verstappen,Red Bull,4
+2022,7,NOR,Lando Norris,McLaren,5
+2022,7,RUS,George Russell,Mercedes,6
+2022,7,ALO,Fernando Alonso,Alpine F1 Team,7
+2022,7,HAM,Lewis Hamilton,Mercedes,8
+2022,7,VET,Sebastian Vettel,Aston Martin,9
+2022,7,OCO,Esteban Ocon,Alpine F1 Team,10
+2022,7,TSU,Yuki Tsunoda,AlphaTauri,11
+2022,7,BOT,Valtteri Bottas,Alfa Romeo,12
+2022,7,MAG,Kevin Magnussen,Haas F1 Team,13
+2022,7,RIC,Daniel Ricciardo,McLaren,14
+2022,7,MSC,Mick Schumacher,Haas F1 Team,15
+2022,7,ALB,Alexander Albon,Williams,16
+2022,7,GAS,Pierre Gasly,AlphaTauri,17
+2022,7,STR,Lance Stroll,Aston Martin,18
+2022,7,LAT,Nicholas Latifi,Williams,19
+2022,7,ZHO,Guanyu Zhou,Alfa Romeo,20
+2022,8,LEC,Charles Leclerc,Ferrari,1
+2022,8,PER,Sergio Pérez,Red Bull,2
+2022,8,VER,Max Verstappen,Red Bull,3
+2022,8,SAI,Carlos Sainz,Ferrari,4
+2022,8,RUS,George Russell,Mercedes,5
+2022,8,GAS,Pierre Gasly,AlphaTauri,6
+2022,8,HAM,Lewis Hamilton,Mercedes,7
+2022,8,TSU,Yuki Tsunoda,AlphaTauri,8
+2022,8,VET,Sebastian Vettel,Aston Martin,9
+2022,8,ALO,Fernando Alonso,Alpine F1 Team,10
+2022,8,NOR,Lando Norris,McLaren,11
+2022,8,RIC,Daniel Ricciardo,McLaren,12
+2022,8,OCO,Esteban Ocon,Alpine F1 Team,13
+2022,8,ZHO,Guanyu Zhou,Alfa Romeo,14
+2022,8,BOT,Valtteri Bottas,Alfa Romeo,15
+2022,8,MAG,Kevin Magnussen,Haas F1 Team,16
+2022,8,ALB,Alexander Albon,Williams,17
+2022,8,LAT,Nicholas Latifi,Williams,18
+2022,8,STR,Lance Stroll,Aston Martin,19
+2022,8,MSC,Mick Schumacher,Haas F1 Team,20
+2022,9,VER,Max Verstappen,Red Bull,1
+2022,9,ALO,Fernando Alonso,Alpine F1 Team,2
+2022,9,SAI,Carlos Sainz,Ferrari,3
+2022,9,HAM,Lewis Hamilton,Mercedes,4
+2022,9,MAG,Kevin Magnussen,Haas F1 Team,5
+2022,9,MSC,Mick Schumacher,Haas F1 Team,6
+2022,9,OCO,Esteban Ocon,Alpine F1 Team,7
+2022,9,RUS,George Russell,Mercedes,8
+2022,9,RIC,Daniel Ricciardo,McLaren,9
+2022,9,ZHO,Guanyu Zhou,Alfa Romeo,10
+2022,9,BOT,Valtteri Bottas,Alfa Romeo,11
+2022,9,ALB,Alexander Albon,Williams,12
+2022,9,PER,Sergio Pérez,Red Bull,13
+2022,9,NOR,Lando Norris,McLaren,14
+2022,9,LEC,Charles Leclerc,Ferrari,15
+2022,9,GAS,Pierre Gasly,AlphaTauri,16
+2022,9,VET,Sebastian Vettel,Aston Martin,17
+2022,9,STR,Lance Stroll,Aston Martin,18
+2022,9,LAT,Nicholas Latifi,Williams,19
+2022,9,TSU,Yuki Tsunoda,AlphaTauri,20
+2022,10,SAI,Carlos Sainz,Ferrari,1
+2022,10,VER,Max Verstappen,Red Bull,2
+2022,10,LEC,Charles Leclerc,Ferrari,3
+2022,10,PER,Sergio Pérez,Red Bull,4
+2022,10,HAM,Lewis Hamilton,Mercedes,5
+2022,10,NOR,Lando Norris,McLaren,6
+2022,10,ALO,Fernando Alonso,Alpine F1 Team,7
+2022,10,RUS,George Russell,Mercedes,8
+2022,10,ZHO,Guanyu Zhou,Alfa Romeo,9
+2022,10,LAT,Nicholas Latifi,Williams,10
+2022,10,GAS,Pierre Gasly,AlphaTauri,11
+2022,10,BOT,Valtteri Bottas,Alfa Romeo,12
+2022,10,TSU,Yuki Tsunoda,AlphaTauri,13
+2022,10,RIC,Daniel Ricciardo,McLaren,14
+2022,10,OCO,Esteban Ocon,Alpine F1 Team,15
+2022,10,ALB,Alexander Albon,Williams,16
+2022,10,MAG,Kevin Magnussen,Haas F1 Team,17
+2022,10,VET,Sebastian Vettel,Aston Martin,18
+2022,10,MSC,Mick Schumacher,Haas F1 Team,19
+2022,10,STR,Lance Stroll,Aston Martin,20
+2022,11,VER,Max Verstappen,Red Bull,1
+2022,11,LEC,Charles Leclerc,Ferrari,2
+2022,11,SAI,Carlos Sainz,Ferrari,3
+2022,11,RUS,George Russell,Mercedes,4
+2022,11,OCO,Esteban Ocon,Alpine F1 Team,5
+2022,11,MAG,Kevin Magnussen,Haas F1 Team,6
+2022,11,MSC,Mick Schumacher,Haas F1 Team,7
+2022,11,ALO,Fernando Alonso,Alpine F1 Team,8
+2022,11,HAM,Lewis Hamilton,Mercedes,9
+2022,11,GAS,Pierre Gasly,AlphaTauri,10
+2022,11,ALB,Alexander Albon,Williams,11
+2022,11,BOT,Valtteri Bottas,Alfa Romeo,12
+2022,11,PER,Sergio Pérez,Red Bull,13
+2022,11,TSU,Yuki Tsunoda,AlphaTauri,14
+2022,11,NOR,Lando Norris,McLaren,15
+2022,11,RIC,Daniel Ricciardo,McLaren,16
+2022,11,STR,Lance Stroll,Aston Martin,17
+2022,11,ZHO,Guanyu Zhou,Alfa Romeo,18
+2022,11,LAT,Nicholas Latifi,Williams,19
+2022,11,VET,Sebastian Vettel,Aston Martin,20
+2022,12,LEC,Charles Leclerc,Ferrari,1
+2022,12,VER,Max Verstappen,Red Bull,2
+2022,12,PER,Sergio Pérez,Red Bull,3
+2022,12,HAM,Lewis Hamilton,Mercedes,4
+2022,12,NOR,Lando Norris,McLaren,5
+2022,12,RUS,George Russell,Mercedes,6
+2022,12,ALO,Fernando Alonso,Alpine F1 Team,7
+2022,12,TSU,Yuki Tsunoda,AlphaTauri,8
+2022,12,SAI,Carlos Sainz,Ferrari,9
+2022,12,MAG,Kevin Magnussen,Haas F1 Team,10
+2022,12,RIC,Daniel Ricciardo,McLaren,11
+2022,12,OCO,Esteban Ocon,Alpine F1 Team,12
+2022,12,BOT,Valtteri Bottas,Alfa Romeo,13
+2022,12,VET,Sebastian Vettel,Aston Martin,14
+2022,12,ALB,Alexander Albon,Williams,15
+2022,12,GAS,Pierre Gasly,AlphaTauri,16
+2022,12,STR,Lance Stroll,Aston Martin,17
+2022,12,ZHO,Guanyu Zhou,Alfa Romeo,18
+2022,12,MSC,Mick Schumacher,Haas F1 Team,19
+2022,12,LAT,Nicholas Latifi,Williams,20
+2022,13,RUS,George Russell,Mercedes,1
+2022,13,SAI,Carlos Sainz,Ferrari,2
+2022,13,LEC,Charles Leclerc,Ferrari,3
+2022,13,NOR,Lando Norris,McLaren,4
+2022,13,OCO,Esteban Ocon,Alpine F1 Team,5
+2022,13,ALO,Fernando Alonso,Alpine F1 Team,6
+2022,13,HAM,Lewis Hamilton,Mercedes,7
+2022,13,BOT,Valtteri Bottas,Alfa Romeo,8
+2022,13,RIC,Daniel Ricciardo,McLaren,9
+2022,13,VER,Max Verstappen,Red Bull,10
+2022,13,PER,Sergio Pérez,Red Bull,11
+2022,13,ZHO,Guanyu Zhou,Alfa Romeo,12
+2022,13,MAG,Kevin Magnussen,Haas F1 Team,13
+2022,13,STR,Lance Stroll,Aston Martin,14
+2022,13,MSC,Mick Schumacher,Haas F1 Team,15
+2022,13,TSU,Yuki Tsunoda,AlphaTauri,16
+2022,13,ALB,Alexander Albon,Williams,17
+2022,13,VET,Sebastian Vettel,Aston Martin,18
+2022,13,GAS,Pierre Gasly,AlphaTauri,19
+2022,13,LAT,Nicholas Latifi,Williams,20
+2022,14,VER,Max Verstappen,Red Bull,1
+2022,14,SAI,Carlos Sainz,Ferrari,2
+2022,14,PER,Sergio Pérez,Red Bull,3
+2022,14,LEC,Charles Leclerc,Ferrari,4
+2022,14,OCO,Esteban Ocon,Alpine F1 Team,5
+2022,14,ALO,Fernando Alonso,Alpine F1 Team,6
+2022,14,HAM,Lewis Hamilton,Mercedes,7
+2022,14,RUS,George Russell,Mercedes,8
+2022,14,ALB,Alexander Albon,Williams,9
+2022,14,NOR,Lando Norris,McLaren,10
+2022,14,RIC,Daniel Ricciardo,McLaren,11
+2022,14,GAS,Pierre Gasly,AlphaTauri,12
+2022,14,ZHO,Guanyu Zhou,Alfa Romeo,13
+2022,14,STR,Lance Stroll,Aston Martin,14
+2022,14,MSC,Mick Schumacher,Haas F1 Team,15
+2022,14,VET,Sebastian Vettel,Aston Martin,16
+2022,14,LAT,Nicholas Latifi,Williams,17
+2022,14,MAG,Kevin Magnussen,Haas F1 Team,18
+2022,14,TSU,Yuki Tsunoda,AlphaTauri,19
+2022,14,BOT,Valtteri Bottas,Alfa Romeo,20
+2022,15,VER,Max Verstappen,Red Bull,1
+2022,15,LEC,Charles Leclerc,Ferrari,2
+2022,15,SAI,Carlos Sainz,Ferrari,3
+2022,15,HAM,Lewis Hamilton,Mercedes,4
+2022,15,PER,Sergio Pérez,Red Bull,5
+2022,15,RUS,George Russell,Mercedes,6
+2022,15,NOR,Lando Norris,McLaren,7
+2022,15,MSC,Mick Schumacher,Haas F1 Team,8
+2022,15,TSU,Yuki Tsunoda,AlphaTauri,9
+2022,15,STR,Lance Stroll,Aston Martin,10
+2022,15,GAS,Pierre Gasly,AlphaTauri,11
+2022,15,OCO,Esteban Ocon,Alpine F1 Team,12
+2022,15,ALO,Fernando Alonso,Alpine F1 Team,13
+2022,15,ZHO,Guanyu Zhou,Alfa Romeo,14
+2022,15,ALB,Alexander Albon,Williams,15
+2022,15,BOT,Valtteri Bottas,Alfa Romeo,16
+2022,15,RIC,Daniel Ricciardo,McLaren,17
+2022,15,MAG,Kevin Magnussen,Haas F1 Team,18
+2022,15,VET,Sebastian Vettel,Aston Martin,19
+2022,15,LAT,Nicholas Latifi,Williams,20
+2022,16,LEC,Charles Leclerc,Ferrari,1
+2022,16,VER,Max Verstappen,Red Bull,2
+2022,16,SAI,Carlos Sainz,Ferrari,3
+2022,16,PER,Sergio Pérez,Red Bull,4
+2022,16,HAM,Lewis Hamilton,Mercedes,5
+2022,16,RUS,George Russell,Mercedes,6
+2022,16,NOR,Lando Norris,McLaren,7
+2022,16,RIC,Daniel Ricciardo,McLaren,8
+2022,16,GAS,Pierre Gasly,AlphaTauri,9
+2022,16,ALO,Fernando Alonso,Alpine F1 Team,10
+2022,16,OCO,Esteban Ocon,Alpine F1 Team,11
+2022,16,BOT,Valtteri Bottas,Alfa Romeo,12
+2022,16,DEV,Nyck de Vries,Williams,13
+2022,16,ZHO,Guanyu Zhou,Alfa Romeo,14
+2022,16,TSU,Yuki Tsunoda,AlphaTauri,15
+2022,16,LAT,Nicholas Latifi,Williams,16
+2022,16,VET,Sebastian Vettel,Aston Martin,17
+2022,16,STR,Lance Stroll,Aston Martin,18
+2022,16,MAG,Kevin Magnussen,Haas F1 Team,19
+2022,16,MSC,Mick Schumacher,Haas F1 Team,20
+2022,17,LEC,Charles Leclerc,Ferrari,1
+2022,17,PER,Sergio Pérez,Red Bull,2
+2022,17,HAM,Lewis Hamilton,Mercedes,3
+2022,17,SAI,Carlos Sainz,Ferrari,4
+2022,17,ALO,Fernando Alonso,Alpine F1 Team,5
+2022,17,NOR,Lando Norris,McLaren,6
+2022,17,GAS,Pierre Gasly,AlphaTauri,7
+2022,17,VER,Max Verstappen,Red Bull,8
+2022,17,MAG,Kevin Magnussen,Haas F1 Team,9
+2022,17,TSU,Yuki Tsunoda,AlphaTauri,10
+2022,17,RUS,George Russell,Mercedes,11
+2022,17,STR,Lance Stroll,Aston Martin,12
+2022,17,MSC,Mick Schumacher,Haas F1 Team,13
+2022,17,VET,Sebastian Vettel,Aston Martin,14
+2022,17,ZHO,Guanyu Zhou,Alfa Romeo,15
+2022,17,BOT,Valtteri Bottas,Alfa Romeo,16
+2022,17,RIC,Daniel Ricciardo,McLaren,17
+2022,17,OCO,Esteban Ocon,Alpine F1 Team,18
+2022,17,ALB,Alexander Albon,Williams,19
+2022,17,LAT,Nicholas Latifi,Williams,20
+2022,18,VER,Max Verstappen,Red Bull,1
+2022,18,LEC,Charles Leclerc,Ferrari,2
+2022,18,SAI,Carlos Sainz,Ferrari,3
+2022,18,PER,Sergio Pérez,Red Bull,4
+2022,18,OCO,Esteban Ocon,Alpine F1 Team,5
+2022,18,HAM,Lewis Hamilton,Mercedes,6
+2022,18,ALO,Fernando Alonso,Alpine F1 Team,7
+2022,18,RUS,George Russell,Mercedes,8
+2022,18,VET,Sebastian Vettel,Aston Martin,9
+2022,18,NOR,Lando Norris,McLaren,10
+2022,18,RIC,Daniel Ricciardo,McLaren,11
+2022,18,BOT,Valtteri Bottas,Alfa Romeo,12
+2022,18,TSU,Yuki Tsunoda,AlphaTauri,13
+2022,18,ZHO,Guanyu Zhou,Alfa Romeo,14
+2022,18,MSC,Mick Schumacher,Haas F1 Team,15
+2022,18,ALB,Alexander Albon,Williams,16
+2022,18,GAS,Pierre Gasly,AlphaTauri,17
+2022,18,MAG,Kevin Magnussen,Haas F1 Team,18
+2022,18,STR,Lance Stroll,Aston Martin,19
+2022,18,LAT,Nicholas Latifi,Williams,20
+2022,19,SAI,Carlos Sainz,Ferrari,1
+2022,19,LEC,Charles Leclerc,Ferrari,2
+2022,19,VER,Max Verstappen,Red Bull,3
+2022,19,PER,Sergio Pérez,Red Bull,4
+2022,19,HAM,Lewis Hamilton,Mercedes,5
+2022,19,RUS,George Russell,Mercedes,6
+2022,19,STR,Lance Stroll,Aston Martin,7
+2022,19,NOR,Lando Norris,McLaren,8
+2022,19,ALO,Fernando Alonso,Alpine F1 Team,9
+2022,19,BOT,Valtteri Bottas,Alfa Romeo,10
+2022,19,ALB,Alexander Albon,Williams,11
+2022,19,VET,Sebastian Vettel,Aston Martin,12
+2022,19,GAS,Pierre Gasly,AlphaTauri,13
+2022,19,ZHO,Guanyu Zhou,Alfa Romeo,14
+2022,19,TSU,Yuki Tsunoda,AlphaTauri,15
+2022,19,MAG,Kevin Magnussen,Haas F1 Team,16
+2022,19,RIC,Daniel Ricciardo,McLaren,17
+2022,19,OCO,Esteban Ocon,Alpine F1 Team,18
+2022,19,MSC,Mick Schumacher,Haas F1 Team,19
+2022,19,LAT,Nicholas Latifi,Williams,20
+2022,20,VER,Max Verstappen,Red Bull,1
+2022,20,RUS,George Russell,Mercedes,2
+2022,20,HAM,Lewis Hamilton,Mercedes,3
+2022,20,PER,Sergio Pérez,Red Bull,4
+2022,20,SAI,Carlos Sainz,Ferrari,5
+2022,20,BOT,Valtteri Bottas,Alfa Romeo,6
+2022,20,LEC,Charles Leclerc,Ferrari,7
+2022,20,NOR,Lando Norris,McLaren,8
+2022,20,ALO,Fernando Alonso,Alpine F1 Team,9
+2022,20,OCO,Esteban Ocon,Alpine F1 Team,10
+2022,20,RIC,Daniel Ricciardo,McLaren,11
+2022,20,ZHO,Guanyu Zhou,Alfa Romeo,12
+2022,20,TSU,Yuki Tsunoda,AlphaTauri,13
+2022,20,GAS,Pierre Gasly,AlphaTauri,14
+2022,20,MAG,Kevin Magnussen,Haas F1 Team,15
+2022,20,MSC,Mick Schumacher,Haas F1 Team,16
+2022,20,VET,Sebastian Vettel,Aston Martin,17
+2022,20,STR,Lance Stroll,Aston Martin,18
+2022,20,ALB,Alexander Albon,Williams,19
+2022,20,LAT,Nicholas Latifi,Williams,20
+2022,21,MAG,Kevin Magnussen,Haas F1 Team,1
+2022,21,VER,Max Verstappen,Red Bull,2
+2022,21,RUS,George Russell,Mercedes,3
+2022,21,NOR,Lando Norris,McLaren,4
+2022,21,SAI,Carlos Sainz,Ferrari,5
+2022,21,OCO,Esteban Ocon,Alpine F1 Team,6
+2022,21,ALO,Fernando Alonso,Alpine F1 Team,7
+2022,21,HAM,Lewis Hamilton,Mercedes,8
+2022,21,PER,Sergio Pérez,Red Bull,9
+2022,21,LEC,Charles Leclerc,Ferrari,10
+2022,21,ALB,Alexander Albon,Williams,11
+2022,21,GAS,Pierre Gasly,AlphaTauri,12
+2022,21,VET,Sebastian Vettel,Aston Martin,13
+2022,21,RIC,Daniel Ricciardo,McLaren,14
+2022,21,STR,Lance Stroll,Aston Martin,15
+2022,21,LAT,Nicholas Latifi,Williams,16
+2022,21,ZHO,Guanyu Zhou,Alfa Romeo,17
+2022,21,BOT,Valtteri Bottas,Alfa Romeo,18
+2022,21,TSU,Yuki Tsunoda,AlphaTauri,19
+2022,21,MSC,Mick Schumacher,Haas F1 Team,20
+2022,22,VER,Max Verstappen,Red Bull,1
+2022,22,PER,Sergio Pérez,Red Bull,2
+2022,22,LEC,Charles Leclerc,Ferrari,3
+2022,22,SAI,Carlos Sainz,Ferrari,4
+2022,22,HAM,Lewis Hamilton,Mercedes,5
+2022,22,RUS,George Russell,Mercedes,6
+2022,22,NOR,Lando Norris,McLaren,7
+2022,22,OCO,Esteban Ocon,Alpine F1 Team,8
+2022,22,VET,Sebastian Vettel,Aston Martin,9
+2022,22,RIC,Daniel Ricciardo,McLaren,10
+2022,22,ALO,Fernando Alonso,Alpine F1 Team,11
+2022,22,TSU,Yuki Tsunoda,AlphaTauri,12
+2022,22,MSC,Mick Schumacher,Haas F1 Team,13
+2022,22,STR,Lance Stroll,Aston Martin,14
+2022,22,ZHO,Guanyu Zhou,Alfa Romeo,15
+2022,22,MAG,Kevin Magnussen,Haas F1 Team,16
+2022,22,GAS,Pierre Gasly,AlphaTauri,17
+2022,22,BOT,Valtteri Bottas,Alfa Romeo,18
+2022,22,ALB,Alexander Albon,Williams,19
+2022,22,LAT,Nicholas Latifi,Williams,20

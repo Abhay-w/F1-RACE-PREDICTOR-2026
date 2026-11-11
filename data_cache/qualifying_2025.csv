@@ -1,0 +1,480 @@
+Season,Round,DriverCode,Driver,Team,QualifyingPosition
+2025,1,NOR,Lando Norris,McLaren,1
+2025,1,PIA,Oscar Piastri,McLaren,2
+2025,1,VER,Max Verstappen,Red Bull,3
+2025,1,RUS,George Russell,Mercedes,4
+2025,1,TSU,Yuki Tsunoda,RB F1 Team,5
+2025,1,ALB,Alexander Albon,Williams,6
+2025,1,LEC,Charles Leclerc,Ferrari,7
+2025,1,HAM,Lewis Hamilton,Ferrari,8
+2025,1,GAS,Pierre Gasly,Alpine F1 Team,9
+2025,1,SAI,Carlos Sainz,Williams,10
+2025,1,HAD,Isack Hadjar,RB F1 Team,11
+2025,1,ALO,Fernando Alonso,Aston Martin,12
+2025,1,STR,Lance Stroll,Aston Martin,13
+2025,1,DOO,Jack Doohan,Alpine F1 Team,14
+2025,1,BOR,Gabriel Bortoleto,Sauber,15
+2025,1,ANT,Andrea Kimi Antonelli,Mercedes,16
+2025,1,HUL,Nico Hülkenberg,Sauber,17
+2025,1,LAW,Liam Lawson,Red Bull,18
+2025,1,OCO,Esteban Ocon,Haas F1 Team,19
+2025,1,BEA,Oliver Bearman,Haas F1 Team,20
+2025,2,PIA,Oscar Piastri,McLaren,1
+2025,2,RUS,George Russell,Mercedes,2
+2025,2,NOR,Lando Norris,McLaren,3
+2025,2,VER,Max Verstappen,Red Bull,4
+2025,2,HAM,Lewis Hamilton,Ferrari,5
+2025,2,LEC,Charles Leclerc,Ferrari,6
+2025,2,HAD,Isack Hadjar,RB F1 Team,7
+2025,2,ANT,Andrea Kimi Antonelli,Mercedes,8
+2025,2,TSU,Yuki Tsunoda,RB F1 Team,9
+2025,2,ALB,Alexander Albon,Williams,10
+2025,2,OCO,Esteban Ocon,Haas F1 Team,11
+2025,2,HUL,Nico Hülkenberg,Sauber,12
+2025,2,ALO,Fernando Alonso,Aston Martin,13
+2025,2,STR,Lance Stroll,Aston Martin,14
+2025,2,SAI,Carlos Sainz,Williams,15
+2025,2,GAS,Pierre Gasly,Alpine F1 Team,16
+2025,2,BEA,Oliver Bearman,Haas F1 Team,17
+2025,2,DOO,Jack Doohan,Alpine F1 Team,18
+2025,2,BOR,Gabriel Bortoleto,Sauber,19
+2025,2,LAW,Liam Lawson,Red Bull,20
+2025,3,VER,Max Verstappen,Red Bull,1
+2025,3,NOR,Lando Norris,McLaren,2
+2025,3,PIA,Oscar Piastri,McLaren,3
+2025,3,LEC,Charles Leclerc,Ferrari,4
+2025,3,RUS,George Russell,Mercedes,5
+2025,3,ANT,Andrea Kimi Antonelli,Mercedes,6
+2025,3,HAD,Isack Hadjar,RB F1 Team,7
+2025,3,HAM,Lewis Hamilton,Ferrari,8
+2025,3,ALB,Alexander Albon,Williams,9
+2025,3,BEA,Oliver Bearman,Haas F1 Team,10
+2025,3,GAS,Pierre Gasly,Alpine F1 Team,11
+2025,3,SAI,Carlos Sainz,Williams,12
+2025,3,ALO,Fernando Alonso,Aston Martin,13
+2025,3,LAW,Liam Lawson,RB F1 Team,14
+2025,3,TSU,Yuki Tsunoda,Red Bull,15
+2025,3,HUL,Nico Hülkenberg,Sauber,16
+2025,3,BOR,Gabriel Bortoleto,Sauber,17
+2025,3,OCO,Esteban Ocon,Haas F1 Team,18
+2025,3,DOO,Jack Doohan,Alpine F1 Team,19
+2025,3,STR,Lance Stroll,Aston Martin,20
+2025,4,PIA,Oscar Piastri,McLaren,1
+2025,4,RUS,George Russell,Mercedes,2
+2025,4,LEC,Charles Leclerc,Ferrari,3
+2025,4,ANT,Andrea Kimi Antonelli,Mercedes,4
+2025,4,GAS,Pierre Gasly,Alpine F1 Team,5
+2025,4,NOR,Lando Norris,McLaren,6
+2025,4,VER,Max Verstappen,Red Bull,7
+2025,4,SAI,Carlos Sainz,Williams,8
+2025,4,HAM,Lewis Hamilton,Ferrari,9
+2025,4,TSU,Yuki Tsunoda,Red Bull,10
+2025,4,DOO,Jack Doohan,Alpine F1 Team,11
+2025,4,HAD,Isack Hadjar,RB F1 Team,12
+2025,4,ALO,Fernando Alonso,Aston Martin,13
+2025,4,OCO,Esteban Ocon,Haas F1 Team,14
+2025,4,ALB,Alexander Albon,Williams,15
+2025,4,HUL,Nico Hülkenberg,Sauber,16
+2025,4,LAW,Liam Lawson,RB F1 Team,17
+2025,4,BOR,Gabriel Bortoleto,Sauber,18
+2025,4,STR,Lance Stroll,Aston Martin,19
+2025,4,BEA,Oliver Bearman,Haas F1 Team,20
+2025,5,VER,Max Verstappen,Red Bull,1
+2025,5,PIA,Oscar Piastri,McLaren,2
+2025,5,RUS,George Russell,Mercedes,3
+2025,5,LEC,Charles Leclerc,Ferrari,4
+2025,5,ANT,Andrea Kimi Antonelli,Mercedes,5
+2025,5,SAI,Carlos Sainz,Williams,6
+2025,5,HAM,Lewis Hamilton,Ferrari,7
+2025,5,TSU,Yuki Tsunoda,Red Bull,8
+2025,5,GAS,Pierre Gasly,Alpine F1 Team,9
+2025,5,NOR,Lando Norris,McLaren,10
+2025,5,ALB,Alexander Albon,Williams,11
+2025,5,LAW,Liam Lawson,RB F1 Team,12
+2025,5,ALO,Fernando Alonso,Aston Martin,13
+2025,5,HAD,Isack Hadjar,RB F1 Team,14
+2025,5,BEA,Oliver Bearman,Haas F1 Team,15
+2025,5,STR,Lance Stroll,Aston Martin,16
+2025,5,DOO,Jack Doohan,Alpine F1 Team,17
+2025,5,HUL,Nico Hülkenberg,Sauber,18
+2025,5,OCO,Esteban Ocon,Haas F1 Team,19
+2025,5,BOR,Gabriel Bortoleto,Sauber,20
+2025,6,VER,Max Verstappen,Red Bull,1
+2025,6,NOR,Lando Norris,McLaren,2
+2025,6,ANT,Andrea Kimi Antonelli,Mercedes,3
+2025,6,PIA,Oscar Piastri,McLaren,4
+2025,6,RUS,George Russell,Mercedes,5
+2025,6,SAI,Carlos Sainz,Williams,6
+2025,6,ALB,Alexander Albon,Williams,7
+2025,6,LEC,Charles Leclerc,Ferrari,8
+2025,6,OCO,Esteban Ocon,Haas F1 Team,9
+2025,6,TSU,Yuki Tsunoda,Red Bull,10
+2025,6,HAD,Isack Hadjar,RB F1 Team,11
+2025,6,HAM,Lewis Hamilton,Ferrari,12
+2025,6,BOR,Gabriel Bortoleto,Sauber,13
+2025,6,DOO,Jack Doohan,Alpine F1 Team,14
+2025,6,LAW,Liam Lawson,RB F1 Team,15
+2025,6,HUL,Nico Hülkenberg,Sauber,16
+2025,6,ALO,Fernando Alonso,Aston Martin,17
+2025,6,GAS,Pierre Gasly,Alpine F1 Team,18
+2025,6,STR,Lance Stroll,Aston Martin,19
+2025,6,BEA,Oliver Bearman,Haas F1 Team,20
+2025,7,PIA,Oscar Piastri,McLaren,1
+2025,7,VER,Max Verstappen,Red Bull,2
+2025,7,RUS,George Russell,Mercedes,3
+2025,7,NOR,Lando Norris,McLaren,4
+2025,7,ALO,Fernando Alonso,Aston Martin,5
+2025,7,SAI,Carlos Sainz,Williams,6
+2025,7,ALB,Alexander Albon,Williams,7
+2025,7,STR,Lance Stroll,Aston Martin,8
+2025,7,HAD,Isack Hadjar,RB F1 Team,9
+2025,7,GAS,Pierre Gasly,Alpine F1 Team,10
+2025,7,LEC,Charles Leclerc,Ferrari,11
+2025,7,HAM,Lewis Hamilton,Ferrari,12
+2025,7,ANT,Andrea Kimi Antonelli,Mercedes,13
+2025,7,BOR,Gabriel Bortoleto,Sauber,14
+2025,7,COL,Franco Colapinto,Alpine F1 Team,15
+2025,7,BEA,Oliver Bearman,Haas F1 Team,16
+2025,7,LAW,Liam Lawson,RB F1 Team,16
+2025,7,HUL,Nico Hülkenberg,Sauber,17
+2025,7,OCO,Esteban Ocon,Haas F1 Team,18
+2025,7,TSU,Yuki Tsunoda,Red Bull,20
+2025,8,NOR,Lando Norris,McLaren,1
+2025,8,LEC,Charles Leclerc,Ferrari,2
+2025,8,PIA,Oscar Piastri,McLaren,3
+2025,8,HAM,Lewis Hamilton,Ferrari,4
+2025,8,VER,Max Verstappen,Red Bull,5
+2025,8,HAD,Isack Hadjar,RB F1 Team,6
+2025,8,ALO,Fernando Alonso,Aston Martin,7
+2025,8,OCO,Esteban Ocon,Haas F1 Team,8
+2025,8,LAW,Liam Lawson,RB F1 Team,9
+2025,8,ALB,Alexander Albon,Williams,10
+2025,8,SAI,Carlos Sainz,Williams,11
+2025,8,TSU,Yuki Tsunoda,Red Bull,12
+2025,8,HUL,Nico Hülkenberg,Sauber,13
+2025,8,RUS,George Russell,Mercedes,14
+2025,8,ANT,Andrea Kimi Antonelli,Mercedes,15
+2025,8,BOR,Gabriel Bortoleto,Sauber,16
+2025,8,BEA,Oliver Bearman,Haas F1 Team,17
+2025,8,GAS,Pierre Gasly,Alpine F1 Team,18
+2025,8,STR,Lance Stroll,Aston Martin,19
+2025,8,COL,Franco Colapinto,Alpine F1 Team,20
+2025,9,PIA,Oscar Piastri,McLaren,1
+2025,9,NOR,Lando Norris,McLaren,2
+2025,9,VER,Max Verstappen,Red Bull,3
+2025,9,RUS,George Russell,Mercedes,4
+2025,9,HAM,Lewis Hamilton,Ferrari,5
+2025,9,ANT,Andrea Kimi Antonelli,Mercedes,6
+2025,9,LEC,Charles Leclerc,Ferrari,7
+2025,9,GAS,Pierre Gasly,Alpine F1 Team,8
+2025,9,HAD,Isack Hadjar,RB F1 Team,9
+2025,9,ALO,Fernando Alonso,Aston Martin,10
+2025,9,ALB,Alexander Albon,Williams,11
+2025,9,BOR,Gabriel Bortoleto,Sauber,12
+2025,9,LAW,Liam Lawson,RB F1 Team,13
+2025,9,STR,Lance Stroll,Aston Martin,14
+2025,9,BEA,Oliver Bearman,Haas F1 Team,15
+2025,9,HUL,Nico Hülkenberg,Sauber,16
+2025,9,OCO,Esteban Ocon,Haas F1 Team,17
+2025,9,SAI,Carlos Sainz,Williams,18
+2025,9,COL,Franco Colapinto,Alpine F1 Team,19
+2025,9,TSU,Yuki Tsunoda,Red Bull,20
+2025,10,RUS,George Russell,Mercedes,1
+2025,10,VER,Max Verstappen,Red Bull,2
+2025,10,PIA,Oscar Piastri,McLaren,3
+2025,10,ANT,Andrea Kimi Antonelli,Mercedes,4
+2025,10,HAM,Lewis Hamilton,Ferrari,5
+2025,10,ALO,Fernando Alonso,Aston Martin,6
+2025,10,NOR,Lando Norris,McLaren,7
+2025,10,LEC,Charles Leclerc,Ferrari,8
+2025,10,HAD,Isack Hadjar,RB F1 Team,9
+2025,10,ALB,Alexander Albon,Williams,10
+2025,10,TSU,Yuki Tsunoda,Red Bull,11
+2025,10,COL,Franco Colapinto,Alpine F1 Team,12
+2025,10,HUL,Nico Hülkenberg,Sauber,13
+2025,10,BEA,Oliver Bearman,Haas F1 Team,14
+2025,10,OCO,Esteban Ocon,Haas F1 Team,15
+2025,10,BOR,Gabriel Bortoleto,Sauber,16
+2025,10,SAI,Carlos Sainz,Williams,17
+2025,10,STR,Lance Stroll,Aston Martin,18
+2025,10,LAW,Liam Lawson,RB F1 Team,19
+2025,10,GAS,Pierre Gasly,Alpine F1 Team,20
+2025,11,NOR,Lando Norris,McLaren,1
+2025,11,LEC,Charles Leclerc,Ferrari,2
+2025,11,PIA,Oscar Piastri,McLaren,3
+2025,11,HAM,Lewis Hamilton,Ferrari,4
+2025,11,RUS,George Russell,Mercedes,5
+2025,11,LAW,Liam Lawson,RB F1 Team,6
+2025,11,VER,Max Verstappen,Red Bull,7
+2025,11,BOR,Gabriel Bortoleto,Sauber,8
+2025,11,ANT,Andrea Kimi Antonelli,Mercedes,9
+2025,11,GAS,Pierre Gasly,Alpine F1 Team,10
+2025,11,ALO,Fernando Alonso,Aston Martin,11
+2025,11,ALB,Alexander Albon,Williams,12
+2025,11,HAD,Isack Hadjar,RB F1 Team,13
+2025,11,COL,Franco Colapinto,Alpine F1 Team,14
+2025,11,BEA,Oliver Bearman,Haas F1 Team,15
+2025,11,STR,Lance Stroll,Aston Martin,16
+2025,11,OCO,Esteban Ocon,Haas F1 Team,17
+2025,11,TSU,Yuki Tsunoda,Red Bull,18
+2025,11,SAI,Carlos Sainz,Williams,19
+2025,11,HUL,Nico Hülkenberg,Sauber,20
+2025,12,VER,Max Verstappen,Red Bull,1
+2025,12,PIA,Oscar Piastri,McLaren,2
+2025,12,NOR,Lando Norris,McLaren,3
+2025,12,RUS,George Russell,Mercedes,4
+2025,12,HAM,Lewis Hamilton,Ferrari,5
+2025,12,LEC,Charles Leclerc,Ferrari,6
+2025,12,ANT,Andrea Kimi Antonelli,Mercedes,7
+2025,12,BEA,Oliver Bearman,Haas F1 Team,8
+2025,12,ALO,Fernando Alonso,Aston Martin,9
+2025,12,GAS,Pierre Gasly,Alpine F1 Team,10
+2025,12,SAI,Carlos Sainz,Williams,11
+2025,12,TSU,Yuki Tsunoda,Red Bull,12
+2025,12,HAD,Isack Hadjar,RB F1 Team,13
+2025,12,ALB,Alexander Albon,Williams,14
+2025,12,OCO,Esteban Ocon,Haas F1 Team,15
+2025,12,LAW,Liam Lawson,RB F1 Team,16
+2025,12,BOR,Gabriel Bortoleto,Sauber,17
+2025,12,STR,Lance Stroll,Aston Martin,18
+2025,12,HUL,Nico Hülkenberg,Sauber,19
+2025,12,COL,Franco Colapinto,Alpine F1 Team,20
+2025,13,NOR,Lando Norris,McLaren,1
+2025,13,PIA,Oscar Piastri,McLaren,2
+2025,13,LEC,Charles Leclerc,Ferrari,3
+2025,13,VER,Max Verstappen,Red Bull,4
+2025,13,ALB,Alexander Albon,Williams,5
+2025,13,RUS,George Russell,Mercedes,6
+2025,13,TSU,Yuki Tsunoda,Red Bull,7
+2025,13,HAD,Isack Hadjar,RB F1 Team,8
+2025,13,LAW,Liam Lawson,RB F1 Team,9
+2025,13,BOR,Gabriel Bortoleto,Sauber,10
+2025,13,OCO,Esteban Ocon,Haas F1 Team,11
+2025,13,BEA,Oliver Bearman,Haas F1 Team,12
+2025,13,GAS,Pierre Gasly,Alpine F1 Team,13
+2025,13,HUL,Nico Hülkenberg,Sauber,14
+2025,13,SAI,Carlos Sainz,Williams,15
+2025,13,HAM,Lewis Hamilton,Ferrari,16
+2025,13,COL,Franco Colapinto,Alpine F1 Team,17
+2025,13,ANT,Andrea Kimi Antonelli,Mercedes,18
+2025,13,ALO,Fernando Alonso,Aston Martin,19
+2025,13,STR,Lance Stroll,Aston Martin,20
+2025,14,LEC,Charles Leclerc,Ferrari,1
+2025,14,PIA,Oscar Piastri,McLaren,2
+2025,14,NOR,Lando Norris,McLaren,3
+2025,14,RUS,George Russell,Mercedes,4
+2025,14,ALO,Fernando Alonso,Aston Martin,5
+2025,14,STR,Lance Stroll,Aston Martin,6
+2025,14,BOR,Gabriel Bortoleto,Sauber,7
+2025,14,VER,Max Verstappen,Red Bull,8
+2025,14,LAW,Liam Lawson,RB F1 Team,9
+2025,14,HAD,Isack Hadjar,RB F1 Team,10
+2025,14,BEA,Oliver Bearman,Haas F1 Team,11
+2025,14,HAM,Lewis Hamilton,Ferrari,12
+2025,14,SAI,Carlos Sainz,Williams,13
+2025,14,COL,Franco Colapinto,Alpine F1 Team,14
+2025,14,ANT,Andrea Kimi Antonelli,Mercedes,15
+2025,14,TSU,Yuki Tsunoda,Red Bull,16
+2025,14,GAS,Pierre Gasly,Alpine F1 Team,17
+2025,14,OCO,Esteban Ocon,Haas F1 Team,18
+2025,14,HUL,Nico Hülkenberg,Sauber,19
+2025,14,ALB,Alexander Albon,Williams,20
+2025,15,PIA,Oscar Piastri,McLaren,1
+2025,15,NOR,Lando Norris,McLaren,2
+2025,15,VER,Max Verstappen,Red Bull,3
+2025,15,HAD,Isack Hadjar,RB F1 Team,4
+2025,15,RUS,George Russell,Mercedes,5
+2025,15,LEC,Charles Leclerc,Ferrari,6
+2025,15,HAM,Lewis Hamilton,Ferrari,7
+2025,15,LAW,Liam Lawson,RB F1 Team,8
+2025,15,SAI,Carlos Sainz,Williams,9
+2025,15,ALO,Fernando Alonso,Aston Martin,10
+2025,15,ANT,Andrea Kimi Antonelli,Mercedes,11
+2025,15,TSU,Yuki Tsunoda,Red Bull,12
+2025,15,BOR,Gabriel Bortoleto,Sauber,13
+2025,15,GAS,Pierre Gasly,Alpine F1 Team,14
+2025,15,ALB,Alexander Albon,Williams,15
+2025,15,COL,Franco Colapinto,Alpine F1 Team,16
+2025,15,HUL,Nico Hülkenberg,Sauber,17
+2025,15,OCO,Esteban Ocon,Haas F1 Team,18
+2025,15,BEA,Oliver Bearman,Haas F1 Team,19
+2025,15,STR,Lance Stroll,Aston Martin,20
+2025,16,VER,Max Verstappen,Red Bull,1
+2025,16,NOR,Lando Norris,McLaren,2
+2025,16,PIA,Oscar Piastri,McLaren,3
+2025,16,LEC,Charles Leclerc,Ferrari,4
+2025,16,HAM,Lewis Hamilton,Ferrari,5
+2025,16,RUS,George Russell,Mercedes,6
+2025,16,ANT,Andrea Kimi Antonelli,Mercedes,7
+2025,16,BOR,Gabriel Bortoleto,Sauber,8
+2025,16,ALO,Fernando Alonso,Aston Martin,9
+2025,16,TSU,Yuki Tsunoda,Red Bull,10
+2025,16,BEA,Oliver Bearman,Haas F1 Team,11
+2025,16,HUL,Nico Hülkenberg,Sauber,12
+2025,16,SAI,Carlos Sainz,Williams,13
+2025,16,ALB,Alexander Albon,Williams,14
+2025,16,OCO,Esteban Ocon,Haas F1 Team,15
+2025,16,HAD,Isack Hadjar,RB F1 Team,16
+2025,16,STR,Lance Stroll,Aston Martin,17
+2025,16,COL,Franco Colapinto,Alpine F1 Team,18
+2025,16,GAS,Pierre Gasly,Alpine F1 Team,19
+2025,16,LAW,Liam Lawson,RB F1 Team,20
+2025,17,VER,Max Verstappen,Red Bull,1
+2025,17,SAI,Carlos Sainz,Williams,2
+2025,17,LAW,Liam Lawson,RB F1 Team,3
+2025,17,ANT,Andrea Kimi Antonelli,Mercedes,4
+2025,17,RUS,George Russell,Mercedes,5
+2025,17,TSU,Yuki Tsunoda,Red Bull,6
+2025,17,NOR,Lando Norris,McLaren,7
+2025,17,HAD,Isack Hadjar,RB F1 Team,8
+2025,17,PIA,Oscar Piastri,McLaren,9
+2025,17,LEC,Charles Leclerc,Ferrari,10
+2025,17,ALO,Fernando Alonso,Aston Martin,11
+2025,17,HAM,Lewis Hamilton,Ferrari,12
+2025,17,BOR,Gabriel Bortoleto,Sauber,13
+2025,17,STR,Lance Stroll,Aston Martin,14
+2025,17,BEA,Oliver Bearman,Haas F1 Team,15
+2025,17,COL,Franco Colapinto,Alpine F1 Team,16
+2025,17,HUL,Nico Hülkenberg,Sauber,17
+2025,17,GAS,Pierre Gasly,Alpine F1 Team,18
+2025,17,ALB,Alexander Albon,Williams,19
+2025,17,OCO,Esteban Ocon,Haas F1 Team,20
+2025,18,RUS,George Russell,Mercedes,1
+2025,18,VER,Max Verstappen,Red Bull,2
+2025,18,PIA,Oscar Piastri,McLaren,3
+2025,18,ANT,Andrea Kimi Antonelli,Mercedes,4
+2025,18,NOR,Lando Norris,McLaren,5
+2025,18,HAM,Lewis Hamilton,Ferrari,6
+2025,18,LEC,Charles Leclerc,Ferrari,7
+2025,18,HAD,Isack Hadjar,RB F1 Team,8
+2025,18,BEA,Oliver Bearman,Haas F1 Team,9
+2025,18,ALO,Fernando Alonso,Aston Martin,10
+2025,18,HUL,Nico Hülkenberg,Sauber,11
+2025,18,LAW,Liam Lawson,RB F1 Team,12
+2025,18,TSU,Yuki Tsunoda,Red Bull,13
+2025,18,BOR,Gabriel Bortoleto,Sauber,14
+2025,18,STR,Lance Stroll,Aston Martin,15
+2025,18,COL,Franco Colapinto,Alpine F1 Team,16
+2025,18,OCO,Esteban Ocon,Haas F1 Team,17
+2025,18,GAS,Pierre Gasly,Alpine F1 Team,18
+2025,18,ALB,Alexander Albon,Williams,19
+2025,18,SAI,Carlos Sainz,Williams,20
+2025,19,VER,Max Verstappen,Red Bull,1
+2025,19,NOR,Lando Norris,McLaren,2
+2025,19,LEC,Charles Leclerc,Ferrari,3
+2025,19,RUS,George Russell,Mercedes,4
+2025,19,HAM,Lewis Hamilton,Ferrari,5
+2025,19,PIA,Oscar Piastri,McLaren,6
+2025,19,ANT,Andrea Kimi Antonelli,Mercedes,7
+2025,19,BEA,Oliver Bearman,Haas F1 Team,8
+2025,19,SAI,Carlos Sainz,Williams,9
+2025,19,ALO,Fernando Alonso,Aston Martin,10
+2025,19,HUL,Nico Hülkenberg,Sauber,11
+2025,19,LAW,Liam Lawson,RB F1 Team,12
+2025,19,TSU,Yuki Tsunoda,Red Bull,13
+2025,19,GAS,Pierre Gasly,Alpine F1 Team,14
+2025,19,COL,Franco Colapinto,Alpine F1 Team,15
+2025,19,BOR,Gabriel Bortoleto,Sauber,16
+2025,19,OCO,Esteban Ocon,Haas F1 Team,17
+2025,19,STR,Lance Stroll,Aston Martin,18
+2025,19,ALB,Alexander Albon,Williams,19
+2025,19,HAD,Isack Hadjar,RB F1 Team,20
+2025,20,NOR,Lando Norris,McLaren,1
+2025,20,LEC,Charles Leclerc,Ferrari,2
+2025,20,HAM,Lewis Hamilton,Ferrari,3
+2025,20,RUS,George Russell,Mercedes,4
+2025,20,VER,Max Verstappen,Red Bull,5
+2025,20,ANT,Andrea Kimi Antonelli,Mercedes,6
+2025,20,SAI,Carlos Sainz,Williams,7
+2025,20,PIA,Oscar Piastri,McLaren,8
+2025,20,HAD,Isack Hadjar,RB F1 Team,9
+2025,20,BEA,Oliver Bearman,Haas F1 Team,10
+2025,20,TSU,Yuki Tsunoda,Red Bull,11
+2025,20,OCO,Esteban Ocon,Haas F1 Team,12
+2025,20,HUL,Nico Hülkenberg,Sauber,13
+2025,20,ALO,Fernando Alonso,Aston Martin,14
+2025,20,LAW,Liam Lawson,RB F1 Team,15
+2025,20,BOR,Gabriel Bortoleto,Sauber,16
+2025,20,ALB,Alexander Albon,Williams,17
+2025,20,GAS,Pierre Gasly,Alpine F1 Team,18
+2025,20,STR,Lance Stroll,Aston Martin,19
+2025,20,COL,Franco Colapinto,Alpine F1 Team,20
+2025,21,NOR,Lando Norris,McLaren,1
+2025,21,ANT,Andrea Kimi Antonelli,Mercedes,2
+2025,21,LEC,Charles Leclerc,Ferrari,3
+2025,21,PIA,Oscar Piastri,McLaren,4
+2025,21,HAD,Isack Hadjar,RB F1 Team,5
+2025,21,RUS,George Russell,Mercedes,6
+2025,21,LAW,Liam Lawson,RB F1 Team,7
+2025,21,BEA,Oliver Bearman,Haas F1 Team,8
+2025,21,GAS,Pierre Gasly,Alpine F1 Team,9
+2025,21,HUL,Nico Hülkenberg,Sauber,10
+2025,21,ALO,Fernando Alonso,Aston Martin,11
+2025,21,ALB,Alexander Albon,Williams,12
+2025,21,HAM,Lewis Hamilton,Ferrari,13
+2025,21,STR,Lance Stroll,Aston Martin,14
+2025,21,SAI,Carlos Sainz,Williams,15
+2025,21,VER,Max Verstappen,Red Bull,16
+2025,21,OCO,Esteban Ocon,Haas F1 Team,17
+2025,21,COL,Franco Colapinto,Alpine F1 Team,18
+2025,21,TSU,Yuki Tsunoda,Red Bull,19
+2025,22,NOR,Lando Norris,McLaren,1
+2025,22,VER,Max Verstappen,Red Bull,2
+2025,22,SAI,Carlos Sainz,Williams,3
+2025,22,RUS,George Russell,Mercedes,4
+2025,22,PIA,Oscar Piastri,McLaren,5
+2025,22,LAW,Liam Lawson,RB F1 Team,6
+2025,22,ALO,Fernando Alonso,Aston Martin,7
+2025,22,HAD,Isack Hadjar,RB F1 Team,8
+2025,22,LEC,Charles Leclerc,Ferrari,9
+2025,22,GAS,Pierre Gasly,Alpine F1 Team,10
+2025,22,HUL,Nico Hülkenberg,Sauber,11
+2025,22,STR,Lance Stroll,Aston Martin,12
+2025,22,OCO,Esteban Ocon,Haas F1 Team,13
+2025,22,BEA,Oliver Bearman,Haas F1 Team,14
+2025,22,COL,Franco Colapinto,Alpine F1 Team,15
+2025,22,ALB,Alexander Albon,Williams,16
+2025,22,ANT,Andrea Kimi Antonelli,Mercedes,17
+2025,22,BOR,Gabriel Bortoleto,Sauber,18
+2025,22,TSU,Yuki Tsunoda,Red Bull,19
+2025,22,HAM,Lewis Hamilton,Ferrari,20
+2025,23,PIA,Oscar Piastri,McLaren,1
+2025,23,NOR,Lando Norris,McLaren,2
+2025,23,VER,Max Verstappen,Red Bull,3
+2025,23,RUS,George Russell,Mercedes,4
+2025,23,ANT,Andrea Kimi Antonelli,Mercedes,5
+2025,23,HAD,Isack Hadjar,RB F1 Team,6
+2025,23,SAI,Carlos Sainz,Williams,7
+2025,23,ALO,Fernando Alonso,Aston Martin,8
+2025,23,GAS,Pierre Gasly,Alpine F1 Team,9
+2025,23,LEC,Charles Leclerc,Ferrari,10
+2025,23,HUL,Nico Hülkenberg,Sauber,11
+2025,23,LAW,Liam Lawson,RB F1 Team,12
+2025,23,BEA,Oliver Bearman,Haas F1 Team,13
+2025,23,BOR,Gabriel Bortoleto,Sauber,14
+2025,23,ALB,Alexander Albon,Williams,15
+2025,23,TSU,Yuki Tsunoda,Red Bull,16
+2025,23,OCO,Esteban Ocon,Haas F1 Team,17
+2025,23,HAM,Lewis Hamilton,Ferrari,18
+2025,23,STR,Lance Stroll,Aston Martin,19
+2025,23,COL,Franco Colapinto,Alpine F1 Team,20
+2025,24,VER,Max Verstappen,Red Bull,1
+2025,24,NOR,Lando Norris,McLaren,2
+2025,24,PIA,Oscar Piastri,McLaren,3
+2025,24,RUS,George Russell,Mercedes,4
+2025,24,LEC,Charles Leclerc,Ferrari,5
+2025,24,ALO,Fernando Alonso,Aston Martin,6
+2025,24,BOR,Gabriel Bortoleto,Sauber,7
+2025,24,OCO,Esteban Ocon,Haas F1 Team,8
+2025,24,HAD,Isack Hadjar,RB F1 Team,9
+2025,24,TSU,Yuki Tsunoda,Red Bull,10
+2025,24,BEA,Oliver Bearman,Haas F1 Team,11
+2025,24,SAI,Carlos Sainz,Williams,12
+2025,24,LAW,Liam Lawson,RB F1 Team,13
+2025,24,ANT,Andrea Kimi Antonelli,Mercedes,14
+2025,24,STR,Lance Stroll,Aston Martin,15
+2025,24,HAM,Lewis Hamilton,Ferrari,16
+2025,24,ALB,Alexander Albon,Williams,17
+2025,24,HUL,Nico Hülkenberg,Sauber,18
+2025,24,GAS,Pierre Gasly,Alpine F1 Team,19
+2025,24,COL,Franco Colapinto,Alpine F1 Team,20

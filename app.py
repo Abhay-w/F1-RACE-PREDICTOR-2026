@@ -6,16 +6,22 @@ import pandas as pd
 import requests
 import streamlit as st
 
-from jolpica_data import fetch_qualifying, fetch_results
+from jolpica_data import (
+    fetch_qualifying,
+    fetch_results,
+    fetch_race_training_data,
+    fetch_schedule as load_schedule_table,
+)
+from form_features import GRID_FEATURES, grid_race_features
 from forecast_page import render_forecast_page
 
-BASE_URL = "https://api.jolpi.ca/ergast/f1"
 PROJECT_DIR = Path(__file__).resolve().parent
 
 MODEL_PATH = PROJECT_DIR / "position_model.joblib"
 METRICS_PATH = PROJECT_DIR / "model_metrics.json"
 
 SEASON = 2026
+HISTORY_FROM_SEASON = 2024
 
 
 st.set_page_config(
@@ -146,39 +152,23 @@ h1, h2, h3 {
 </style>
 """, unsafe_allow_html=True)
 
+
 @st.cache_data(ttl=3600, show_spinner=False)
 def fetch_schedule(year):
-    """Retrieve the race schedule from Jolpica."""
+    """Race schedule (retries + CSV cache live in jolpica_data)."""
 
-    url = f"{BASE_URL}/{year}.json?limit=100"
+    schedule = load_schedule_table(year)
 
-    response = requests.get(url, timeout=20)
-    response.raise_for_status()
+    return schedule[
+        ["Round", "Race", "Date", "Circuit", "Location"]
+    ].sort_values("Round").reset_index(drop=True)
 
-    races = response.json()["MRData"]["RaceTable"]["Races"]
 
-    schedule = []
+@st.cache_data(ttl=3600, show_spinner=False)
+def load_history():
+    """Earlier races used to build the form features."""
 
-    for race in races:
-        try:
-            round_number = int(race["round"])
-        except (KeyError, TypeError, ValueError):
-            continue
-
-        circuit = race.get("Circuit", {})
-
-        schedule.append({
-            "Round": round_number,
-            "Race": race.get("raceName", "Unknown race"),
-            "Date": race.get("date", "Date unavailable"),
-            "Circuit": circuit.get("circuitName", "Unknown circuit"),
-            "Location": (
-                f"{circuit.get('Location', {}).get('locality', '')}, "
-                f"{circuit.get('Location', {}).get('country', '')}"
-            ).strip(", "),
-        })
-
-    return pd.DataFrame(schedule).sort_values("Round")
+    return fetch_race_training_data(HISTORY_FROM_SEASON, SEASON)
 
 
 @st.cache_resource
@@ -202,9 +192,10 @@ def load_metrics():
         return json.load(file)
 
 
-def predict_race(qualifying_data, model):
+def predict_race(qualifying_data, model, history, season, round_no):
     """
-    Predict finishing positions using qualifying position.
+    Predict finishing positions from qualifying + form features
+    (driver form, team form, circuit history, DNF rate).
 
     The regression output is used to rank drivers.
     It is not a probability or a confidence score.
@@ -214,6 +205,7 @@ def predict_race(qualifying_data, model):
         return pd.DataFrame()
 
     required_columns = [
+        "DriverCode",
         "Driver",
         "Team",
         "QualifyingPosition",
@@ -227,13 +219,18 @@ def predict_race(qualifying_data, model):
             "Qualifying data is missing required columns."
         )
 
-    predictions = qualifying_data.copy()
-
-    predictions["ModelScore"] = model.predict(
-        predictions[["QualifyingPosition"]]
+    features = grid_race_features(
+        history,
+        season,
+        round_no,
+        qualifying_data,
     )
 
-    predictions = predictions.sort_values(
+    features["ModelScore"] = model.predict(
+        features[GRID_FEATURES]
+    )
+
+    predictions = features.sort_values(
         ["ModelScore", "QualifyingPosition"],
         ascending=[True, True],
     ).reset_index(drop=True)
@@ -256,6 +253,7 @@ def make_podium_card(position, label, driver, team):
         <div class="podium-team">Predicted P{position}</div>
     </div>
     """, unsafe_allow_html=True)
+
 
 with st.sidebar:
     st.markdown("## 🏎️ F1 ANALYTICS")
@@ -367,7 +365,7 @@ if page == "Race Predictor":
         """, unsafe_allow_html=True)
 
     with col3:
-        st.markdown(f"""
+        st.markdown("""
         <div class="metric-card">
             <div class="metric-label">Model</div>
             <div class="metric-value">Gradient Boosting</div>
@@ -400,9 +398,20 @@ if page == "Race Predictor":
         st.stop()
 
     try:
-        predictions = predict_race(qualifying, model)
+        predictions = predict_race(
+            qualifying,
+            model,
+            load_history(),
+            SEASON,
+            selected_race["Round"],
+        )
 
-    except (ValueError, KeyError, TypeError) as error:
+    except (
+        requests.RequestException,
+        ValueError,
+        KeyError,
+        TypeError,
+    ) as error:
         st.error(f"Could not generate predictions: {error}")
         st.stop()
 
@@ -446,6 +455,8 @@ if page == "Race Predictor":
             "Driver",
             "Team",
             "QualifyingPosition",
+            "DriverFormFinish",
+            "TeamFormFinish",
             "ModelScore",
         ]
     ].copy()
@@ -455,12 +466,12 @@ if page == "Race Predictor":
         "Driver",
         "Constructor",
         "Qualifying Position",
+        "Driver form (avg finish, last 5)",
+        "Team form (avg finish, last 5)",
         "Regression Score",
     ]
 
-    display_predictions["Regression Score"] = (
-        display_predictions["Regression Score"].round(3)
-    )
+    display_predictions = display_predictions.round(3)
 
     st.dataframe(
         display_predictions,
@@ -514,6 +525,7 @@ if page == "Race Predictor":
             ],
             on="DriverCode",
             how="inner",
+            suffixes=("_pred", ""),
         )
 
         if not comparison.empty:
@@ -529,7 +541,22 @@ if page == "Race Predictor":
 
                 race_mae = comparison["Position Error"].mean()
 
-                metric_col1, metric_col2 = st.columns(2)
+                winner_row = comparison[
+                    comparison["PredictedPosition"] == 1
+                ]
+                winner_hit = (
+                    not winner_row.empty
+                    and int(winner_row["FinishPosition"].iloc[0]) == 1
+                )
+
+                podium_hits = int((
+                    (comparison["PredictedPosition"] <= 3)
+                    & (comparison["FinishPosition"] <= 3)
+                ).sum())
+
+                metric_col1, metric_col2, metric_col3, metric_col4 = (
+                    st.columns(4)
+                )
 
                 with metric_col1:
                     st.metric(
@@ -541,6 +568,18 @@ if page == "Race Predictor":
                     st.metric(
                         "Drivers compared",
                         len(comparison),
+                    )
+
+                with metric_col3:
+                    st.metric(
+                        "Winner correct",
+                        "Yes" if winner_hit else "No",
+                    )
+
+                with metric_col4:
+                    st.metric(
+                        "Podium drivers found (of 3)",
+                        podium_hits,
                     )
 
                 st.dataframe(
@@ -665,6 +704,37 @@ elif page == "Model Analytics":
             </div>
             """, unsafe_allow_html=True)
 
+        per_race = metrics.get("per_race_summary")
+
+        if per_race:
+            st.markdown("### Per-race metrics (test season)")
+
+            per_race_table = pd.DataFrame(per_race).T.rename(
+                index={
+                    "model": "Model",
+                    "grid_order": "Baseline: grid order",
+                    "driver_form_order": "Baseline: driver form",
+                },
+                columns={
+                    "races": "Races",
+                    "winner_accuracy": "Winner accuracy",
+                    "top3_hit_rate": "Top-3 hit rate",
+                    "spearman": "Spearman",
+                    "rank_mae": "Rank MAE",
+                },
+            )
+
+            st.dataframe(
+                per_race_table.round(3),
+                use_container_width=True,
+            )
+
+            st.caption(
+                "Metrics are computed per race and averaged over races. "
+                "A single test season has only about 24 races, so small "
+                "differences are within noise."
+            )
+
         st.markdown("### Validation setup")
 
         st.write(
@@ -678,34 +748,3 @@ elif page == "Model Analytics":
             f"**Testing period:** "
             f"{metrics.get('testing_period', 'Not specified')}"
         )
-        st.write(
-            f"**Training records:** "
-            f"{metrics.get('training_records', 'Not recorded')}"
-        )
-        st.write(
-            f"**Testing records:** "
-            f"{metrics.get('testing_records', 'Not recorded')}"
-        )
-        st.write(
-            f"**Features:** {', '.join(metrics.get('features', []))}"
-        )
-        st.write(
-            f"**Target:** {metrics.get('target', 'Not specified')}"
-        )
-
-        model_mae = metrics.get("model_mae")
-        baseline_mae = metrics.get("baseline_mae")
-
-        if model_mae is not None and baseline_mae is not None:
-            if model_mae < baseline_mae:
-                st.success(
-                    "The model achieved a lower MAE than the "
-                    "qualifying-position baseline on the 2025 test data."
-                )
-            elif model_mae > baseline_mae:
-                st.warning(
-                    "The qualifying-position baseline achieved a "
-                    "lower MAE than the model on the 2025 test data."
-                )
-else: 
-    pass

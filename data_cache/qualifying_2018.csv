@@ -1,0 +1,421 @@
+Season,Round,DriverCode,Driver,Team,QualifyingPosition
+2018,1,HAM,Lewis Hamilton,Mercedes,1
+2018,1,RAI,Kimi Räikkönen,Ferrari,2
+2018,1,VET,Sebastian Vettel,Ferrari,3
+2018,1,VER,Max Verstappen,Red Bull,4
+2018,1,RIC,Daniel Ricciardo,Red Bull,5
+2018,1,MAG,Kevin Magnussen,Haas F1 Team,6
+2018,1,GRO,Romain Grosjean,Haas F1 Team,7
+2018,1,HUL,Nico Hülkenberg,Renault,8
+2018,1,SAI,Carlos Sainz,Renault,9
+2018,1,BOT,Valtteri Bottas,Mercedes,10
+2018,1,ALO,Fernando Alonso,McLaren,11
+2018,1,VAN,Stoffel Vandoorne,McLaren,12
+2018,1,PER,Sergio Pérez,Force India,13
+2018,1,STR,Lance Stroll,Williams,14
+2018,1,OCO,Esteban Ocon,Force India,15
+2018,1,HAR,Brendon Hartley,Toro Rosso,16
+2018,1,ERI,Marcus Ericsson,Sauber,17
+2018,1,LEC,Charles Leclerc,Sauber,18
+2018,1,SIR,Sergey Sirotkin,Williams,19
+2018,1,GAS,Pierre Gasly,Toro Rosso,20
+2018,2,VET,Sebastian Vettel,Ferrari,1
+2018,2,RAI,Kimi Räikkönen,Ferrari,2
+2018,2,BOT,Valtteri Bottas,Mercedes,3
+2018,2,HAM,Lewis Hamilton,Mercedes,4
+2018,2,RIC,Daniel Ricciardo,Red Bull,5
+2018,2,GAS,Pierre Gasly,Toro Rosso,6
+2018,2,MAG,Kevin Magnussen,Haas F1 Team,7
+2018,2,HUL,Nico Hülkenberg,Renault,8
+2018,2,OCO,Esteban Ocon,Force India,9
+2018,2,SAI,Carlos Sainz,Renault,10
+2018,2,HAR,Brendon Hartley,Toro Rosso,11
+2018,2,PER,Sergio Pérez,Force India,12
+2018,2,ALO,Fernando Alonso,McLaren,13
+2018,2,VAN,Stoffel Vandoorne,McLaren,14
+2018,2,VER,Max Verstappen,Red Bull,15
+2018,2,GRO,Romain Grosjean,Haas F1 Team,16
+2018,2,ERI,Marcus Ericsson,Sauber,17
+2018,2,SIR,Sergey Sirotkin,Williams,18
+2018,2,LEC,Charles Leclerc,Sauber,19
+2018,2,STR,Lance Stroll,Williams,20
+2018,3,VET,Sebastian Vettel,Ferrari,1
+2018,3,RAI,Kimi Räikkönen,Ferrari,2
+2018,3,BOT,Valtteri Bottas,Mercedes,3
+2018,3,HAM,Lewis Hamilton,Mercedes,4
+2018,3,VER,Max Verstappen,Red Bull,5
+2018,3,RIC,Daniel Ricciardo,Red Bull,6
+2018,3,HUL,Nico Hülkenberg,Renault,7
+2018,3,PER,Sergio Pérez,Force India,8
+2018,3,SAI,Carlos Sainz,Renault,9
+2018,3,GRO,Romain Grosjean,Haas F1 Team,10
+2018,3,MAG,Kevin Magnussen,Haas F1 Team,11
+2018,3,OCO,Esteban Ocon,Force India,12
+2018,3,ALO,Fernando Alonso,McLaren,13
+2018,3,VAN,Stoffel Vandoorne,McLaren,14
+2018,3,HAR,Brendon Hartley,Toro Rosso,15
+2018,3,SIR,Sergey Sirotkin,Williams,16
+2018,3,GAS,Pierre Gasly,Toro Rosso,17
+2018,3,STR,Lance Stroll,Williams,18
+2018,3,LEC,Charles Leclerc,Sauber,19
+2018,3,ERI,Marcus Ericsson,Sauber,20
+2018,4,VET,Sebastian Vettel,Ferrari,1
+2018,4,HAM,Lewis Hamilton,Mercedes,2
+2018,4,BOT,Valtteri Bottas,Mercedes,3
+2018,4,RIC,Daniel Ricciardo,Red Bull,4
+2018,4,VER,Max Verstappen,Red Bull,5
+2018,4,RAI,Kimi Räikkönen,Ferrari,6
+2018,4,OCO,Esteban Ocon,Force India,7
+2018,4,PER,Sergio Pérez,Force India,8
+2018,4,HUL,Nico Hülkenberg,Renault,9
+2018,4,SAI,Carlos Sainz,Renault,10
+2018,4,STR,Lance Stroll,Williams,11
+2018,4,SIR,Sergey Sirotkin,Williams,12
+2018,4,ALO,Fernando Alonso,McLaren,13
+2018,4,LEC,Charles Leclerc,Sauber,14
+2018,4,MAG,Kevin Magnussen,Haas F1 Team,15
+2018,4,VAN,Stoffel Vandoorne,McLaren,16
+2018,4,GAS,Pierre Gasly,Toro Rosso,17
+2018,4,ERI,Marcus Ericsson,Sauber,18
+2018,4,HAR,Brendon Hartley,Toro Rosso,19
+2018,4,GRO,Romain Grosjean,Haas F1 Team,20
+2018,5,HAM,Lewis Hamilton,Mercedes,1
+2018,5,BOT,Valtteri Bottas,Mercedes,2
+2018,5,VET,Sebastian Vettel,Ferrari,3
+2018,5,RAI,Kimi Räikkönen,Ferrari,4
+2018,5,VER,Max Verstappen,Red Bull,5
+2018,5,RIC,Daniel Ricciardo,Red Bull,6
+2018,5,MAG,Kevin Magnussen,Haas F1 Team,7
+2018,5,ALO,Fernando Alonso,McLaren,8
+2018,5,SAI,Carlos Sainz,Renault,9
+2018,5,GRO,Romain Grosjean,Haas F1 Team,10
+2018,5,VAN,Stoffel Vandoorne,McLaren,11
+2018,5,GAS,Pierre Gasly,Toro Rosso,12
+2018,5,OCO,Esteban Ocon,Force India,13
+2018,5,LEC,Charles Leclerc,Sauber,14
+2018,5,PER,Sergio Pérez,Force India,15
+2018,5,HUL,Nico Hülkenberg,Renault,16
+2018,5,ERI,Marcus Ericsson,Sauber,17
+2018,5,SIR,Sergey Sirotkin,Williams,18
+2018,5,STR,Lance Stroll,Williams,19
+2018,5,HAR,Brendon Hartley,Toro Rosso,20
+2018,6,RIC,Daniel Ricciardo,Red Bull,1
+2018,6,VET,Sebastian Vettel,Ferrari,2
+2018,6,HAM,Lewis Hamilton,Mercedes,3
+2018,6,RAI,Kimi Räikkönen,Ferrari,4
+2018,6,BOT,Valtteri Bottas,Mercedes,5
+2018,6,OCO,Esteban Ocon,Force India,6
+2018,6,ALO,Fernando Alonso,McLaren,7
+2018,6,SAI,Carlos Sainz,Renault,8
+2018,6,PER,Sergio Pérez,Force India,9
+2018,6,GAS,Pierre Gasly,Toro Rosso,10
+2018,6,HUL,Nico Hülkenberg,Renault,11
+2018,6,VAN,Stoffel Vandoorne,McLaren,12
+2018,6,SIR,Sergey Sirotkin,Williams,13
+2018,6,LEC,Charles Leclerc,Sauber,14
+2018,6,GRO,Romain Grosjean,Haas F1 Team,15
+2018,6,HAR,Brendon Hartley,Toro Rosso,16
+2018,6,ERI,Marcus Ericsson,Sauber,17
+2018,6,STR,Lance Stroll,Williams,18
+2018,6,MAG,Kevin Magnussen,Haas F1 Team,19
+2018,6,VER,Max Verstappen,Red Bull,20
+2018,7,VET,Sebastian Vettel,Ferrari,1
+2018,7,BOT,Valtteri Bottas,Mercedes,2
+2018,7,VER,Max Verstappen,Red Bull,3
+2018,7,HAM,Lewis Hamilton,Mercedes,4
+2018,7,RAI,Kimi Räikkönen,Ferrari,5
+2018,7,RIC,Daniel Ricciardo,Red Bull,6
+2018,7,HUL,Nico Hülkenberg,Renault,7
+2018,7,OCO,Esteban Ocon,Force India,8
+2018,7,SAI,Carlos Sainz,Renault,9
+2018,7,PER,Sergio Pérez,Force India,10
+2018,7,MAG,Kevin Magnussen,Haas F1 Team,11
+2018,7,HAR,Brendon Hartley,Toro Rosso,12
+2018,7,LEC,Charles Leclerc,Sauber,13
+2018,7,ALO,Fernando Alonso,McLaren,14
+2018,7,VAN,Stoffel Vandoorne,McLaren,15
+2018,7,GAS,Pierre Gasly,Toro Rosso,16
+2018,7,STR,Lance Stroll,Williams,17
+2018,7,SIR,Sergey Sirotkin,Williams,18
+2018,7,ERI,Marcus Ericsson,Sauber,19
+2018,7,GRO,Romain Grosjean,Haas F1 Team,20
+2018,8,HAM,Lewis Hamilton,Mercedes,1
+2018,8,BOT,Valtteri Bottas,Mercedes,2
+2018,8,VET,Sebastian Vettel,Ferrari,3
+2018,8,VER,Max Verstappen,Red Bull,4
+2018,8,RIC,Daniel Ricciardo,Red Bull,5
+2018,8,RAI,Kimi Räikkönen,Ferrari,6
+2018,8,SAI,Carlos Sainz,Renault,7
+2018,8,LEC,Charles Leclerc,Sauber,8
+2018,8,MAG,Kevin Magnussen,Haas F1 Team,9
+2018,8,GRO,Romain Grosjean,Haas F1 Team,10
+2018,8,OCO,Esteban Ocon,Force India,11
+2018,8,HUL,Nico Hülkenberg,Renault,12
+2018,8,PER,Sergio Pérez,Force India,13
+2018,8,GAS,Pierre Gasly,Toro Rosso,14
+2018,8,ERI,Marcus Ericsson,Sauber,15
+2018,8,ALO,Fernando Alonso,McLaren,16
+2018,8,HAR,Brendon Hartley,Toro Rosso,17
+2018,8,VAN,Stoffel Vandoorne,McLaren,18
+2018,8,SIR,Sergey Sirotkin,Williams,19
+2018,8,STR,Lance Stroll,Williams,20
+2018,9,BOT,Valtteri Bottas,Mercedes,1
+2018,9,HAM,Lewis Hamilton,Mercedes,2
+2018,9,VET,Sebastian Vettel,Ferrari,3
+2018,9,RAI,Kimi Räikkönen,Ferrari,4
+2018,9,VER,Max Verstappen,Red Bull,5
+2018,9,GRO,Romain Grosjean,Haas F1 Team,6
+2018,9,RIC,Daniel Ricciardo,Red Bull,7
+2018,9,MAG,Kevin Magnussen,Haas F1 Team,8
+2018,9,SAI,Carlos Sainz,Renault,9
+2018,9,HUL,Nico Hülkenberg,Renault,10
+2018,9,OCO,Esteban Ocon,Force India,11
+2018,9,GAS,Pierre Gasly,Toro Rosso,12
+2018,9,LEC,Charles Leclerc,Sauber,13
+2018,9,ALO,Fernando Alonso,McLaren,14
+2018,9,STR,Lance Stroll,Williams,15
+2018,9,VAN,Stoffel Vandoorne,McLaren,16
+2018,9,PER,Sergio Pérez,Force India,17
+2018,9,SIR,Sergey Sirotkin,Williams,18
+2018,9,HAR,Brendon Hartley,Toro Rosso,19
+2018,9,ERI,Marcus Ericsson,Sauber,20
+2018,10,HAM,Lewis Hamilton,Mercedes,1
+2018,10,VET,Sebastian Vettel,Ferrari,2
+2018,10,RAI,Kimi Räikkönen,Ferrari,3
+2018,10,BOT,Valtteri Bottas,Mercedes,4
+2018,10,VER,Max Verstappen,Red Bull,5
+2018,10,RIC,Daniel Ricciardo,Red Bull,6
+2018,10,MAG,Kevin Magnussen,Haas F1 Team,7
+2018,10,GRO,Romain Grosjean,Haas F1 Team,8
+2018,10,LEC,Charles Leclerc,Sauber,9
+2018,10,OCO,Esteban Ocon,Force India,10
+2018,10,HUL,Nico Hülkenberg,Renault,11
+2018,10,PER,Sergio Pérez,Force India,12
+2018,10,ALO,Fernando Alonso,McLaren,13
+2018,10,GAS,Pierre Gasly,Toro Rosso,14
+2018,10,ERI,Marcus Ericsson,Sauber,15
+2018,10,SAI,Carlos Sainz,Renault,16
+2018,10,VAN,Stoffel Vandoorne,McLaren,17
+2018,10,SIR,Sergey Sirotkin,Williams,18
+2018,10,STR,Lance Stroll,Williams,19
+2018,10,HAR,Brendon Hartley,Toro Rosso,20
+2018,11,VET,Sebastian Vettel,Ferrari,1
+2018,11,BOT,Valtteri Bottas,Mercedes,2
+2018,11,RAI,Kimi Räikkönen,Ferrari,3
+2018,11,VER,Max Verstappen,Red Bull,4
+2018,11,MAG,Kevin Magnussen,Haas F1 Team,5
+2018,11,GRO,Romain Grosjean,Haas F1 Team,6
+2018,11,HUL,Nico Hülkenberg,Renault,7
+2018,11,SAI,Carlos Sainz,Renault,8
+2018,11,LEC,Charles Leclerc,Sauber,9
+2018,11,PER,Sergio Pérez,Force India,10
+2018,11,ALO,Fernando Alonso,McLaren,11
+2018,11,SIR,Sergey Sirotkin,Williams,12
+2018,11,ERI,Marcus Ericsson,Sauber,13
+2018,11,HAM,Lewis Hamilton,Mercedes,14
+2018,11,RIC,Daniel Ricciardo,Red Bull,15
+2018,11,OCO,Esteban Ocon,Force India,16
+2018,11,GAS,Pierre Gasly,Toro Rosso,17
+2018,11,HAR,Brendon Hartley,Toro Rosso,18
+2018,11,STR,Lance Stroll,Williams,19
+2018,11,VAN,Stoffel Vandoorne,McLaren,20
+2018,12,HAM,Lewis Hamilton,Mercedes,1
+2018,12,BOT,Valtteri Bottas,Mercedes,2
+2018,12,RAI,Kimi Räikkönen,Ferrari,3
+2018,12,VET,Sebastian Vettel,Ferrari,4
+2018,12,SAI,Carlos Sainz,Renault,5
+2018,12,GAS,Pierre Gasly,Toro Rosso,6
+2018,12,VER,Max Verstappen,Red Bull,7
+2018,12,HAR,Brendon Hartley,Toro Rosso,8
+2018,12,MAG,Kevin Magnussen,Haas F1 Team,9
+2018,12,GRO,Romain Grosjean,Haas F1 Team,10
+2018,12,ALO,Fernando Alonso,McLaren,11
+2018,12,RIC,Daniel Ricciardo,Red Bull,12
+2018,12,HUL,Nico Hülkenberg,Renault,13
+2018,12,ERI,Marcus Ericsson,Sauber,14
+2018,12,STR,Lance Stroll,Williams,15
+2018,12,VAN,Stoffel Vandoorne,McLaren,16
+2018,12,LEC,Charles Leclerc,Sauber,17
+2018,12,OCO,Esteban Ocon,Force India,18
+2018,12,PER,Sergio Pérez,Force India,19
+2018,12,SIR,Sergey Sirotkin,Williams,20
+2018,13,HAM,Lewis Hamilton,Mercedes,1
+2018,13,VET,Sebastian Vettel,Ferrari,2
+2018,13,OCO,Esteban Ocon,Force India,3
+2018,13,PER,Sergio Pérez,Force India,4
+2018,13,GRO,Romain Grosjean,Haas F1 Team,5
+2018,13,RAI,Kimi Räikkönen,Ferrari,6
+2018,13,VER,Max Verstappen,Red Bull,7
+2018,13,RIC,Daniel Ricciardo,Red Bull,8
+2018,13,MAG,Kevin Magnussen,Haas F1 Team,9
+2018,13,BOT,Valtteri Bottas,Mercedes,10
+2018,13,GAS,Pierre Gasly,Toro Rosso,11
+2018,13,HAR,Brendon Hartley,Toro Rosso,12
+2018,13,LEC,Charles Leclerc,Sauber,13
+2018,13,ERI,Marcus Ericsson,Sauber,14
+2018,13,HUL,Nico Hülkenberg,Renault,15
+2018,13,SAI,Carlos Sainz,Renault,16
+2018,13,ALO,Fernando Alonso,McLaren,17
+2018,13,SIR,Sergey Sirotkin,Williams,18
+2018,13,STR,Lance Stroll,Williams,19
+2018,13,VAN,Stoffel Vandoorne,McLaren,20
+2018,14,RAI,Kimi Räikkönen,Ferrari,1
+2018,14,VET,Sebastian Vettel,Ferrari,2
+2018,14,HAM,Lewis Hamilton,Mercedes,3
+2018,14,BOT,Valtteri Bottas,Mercedes,4
+2018,14,VER,Max Verstappen,Red Bull,5
+2018,14,GRO,Romain Grosjean,Haas F1 Team,6
+2018,14,SAI,Carlos Sainz,Renault,7
+2018,14,OCO,Esteban Ocon,Force India,8
+2018,14,GAS,Pierre Gasly,Toro Rosso,9
+2018,14,STR,Lance Stroll,Williams,10
+2018,14,MAG,Kevin Magnussen,Haas F1 Team,11
+2018,14,SIR,Sergey Sirotkin,Williams,12
+2018,14,ALO,Fernando Alonso,McLaren,13
+2018,14,HUL,Nico Hülkenberg,Renault,14
+2018,14,RIC,Daniel Ricciardo,Red Bull,15
+2018,14,PER,Sergio Pérez,Force India,16
+2018,14,LEC,Charles Leclerc,Sauber,17
+2018,14,HAR,Brendon Hartley,Toro Rosso,18
+2018,14,ERI,Marcus Ericsson,Sauber,19
+2018,14,VAN,Stoffel Vandoorne,McLaren,20
+2018,15,HAM,Lewis Hamilton,Mercedes,1
+2018,15,VER,Max Verstappen,Red Bull,2
+2018,15,VET,Sebastian Vettel,Ferrari,3
+2018,15,BOT,Valtteri Bottas,Mercedes,4
+2018,15,RAI,Kimi Räikkönen,Ferrari,5
+2018,15,RIC,Daniel Ricciardo,Red Bull,6
+2018,15,PER,Sergio Pérez,Force India,7
+2018,15,GRO,Romain Grosjean,Haas F1 Team,8
+2018,15,OCO,Esteban Ocon,Force India,9
+2018,15,HUL,Nico Hülkenberg,Renault,10
+2018,15,ALO,Fernando Alonso,McLaren,11
+2018,15,SAI,Carlos Sainz,Renault,12
+2018,15,LEC,Charles Leclerc,Sauber,13
+2018,15,ERI,Marcus Ericsson,Sauber,14
+2018,15,GAS,Pierre Gasly,Toro Rosso,15
+2018,15,MAG,Kevin Magnussen,Haas F1 Team,16
+2018,15,HAR,Brendon Hartley,Toro Rosso,17
+2018,15,VAN,Stoffel Vandoorne,McLaren,18
+2018,15,SIR,Sergey Sirotkin,Williams,19
+2018,15,STR,Lance Stroll,Williams,20
+2018,16,BOT,Valtteri Bottas,Mercedes,1
+2018,16,HAM,Lewis Hamilton,Mercedes,2
+2018,16,VET,Sebastian Vettel,Ferrari,3
+2018,16,RAI,Kimi Räikkönen,Ferrari,4
+2018,16,MAG,Kevin Magnussen,Haas F1 Team,5
+2018,16,OCO,Esteban Ocon,Force India,6
+2018,16,LEC,Charles Leclerc,Sauber,7
+2018,16,PER,Sergio Pérez,Force India,8
+2018,16,GRO,Romain Grosjean,Haas F1 Team,9
+2018,16,ERI,Marcus Ericsson,Sauber,10
+2018,16,VER,Max Verstappen,Red Bull,11
+2018,16,RIC,Daniel Ricciardo,Red Bull,12
+2018,16,GAS,Pierre Gasly,Toro Rosso,13
+2018,16,SAI,Carlos Sainz,Renault,14
+2018,16,HUL,Nico Hülkenberg,Renault,15
+2018,16,HAR,Brendon Hartley,Toro Rosso,16
+2018,16,ALO,Fernando Alonso,McLaren,17
+2018,16,SIR,Sergey Sirotkin,Williams,18
+2018,16,VAN,Stoffel Vandoorne,McLaren,19
+2018,16,STR,Lance Stroll,Williams,20
+2018,17,HAM,Lewis Hamilton,Mercedes,1
+2018,17,BOT,Valtteri Bottas,Mercedes,2
+2018,17,VER,Max Verstappen,Red Bull,3
+2018,17,RAI,Kimi Räikkönen,Ferrari,4
+2018,17,GRO,Romain Grosjean,Haas F1 Team,5
+2018,17,HAR,Brendon Hartley,Toro Rosso,6
+2018,17,GAS,Pierre Gasly,Toro Rosso,7
+2018,17,OCO,Esteban Ocon,Force India,8
+2018,17,VET,Sebastian Vettel,Ferrari,9
+2018,17,PER,Sergio Pérez,Force India,10
+2018,17,LEC,Charles Leclerc,Sauber,11
+2018,17,MAG,Kevin Magnussen,Haas F1 Team,12
+2018,17,SAI,Carlos Sainz,Renault,13
+2018,17,STR,Lance Stroll,Williams,14
+2018,17,RIC,Daniel Ricciardo,Red Bull,15
+2018,17,HUL,Nico Hülkenberg,Renault,16
+2018,17,SIR,Sergey Sirotkin,Williams,17
+2018,17,ALO,Fernando Alonso,McLaren,18
+2018,17,VAN,Stoffel Vandoorne,McLaren,19
+2018,17,ERI,Marcus Ericsson,Sauber,20
+2018,18,HAM,Lewis Hamilton,Mercedes,1
+2018,18,VET,Sebastian Vettel,Ferrari,2
+2018,18,RAI,Kimi Räikkönen,Ferrari,3
+2018,18,BOT,Valtteri Bottas,Mercedes,4
+2018,18,RIC,Daniel Ricciardo,Red Bull,5
+2018,18,OCO,Esteban Ocon,Force India,6
+2018,18,HUL,Nico Hülkenberg,Renault,7
+2018,18,GRO,Romain Grosjean,Haas F1 Team,8
+2018,18,LEC,Charles Leclerc,Sauber,9
+2018,18,PER,Sergio Pérez,Force India,10
+2018,18,SAI,Carlos Sainz,Renault,11
+2018,18,MAG,Kevin Magnussen,Haas F1 Team,12
+2018,18,GAS,Pierre Gasly,Toro Rosso,13
+2018,18,HAR,Brendon Hartley,Toro Rosso,14
+2018,18,VER,Max Verstappen,Red Bull,15
+2018,18,ALO,Fernando Alonso,McLaren,16
+2018,18,SIR,Sergey Sirotkin,Williams,17
+2018,18,STR,Lance Stroll,Williams,18
+2018,18,ERI,Marcus Ericsson,Sauber,19
+2018,18,VAN,Stoffel Vandoorne,McLaren,20
+2018,19,RIC,Daniel Ricciardo,Red Bull,1
+2018,19,VER,Max Verstappen,Red Bull,2
+2018,19,HAM,Lewis Hamilton,Mercedes,3
+2018,19,VET,Sebastian Vettel,Ferrari,4
+2018,19,BOT,Valtteri Bottas,Mercedes,5
+2018,19,RAI,Kimi Räikkönen,Ferrari,6
+2018,19,HUL,Nico Hülkenberg,Renault,7
+2018,19,SAI,Carlos Sainz,Renault,8
+2018,19,LEC,Charles Leclerc,Sauber,9
+2018,19,ERI,Marcus Ericsson,Sauber,10
+2018,19,OCO,Esteban Ocon,Force India,11
+2018,19,ALO,Fernando Alonso,McLaren,12
+2018,19,PER,Sergio Pérez,Force India,13
+2018,19,HAR,Brendon Hartley,Toro Rosso,14
+2018,19,GAS,Pierre Gasly,Toro Rosso,15
+2018,19,GRO,Romain Grosjean,Haas F1 Team,16
+2018,19,VAN,Stoffel Vandoorne,McLaren,17
+2018,19,MAG,Kevin Magnussen,Haas F1 Team,18
+2018,19,STR,Lance Stroll,Williams,19
+2018,19,SIR,Sergey Sirotkin,Williams,20
+2018,20,HAM,Lewis Hamilton,Mercedes,1
+2018,20,VET,Sebastian Vettel,Ferrari,2
+2018,20,BOT,Valtteri Bottas,Mercedes,3
+2018,20,RAI,Kimi Räikkönen,Ferrari,4
+2018,20,VER,Max Verstappen,Red Bull,5
+2018,20,RIC,Daniel Ricciardo,Red Bull,6
+2018,20,ERI,Marcus Ericsson,Sauber,7
+2018,20,LEC,Charles Leclerc,Sauber,8
+2018,20,GRO,Romain Grosjean,Haas F1 Team,9
+2018,20,GAS,Pierre Gasly,Toro Rosso,10
+2018,20,MAG,Kevin Magnussen,Haas F1 Team,11
+2018,20,PER,Sergio Pérez,Force India,12
+2018,20,OCO,Esteban Ocon,Force India,13
+2018,20,HUL,Nico Hülkenberg,Renault,14
+2018,20,SIR,Sergey Sirotkin,Williams,15
+2018,20,SAI,Carlos Sainz,Renault,16
+2018,20,HAR,Brendon Hartley,Toro Rosso,17
+2018,20,ALO,Fernando Alonso,McLaren,18
+2018,20,STR,Lance Stroll,Williams,19
+2018,20,VAN,Stoffel Vandoorne,McLaren,20
+2018,21,HAM,Lewis Hamilton,Mercedes,1
+2018,21,BOT,Valtteri Bottas,Mercedes,2
+2018,21,VET,Sebastian Vettel,Ferrari,3
+2018,21,RAI,Kimi Räikkönen,Ferrari,4
+2018,21,RIC,Daniel Ricciardo,Red Bull,5
+2018,21,VER,Max Verstappen,Red Bull,6
+2018,21,GRO,Romain Grosjean,Haas F1 Team,7
+2018,21,LEC,Charles Leclerc,Sauber,8
+2018,21,OCO,Esteban Ocon,Force India,9
+2018,21,HUL,Nico Hülkenberg,Renault,10
+2018,21,SAI,Carlos Sainz,Renault,11
+2018,21,ERI,Marcus Ericsson,Sauber,12
+2018,21,MAG,Kevin Magnussen,Haas F1 Team,13
+2018,21,PER,Sergio Pérez,Force India,14
+2018,21,ALO,Fernando Alonso,McLaren,15
+2018,21,HAR,Brendon Hartley,Toro Rosso,16
+2018,21,GAS,Pierre Gasly,Toro Rosso,17
+2018,21,VAN,Stoffel Vandoorne,McLaren,18
+2018,21,SIR,Sergey Sirotkin,Williams,19
+2018,21,STR,Lance Stroll,Williams,20

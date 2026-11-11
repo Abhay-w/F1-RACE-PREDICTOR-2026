@@ -1,19 +1,91 @@
 {
-    "model": "Gradient Boosting Regressor",
-    "features": [
-        "QualifyingPosition"
-    ],
-    "target": "FinishPosition",
-    "training_period": "2018-2024",
-    "testing_period": "2025",
-    "final_model_training_period": "2018-2025",
-    "training_records": 738,
-    "testing_records": 140,
-    "model_mae": 3.225837800419049,
-    "baseline_mae": 3.2357142857142858,
-    "relative_improvement_percent": 0.3052335411331418,
-    "random_state": 42,
+  "model": "Gradient Boosting Regressor",
+  "variant": "Grid + form (after qualifying)",
+  "features": [
+    "QualifyingPosition",
+    "DriverFormFinish",
+    "TeamFormFinish",
+    "CircuitFormFinish",
+    "DriverDnfRate"
+  ],
+  "target": "FinishPosition",
+  "training_period": "2018-2024",
+  "testing_period": "2025",
+  "final_model_training_period": "2018-2026",
+  "training_records": 2876,
+  "testing_records": 478,
+  "model_mae": 3.2944620896292665,
+  "baseline_mae": 3.3410041841004183,
+  "relative_improvement_percent": 1.3930570543024794,
+  "per_race_summary": {
+    "model": {
+      "races": 24,
+      "winner_accuracy": 0.6666666666666666,
+      "top3_hit_rate": 0.6805555555555555,
+      "spearman": 0.6503341687552213,
+      "rank_mae": 3.3815789473684212
+    },
+    "grid_order": {
+      "races": 24,
+      "winner_accuracy": 0.6666666666666666,
+      "top3_hit_rate": 0.75,
+      "spearman": 0.6518170426065163,
+      "rank_mae": 3.334429824561403
+    },
+    "driver_form_order": {
+      "races": 24,
+      "winner_accuracy": 0.25,
+      "top3_hit_rate": 0.5833333333333334,
+      "spearman": 0.5108395989974936,
+      "rank_mae": 4.2552631578947375
+    }
+  },
+  "paired_vs_baselines": {
+    "grid_order": {
+      "spearman": {
+        "mean": -0.0014828738512949237,
+        "ci95_low": -0.035229354643202926,
+        "ci95_high": 0.032263606940613074,
+        "n": 24
+      },
+      "winner_hit": {
+        "mean": 0.0,
+        "ci95_low": -0.2638071320085011,
+        "ci95_high": 0.2638071320085011,
+        "n": 24
+      },
+      "top3_hit": {
+        "mean": -0.06944444444444446,
+        "ci95_low": -0.14789144458072187,
+        "ci95_high": 0.009002555691832947,
+        "n": 24
+      }
+    },
+    "driver_form_order": {
+      "spearman": {
+        "mean": 0.13949456975772764,
+        "ci95_low": 0.09426432415011665,
+        "ci95_high": 0.18472481536533863,
+        "n": 24
+      },
+      "winner_hit": {
+        "mean": 0.4166666666666667,
+        "ci95_low": 0.21518064145030605,
+        "ci95_high": 0.6181526918830273,
+        "n": 24
+      },
+      "top3_hit": {
+        "mean": 0.09722222222222222,
+        "ci95_low": 0.005169310298339391,
+        "ci95_high": 0.18927513414610506,
+        "n": 24
+      }
+    }
+  },
+  "model_params": {
     "n_estimators": 100,
     "learning_rate": 0.05,
-    "max_depth": 2
+    "max_depth": 2,
+    "random_state": 42
+  }
 }

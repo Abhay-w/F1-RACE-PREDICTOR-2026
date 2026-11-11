@@ -1,0 +1,441 @@
+Season,Round,DriverCode,Driver,Team,QualifyingPosition
+2023,1,VER,Max Verstappen,Red Bull,1
+2023,1,PER,Sergio Pérez,Red Bull,2
+2023,1,LEC,Charles Leclerc,Ferrari,3
+2023,1,SAI,Carlos Sainz,Ferrari,4
+2023,1,ALO,Fernando Alonso,Aston Martin,5
+2023,1,RUS,George Russell,Mercedes,6
+2023,1,HAM,Lewis Hamilton,Mercedes,7
+2023,1,STR,Lance Stroll,Aston Martin,8
+2023,1,OCO,Esteban Ocon,Alpine F1 Team,9
+2023,1,HUL,Nico Hülkenberg,Haas F1 Team,10
+2023,1,NOR,Lando Norris,McLaren,11
+2023,1,BOT,Valtteri Bottas,Alfa Romeo,12
+2023,1,ZHO,Guanyu Zhou,Alfa Romeo,13
+2023,1,TSU,Yuki Tsunoda,AlphaTauri,14
+2023,1,ALB,Alexander Albon,Williams,15
+2023,1,SAR,Logan Sargeant,Williams,16
+2023,1,MAG,Kevin Magnussen,Haas F1 Team,17
+2023,1,PIA,Oscar Piastri,McLaren,18
+2023,1,DEV,Nyck de Vries,AlphaTauri,19
+2023,1,GAS,Pierre Gasly,Alpine F1 Team,20
+2023,2,PER,Sergio Pérez,Red Bull,1
+2023,2,LEC,Charles Leclerc,Ferrari,2
+2023,2,ALO,Fernando Alonso,Aston Martin,3
+2023,2,RUS,George Russell,Mercedes,4
+2023,2,SAI,Carlos Sainz,Ferrari,5
+2023,2,STR,Lance Stroll,Aston Martin,6
+2023,2,OCO,Esteban Ocon,Alpine F1 Team,7
+2023,2,HAM,Lewis Hamilton,Mercedes,8
+2023,2,PIA,Oscar Piastri,McLaren,9
+2023,2,GAS,Pierre Gasly,Alpine F1 Team,10
+2023,2,HUL,Nico Hülkenberg,Haas F1 Team,11
+2023,2,ZHO,Guanyu Zhou,Alfa Romeo,12
+2023,2,MAG,Kevin Magnussen,Haas F1 Team,13
+2023,2,BOT,Valtteri Bottas,Alfa Romeo,14
+2023,2,VER,Max Verstappen,Red Bull,15
+2023,2,TSU,Yuki Tsunoda,AlphaTauri,16
+2023,2,ALB,Alexander Albon,Williams,17
+2023,2,DEV,Nyck de Vries,AlphaTauri,18
+2023,2,NOR,Lando Norris,McLaren,19
+2023,2,SAR,Logan Sargeant,Williams,20
+2023,3,VER,Max Verstappen,Red Bull,1
+2023,3,RUS,George Russell,Mercedes,2
+2023,3,HAM,Lewis Hamilton,Mercedes,3
+2023,3,ALO,Fernando Alonso,Aston Martin,4
+2023,3,SAI,Carlos Sainz,Ferrari,5
+2023,3,STR,Lance Stroll,Aston Martin,6
+2023,3,LEC,Charles Leclerc,Ferrari,7
+2023,3,ALB,Alexander Albon,Williams,8
+2023,3,GAS,Pierre Gasly,Alpine F1 Team,9
+2023,3,HUL,Nico Hülkenberg,Haas F1 Team,10
+2023,3,OCO,Esteban Ocon,Alpine F1 Team,11
+2023,3,TSU,Yuki Tsunoda,AlphaTauri,12
+2023,3,NOR,Lando Norris,McLaren,13
+2023,3,MAG,Kevin Magnussen,Haas F1 Team,14
+2023,3,DEV,Nyck de Vries,AlphaTauri,15
+2023,3,PIA,Oscar Piastri,McLaren,16
+2023,3,ZHO,Guanyu Zhou,Alfa Romeo,17
+2023,3,SAR,Logan Sargeant,Williams,18
+2023,3,BOT,Valtteri Bottas,Alfa Romeo,19
+2023,3,PER,Sergio Pérez,Red Bull,20
+2023,4,LEC,Charles Leclerc,Ferrari,1
+2023,4,VER,Max Verstappen,Red Bull,2
+2023,4,PER,Sergio Pérez,Red Bull,3
+2023,4,SAI,Carlos Sainz,Ferrari,4
+2023,4,HAM,Lewis Hamilton,Mercedes,5
+2023,4,ALO,Fernando Alonso,Aston Martin,6
+2023,4,NOR,Lando Norris,McLaren,7
+2023,4,TSU,Yuki Tsunoda,AlphaTauri,8
+2023,4,STR,Lance Stroll,Aston Martin,9
+2023,4,PIA,Oscar Piastri,McLaren,10
+2023,4,RUS,George Russell,Mercedes,11
+2023,4,OCO,Esteban Ocon,Alpine F1 Team,12
+2023,4,ALB,Alexander Albon,Williams,13
+2023,4,BOT,Valtteri Bottas,Alfa Romeo,14
+2023,4,SAR,Logan Sargeant,Williams,15
+2023,4,ZHO,Guanyu Zhou,Alfa Romeo,16
+2023,4,HUL,Nico Hülkenberg,Haas F1 Team,17
+2023,4,MAG,Kevin Magnussen,Haas F1 Team,18
+2023,4,GAS,Pierre Gasly,Alpine F1 Team,19
+2023,4,DEV,Nyck de Vries,AlphaTauri,20
+2023,5,PER,Sergio Pérez,Red Bull,1
+2023,5,ALO,Fernando Alonso,Aston Martin,2
+2023,5,SAI,Carlos Sainz,Ferrari,3
+2023,5,MAG,Kevin Magnussen,Haas F1 Team,4
+2023,5,GAS,Pierre Gasly,Alpine F1 Team,5
+2023,5,RUS,George Russell,Mercedes,6
+2023,5,LEC,Charles Leclerc,Ferrari,7
+2023,5,OCO,Esteban Ocon,Alpine F1 Team,8
+2023,5,VER,Max Verstappen,Red Bull,9
+2023,5,BOT,Valtteri Bottas,Alfa Romeo,10
+2023,5,ALB,Alexander Albon,Williams,11
+2023,5,HUL,Nico Hülkenberg,Haas F1 Team,12
+2023,5,HAM,Lewis Hamilton,Mercedes,13
+2023,5,ZHO,Guanyu Zhou,Alfa Romeo,14
+2023,5,DEV,Nyck de Vries,AlphaTauri,15
+2023,5,NOR,Lando Norris,McLaren,16
+2023,5,TSU,Yuki Tsunoda,AlphaTauri,17
+2023,5,STR,Lance Stroll,Aston Martin,18
+2023,5,PIA,Oscar Piastri,McLaren,19
+2023,5,SAR,Logan Sargeant,Williams,20
+2023,6,VER,Max Verstappen,Red Bull,1
+2023,6,ALO,Fernando Alonso,Aston Martin,2
+2023,6,LEC,Charles Leclerc,Ferrari,3
+2023,6,OCO,Esteban Ocon,Alpine F1 Team,4
+2023,6,SAI,Carlos Sainz,Ferrari,5
+2023,6,HAM,Lewis Hamilton,Mercedes,6
+2023,6,GAS,Pierre Gasly,Alpine F1 Team,7
+2023,6,RUS,George Russell,Mercedes,8
+2023,6,TSU,Yuki Tsunoda,AlphaTauri,9
+2023,6,NOR,Lando Norris,McLaren,10
+2023,6,PIA,Oscar Piastri,McLaren,11
+2023,6,DEV,Nyck de Vries,AlphaTauri,12
+2023,6,ALB,Alexander Albon,Williams,13
+2023,6,STR,Lance Stroll,Aston Martin,14
+2023,6,BOT,Valtteri Bottas,Alfa Romeo,15
+2023,6,SAR,Logan Sargeant,Williams,16
+2023,6,MAG,Kevin Magnussen,Haas F1 Team,17
+2023,6,HUL,Nico Hülkenberg,Haas F1 Team,18
+2023,6,ZHO,Guanyu Zhou,Alfa Romeo,19
+2023,6,PER,Sergio Pérez,Red Bull,20
+2023,7,VER,Max Verstappen,Red Bull,1
+2023,7,SAI,Carlos Sainz,Ferrari,2
+2023,7,NOR,Lando Norris,McLaren,3
+2023,7,GAS,Pierre Gasly,Alpine F1 Team,4
+2023,7,HAM,Lewis Hamilton,Mercedes,5
+2023,7,STR,Lance Stroll,Aston Martin,6
+2023,7,OCO,Esteban Ocon,Alpine F1 Team,7
+2023,7,HUL,Nico Hülkenberg,Haas F1 Team,8
+2023,7,ALO,Fernando Alonso,Aston Martin,9
+2023,7,PIA,Oscar Piastri,McLaren,10
+2023,7,PER,Sergio Pérez,Red Bull,11
+2023,7,RUS,George Russell,Mercedes,12
+2023,7,ZHO,Guanyu Zhou,Alfa Romeo,13
+2023,7,DEV,Nyck de Vries,AlphaTauri,14
+2023,7,TSU,Yuki Tsunoda,AlphaTauri,15
+2023,7,BOT,Valtteri Bottas,Alfa Romeo,16
+2023,7,MAG,Kevin Magnussen,Haas F1 Team,17
+2023,7,ALB,Alexander Albon,Williams,18
+2023,7,LEC,Charles Leclerc,Ferrari,19
+2023,7,SAR,Logan Sargeant,Williams,20
+2023,8,VER,Max Verstappen,Red Bull,1
+2023,8,HUL,Nico Hülkenberg,Haas F1 Team,2
+2023,8,ALO,Fernando Alonso,Aston Martin,3
+2023,8,HAM,Lewis Hamilton,Mercedes,4
+2023,8,RUS,George Russell,Mercedes,5
+2023,8,OCO,Esteban Ocon,Alpine F1 Team,6
+2023,8,NOR,Lando Norris,McLaren,7
+2023,8,SAI,Carlos Sainz,Ferrari,8
+2023,8,PIA,Oscar Piastri,McLaren,9
+2023,8,ALB,Alexander Albon,Williams,10
+2023,8,LEC,Charles Leclerc,Ferrari,11
+2023,8,PER,Sergio Pérez,Red Bull,12
+2023,8,STR,Lance Stroll,Aston Martin,13
+2023,8,MAG,Kevin Magnussen,Haas F1 Team,14
+2023,8,BOT,Valtteri Bottas,Alfa Romeo,15
+2023,8,TSU,Yuki Tsunoda,AlphaTauri,16
+2023,8,GAS,Pierre Gasly,Alpine F1 Team,17
+2023,8,DEV,Nyck de Vries,AlphaTauri,18
+2023,8,SAR,Logan Sargeant,Williams,19
+2023,8,ZHO,Guanyu Zhou,Alfa Romeo,20
+2023,9,VER,Max Verstappen,Red Bull,1
+2023,9,LEC,Charles Leclerc,Ferrari,2
+2023,9,SAI,Carlos Sainz,Ferrari,3
+2023,9,NOR,Lando Norris,McLaren,4
+2023,9,HAM,Lewis Hamilton,Mercedes,5
+2023,9,STR,Lance Stroll,Aston Martin,6
+2023,9,ALO,Fernando Alonso,Aston Martin,7
+2023,9,HUL,Nico Hülkenberg,Haas F1 Team,8
+2023,9,GAS,Pierre Gasly,Alpine F1 Team,9
+2023,9,ALB,Alexander Albon,Williams,10
+2023,9,RUS,George Russell,Mercedes,11
+2023,9,OCO,Esteban Ocon,Alpine F1 Team,12
+2023,9,PIA,Oscar Piastri,McLaren,13
+2023,9,BOT,Valtteri Bottas,Alfa Romeo,14
+2023,9,PER,Sergio Pérez,Red Bull,15
+2023,9,TSU,Yuki Tsunoda,AlphaTauri,16
+2023,9,ZHO,Guanyu Zhou,Alfa Romeo,17
+2023,9,SAR,Logan Sargeant,Williams,18
+2023,9,MAG,Kevin Magnussen,Haas F1 Team,19
+2023,9,DEV,Nyck de Vries,AlphaTauri,20
+2023,10,VER,Max Verstappen,Red Bull,1
+2023,10,NOR,Lando Norris,McLaren,2
+2023,10,PIA,Oscar Piastri,McLaren,3
+2023,10,LEC,Charles Leclerc,Ferrari,4
+2023,10,SAI,Carlos Sainz,Ferrari,5
+2023,10,RUS,George Russell,Mercedes,6
+2023,10,HAM,Lewis Hamilton,Mercedes,7
+2023,10,ALB,Alexander Albon,Williams,8
+2023,10,ALO,Fernando Alonso,Aston Martin,9
+2023,10,GAS,Pierre Gasly,Alpine F1 Team,10
+2023,10,HUL,Nico Hülkenberg,Haas F1 Team,11
+2023,10,STR,Lance Stroll,Aston Martin,12
+2023,10,OCO,Esteban Ocon,Alpine F1 Team,13
+2023,10,SAR,Logan Sargeant,Williams,14
+2023,10,PER,Sergio Pérez,Red Bull,15
+2023,10,BOT,Valtteri Bottas,Alfa Romeo,15
+2023,10,TSU,Yuki Tsunoda,AlphaTauri,16
+2023,10,ZHO,Guanyu Zhou,Alfa Romeo,17
+2023,10,DEV,Nyck de Vries,AlphaTauri,18
+2023,10,MAG,Kevin Magnussen,Haas F1 Team,19
+2023,11,HAM,Lewis Hamilton,Mercedes,1
+2023,11,VER,Max Verstappen,Red Bull,2
+2023,11,NOR,Lando Norris,McLaren,3
+2023,11,PIA,Oscar Piastri,McLaren,4
+2023,11,ZHO,Guanyu Zhou,Alfa Romeo,5
+2023,11,LEC,Charles Leclerc,Ferrari,6
+2023,11,BOT,Valtteri Bottas,Alfa Romeo,7
+2023,11,ALO,Fernando Alonso,Aston Martin,8
+2023,11,PER,Sergio Pérez,Red Bull,9
+2023,11,HUL,Nico Hülkenberg,Haas F1 Team,10
+2023,11,SAI,Carlos Sainz,Ferrari,11
+2023,11,OCO,Esteban Ocon,Alpine F1 Team,12
+2023,11,RIC,Daniel Ricciardo,AlphaTauri,13
+2023,11,STR,Lance Stroll,Aston Martin,14
+2023,11,GAS,Pierre Gasly,Alpine F1 Team,15
+2023,11,ALB,Alexander Albon,Williams,16
+2023,11,TSU,Yuki Tsunoda,AlphaTauri,17
+2023,11,RUS,George Russell,Mercedes,18
+2023,11,MAG,Kevin Magnussen,Haas F1 Team,19
+2023,11,SAR,Logan Sargeant,Williams,20
+2023,12,VER,Max Verstappen,Red Bull,1
+2023,12,LEC,Charles Leclerc,Ferrari,2
+2023,12,PER,Sergio Pérez,Red Bull,3
+2023,12,HAM,Lewis Hamilton,Mercedes,4
+2023,12,SAI,Carlos Sainz,Ferrari,5
+2023,12,PIA,Oscar Piastri,McLaren,6
+2023,12,NOR,Lando Norris,McLaren,7
+2023,12,RUS,George Russell,Mercedes,8
+2023,12,ALO,Fernando Alonso,Aston Martin,9
+2023,12,STR,Lance Stroll,Aston Martin,10
+2023,12,TSU,Yuki Tsunoda,AlphaTauri,11
+2023,12,GAS,Pierre Gasly,Alpine F1 Team,12
+2023,12,MAG,Kevin Magnussen,Haas F1 Team,13
+2023,12,BOT,Valtteri Bottas,Alfa Romeo,14
+2023,12,OCO,Esteban Ocon,Alpine F1 Team,15
+2023,12,ALB,Alexander Albon,Williams,16
+2023,12,ZHO,Guanyu Zhou,Alfa Romeo,17
+2023,12,SAR,Logan Sargeant,Williams,18
+2023,12,RIC,Daniel Ricciardo,AlphaTauri,19
+2023,12,HUL,Nico Hülkenberg,Haas F1 Team,20
+2023,13,VER,Max Verstappen,Red Bull,1
+2023,13,NOR,Lando Norris,McLaren,2
+2023,13,RUS,George Russell,Mercedes,3
+2023,13,ALB,Alexander Albon,Williams,4
+2023,13,ALO,Fernando Alonso,Aston Martin,5
+2023,13,SAI,Carlos Sainz,Ferrari,6
+2023,13,PER,Sergio Pérez,Red Bull,7
+2023,13,PIA,Oscar Piastri,McLaren,8
+2023,13,LEC,Charles Leclerc,Ferrari,9
+2023,13,SAR,Logan Sargeant,Williams,10
+2023,13,STR,Lance Stroll,Aston Martin,11
+2023,13,GAS,Pierre Gasly,Alpine F1 Team,12
+2023,13,HAM,Lewis Hamilton,Mercedes,13
+2023,13,TSU,Yuki Tsunoda,AlphaTauri,14
+2023,13,HUL,Nico Hülkenberg,Haas F1 Team,15
+2023,13,ZHO,Guanyu Zhou,Alfa Romeo,16
+2023,13,OCO,Esteban Ocon,Alpine F1 Team,17
+2023,13,MAG,Kevin Magnussen,Haas F1 Team,18
+2023,13,BOT,Valtteri Bottas,Alfa Romeo,19
+2023,13,LAW,Liam Lawson,AlphaTauri,20
+2023,14,SAI,Carlos Sainz,Ferrari,1
+2023,14,VER,Max Verstappen,Red Bull,2
+2023,14,LEC,Charles Leclerc,Ferrari,3
+2023,14,RUS,George Russell,Mercedes,4
+2023,14,PER,Sergio Pérez,Red Bull,5
+2023,14,ALB,Alexander Albon,Williams,6
+2023,14,PIA,Oscar Piastri,McLaren,7
+2023,14,HAM,Lewis Hamilton,Mercedes,8
+2023,14,NOR,Lando Norris,McLaren,9
+2023,14,ALO,Fernando Alonso,Aston Martin,10
+2023,14,TSU,Yuki Tsunoda,AlphaTauri,11
+2023,14,LAW,Liam Lawson,AlphaTauri,12
+2023,14,HUL,Nico Hülkenberg,Haas F1 Team,13
+2023,14,BOT,Valtteri Bottas,Alfa Romeo,14
+2023,14,SAR,Logan Sargeant,Williams,15
+2023,14,ZHO,Guanyu Zhou,Alfa Romeo,16
+2023,14,GAS,Pierre Gasly,Alpine F1 Team,17
+2023,14,OCO,Esteban Ocon,Alpine F1 Team,18
+2023,14,MAG,Kevin Magnussen,Haas F1 Team,19
+2023,14,STR,Lance Stroll,Aston Martin,20
+2023,15,SAI,Carlos Sainz,Ferrari,1
+2023,15,RUS,George Russell,Mercedes,2
+2023,15,LEC,Charles Leclerc,Ferrari,3
+2023,15,NOR,Lando Norris,McLaren,4
+2023,15,HAM,Lewis Hamilton,Mercedes,5
+2023,15,MAG,Kevin Magnussen,Haas F1 Team,6
+2023,15,ALO,Fernando Alonso,Aston Martin,7
+2023,15,OCO,Esteban Ocon,Alpine F1 Team,8
+2023,15,HUL,Nico Hülkenberg,Haas F1 Team,9
+2023,15,LAW,Liam Lawson,AlphaTauri,10
+2023,15,VER,Max Verstappen,Red Bull,11
+2023,15,GAS,Pierre Gasly,Alpine F1 Team,12
+2023,15,PER,Sergio Pérez,Red Bull,13
+2023,15,ALB,Alexander Albon,Williams,14
+2023,15,TSU,Yuki Tsunoda,AlphaTauri,15
+2023,15,BOT,Valtteri Bottas,Alfa Romeo,16
+2023,15,PIA,Oscar Piastri,McLaren,17
+2023,15,SAR,Logan Sargeant,Williams,18
+2023,15,ZHO,Guanyu Zhou,Alfa Romeo,19
+2023,15,STR,Lance Stroll,Aston Martin,20
+2023,16,VER,Max Verstappen,Red Bull,1
+2023,16,PIA,Oscar Piastri,McLaren,2
+2023,16,NOR,Lando Norris,McLaren,3
+2023,16,LEC,Charles Leclerc,Ferrari,4
+2023,16,PER,Sergio Pérez,Red Bull,5
+2023,16,SAI,Carlos Sainz,Ferrari,6
+2023,16,HAM,Lewis Hamilton,Mercedes,7
+2023,16,RUS,George Russell,Mercedes,8
+2023,16,TSU,Yuki Tsunoda,AlphaTauri,9
+2023,16,ALO,Fernando Alonso,Aston Martin,10
+2023,16,LAW,Liam Lawson,AlphaTauri,11
+2023,16,GAS,Pierre Gasly,Alpine F1 Team,12
+2023,16,ALB,Alexander Albon,Williams,13
+2023,16,OCO,Esteban Ocon,Alpine F1 Team,14
+2023,16,MAG,Kevin Magnussen,Haas F1 Team,15
+2023,16,BOT,Valtteri Bottas,Alfa Romeo,16
+2023,16,STR,Lance Stroll,Aston Martin,17
+2023,16,HUL,Nico Hülkenberg,Haas F1 Team,18
+2023,16,ZHO,Guanyu Zhou,Alfa Romeo,19
+2023,16,SAR,Logan Sargeant,Williams,20
+2023,17,VER,Max Verstappen,Red Bull,1
+2023,17,RUS,George Russell,Mercedes,2
+2023,17,HAM,Lewis Hamilton,Mercedes,3
+2023,17,ALO,Fernando Alonso,Aston Martin,4
+2023,17,LEC,Charles Leclerc,Ferrari,5
+2023,17,PIA,Oscar Piastri,McLaren,6
+2023,17,GAS,Pierre Gasly,Alpine F1 Team,7
+2023,17,OCO,Esteban Ocon,Alpine F1 Team,8
+2023,17,BOT,Valtteri Bottas,Alfa Romeo,9
+2023,17,NOR,Lando Norris,McLaren,10
+2023,17,TSU,Yuki Tsunoda,AlphaTauri,11
+2023,17,SAI,Carlos Sainz,Ferrari,12
+2023,17,PER,Sergio Pérez,Red Bull,13
+2023,17,ALB,Alexander Albon,Williams,14
+2023,17,HUL,Nico Hülkenberg,Haas F1 Team,15
+2023,17,SAR,Logan Sargeant,Williams,16
+2023,17,STR,Lance Stroll,Aston Martin,17
+2023,17,LAW,Liam Lawson,AlphaTauri,18
+2023,17,MAG,Kevin Magnussen,Haas F1 Team,19
+2023,17,ZHO,Guanyu Zhou,Alfa Romeo,20
+2023,18,LEC,Charles Leclerc,Ferrari,1
+2023,18,NOR,Lando Norris,McLaren,2
+2023,18,HAM,Lewis Hamilton,Mercedes,3
+2023,18,SAI,Carlos Sainz,Ferrari,4
+2023,18,RUS,George Russell,Mercedes,5
+2023,18,VER,Max Verstappen,Red Bull,6
+2023,18,GAS,Pierre Gasly,Alpine F1 Team,7
+2023,18,OCO,Esteban Ocon,Alpine F1 Team,8
+2023,18,PER,Sergio Pérez,Red Bull,9
+2023,18,PIA,Oscar Piastri,McLaren,10
+2023,18,TSU,Yuki Tsunoda,AlphaTauri,11
+2023,18,ZHO,Guanyu Zhou,Alfa Romeo,12
+2023,18,BOT,Valtteri Bottas,Alfa Romeo,13
+2023,18,MAG,Kevin Magnussen,Haas F1 Team,14
+2023,18,RIC,Daniel Ricciardo,AlphaTauri,15
+2023,18,HUL,Nico Hülkenberg,Haas F1 Team,16
+2023,18,ALO,Fernando Alonso,Aston Martin,17
+2023,18,ALB,Alexander Albon,Williams,18
+2023,18,STR,Lance Stroll,Aston Martin,19
+2023,18,SAR,Logan Sargeant,Williams,20
+2023,19,LEC,Charles Leclerc,Ferrari,1
+2023,19,SAI,Carlos Sainz,Ferrari,2
+2023,19,VER,Max Verstappen,Red Bull,3
+2023,19,RIC,Daniel Ricciardo,AlphaTauri,4
+2023,19,PER,Sergio Pérez,Red Bull,5
+2023,19,HAM,Lewis Hamilton,Mercedes,6
+2023,19,PIA,Oscar Piastri,McLaren,7
+2023,19,RUS,George Russell,Mercedes,8
+2023,19,BOT,Valtteri Bottas,Alfa Romeo,9
+2023,19,ZHO,Guanyu Zhou,Alfa Romeo,10
+2023,19,GAS,Pierre Gasly,Alpine F1 Team,11
+2023,19,HUL,Nico Hülkenberg,Haas F1 Team,12
+2023,19,ALO,Fernando Alonso,Aston Martin,13
+2023,19,ALB,Alexander Albon,Williams,14
+2023,19,TSU,Yuki Tsunoda,AlphaTauri,15
+2023,19,OCO,Esteban Ocon,Alpine F1 Team,16
+2023,19,MAG,Kevin Magnussen,Haas F1 Team,17
+2023,19,STR,Lance Stroll,Aston Martin,18
+2023,19,NOR,Lando Norris,McLaren,19
+2023,19,SAR,Logan Sargeant,Williams,20
+2023,20,VER,Max Verstappen,Red Bull,1
+2023,20,LEC,Charles Leclerc,Ferrari,2
+2023,20,STR,Lance Stroll,Aston Martin,3
+2023,20,ALO,Fernando Alonso,Aston Martin,4
+2023,20,HAM,Lewis Hamilton,Mercedes,5
+2023,20,RUS,George Russell,Mercedes,6
+2023,20,NOR,Lando Norris,McLaren,7
+2023,20,SAI,Carlos Sainz,Ferrari,8
+2023,20,PER,Sergio Pérez,Red Bull,9
+2023,20,PIA,Oscar Piastri,McLaren,10
+2023,20,HUL,Nico Hülkenberg,Haas F1 Team,11
+2023,20,OCO,Esteban Ocon,Alpine F1 Team,12
+2023,20,GAS,Pierre Gasly,Alpine F1 Team,13
+2023,20,MAG,Kevin Magnussen,Haas F1 Team,14
+2023,20,ALB,Alexander Albon,Williams,15
+2023,20,TSU,Yuki Tsunoda,AlphaTauri,16
+2023,20,RIC,Daniel Ricciardo,AlphaTauri,17
+2023,20,BOT,Valtteri Bottas,Alfa Romeo,18
+2023,20,SAR,Logan Sargeant,Williams,19
+2023,20,ZHO,Guanyu Zhou,Alfa Romeo,20
+2023,21,LEC,Charles Leclerc,Ferrari,1
+2023,21,SAI,Carlos Sainz,Ferrari,2
+2023,21,VER,Max Verstappen,Red Bull,3
+2023,21,RUS,George Russell,Mercedes,4
+2023,21,GAS,Pierre Gasly,Alpine F1 Team,5
+2023,21,ALB,Alexander Albon,Williams,6
+2023,21,SAR,Logan Sargeant,Williams,7
+2023,21,BOT,Valtteri Bottas,Alfa Romeo,8
+2023,21,MAG,Kevin Magnussen,Haas F1 Team,9
+2023,21,ALO,Fernando Alonso,Aston Martin,10
+2023,21,HAM,Lewis Hamilton,Mercedes,11
+2023,21,PER,Sergio Pérez,Red Bull,12
+2023,21,HUL,Nico Hülkenberg,Haas F1 Team,13
+2023,21,STR,Lance Stroll,Aston Martin,14
+2023,21,RIC,Daniel Ricciardo,AlphaTauri,15
+2023,21,NOR,Lando Norris,McLaren,16
+2023,21,OCO,Esteban Ocon,Alpine F1 Team,17
+2023,21,ZHO,Guanyu Zhou,Alfa Romeo,18
+2023,21,PIA,Oscar Piastri,McLaren,19
+2023,21,TSU,Yuki Tsunoda,AlphaTauri,20
+2023,22,VER,Max Verstappen,Red Bull,1
+2023,22,LEC,Charles Leclerc,Ferrari,2
+2023,22,PIA,Oscar Piastri,McLaren,3
+2023,22,RUS,George Russell,Mercedes,4
+2023,22,NOR,Lando Norris,McLaren,5
+2023,22,TSU,Yuki Tsunoda,AlphaTauri,6
+2023,22,ALO,Fernando Alonso,Aston Martin,7
+2023,22,HUL,Nico Hülkenberg,Haas F1 Team,8
+2023,22,PER,Sergio Pérez,Red Bull,9
+2023,22,GAS,Pierre Gasly,Alpine F1 Team,10
+2023,22,HAM,Lewis Hamilton,Mercedes,11
+2023,22,OCO,Esteban Ocon,Alpine F1 Team,12
+2023,22,STR,Lance Stroll,Aston Martin,13
+2023,22,ALB,Alexander Albon,Williams,14
+2023,22,RIC,Daniel Ricciardo,AlphaTauri,15
+2023,22,SAI,Carlos Sainz,Ferrari,16
+2023,22,MAG,Kevin Magnussen,Haas F1 Team,17
+2023,22,BOT,Valtteri Bottas,Alfa Romeo,18
+2023,22,ZHO,Guanyu Zhou,Alfa Romeo,19
+2023,22,SAR,Logan Sargeant,Williams,20

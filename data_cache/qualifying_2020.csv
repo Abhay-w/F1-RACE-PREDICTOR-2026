@@ -1,0 +1,341 @@
+Season,Round,DriverCode,Driver,Team,QualifyingPosition
+2020,1,BOT,Valtteri Bottas,Mercedes,1
+2020,1,HAM,Lewis Hamilton,Mercedes,2
+2020,1,VER,Max Verstappen,Red Bull,3
+2020,1,NOR,Lando Norris,McLaren,4
+2020,1,ALB,Alexander Albon,Red Bull,5
+2020,1,PER,Sergio Pérez,Racing Point,6
+2020,1,LEC,Charles Leclerc,Ferrari,7
+2020,1,SAI,Carlos Sainz,McLaren,8
+2020,1,STR,Lance Stroll,Racing Point,9
+2020,1,RIC,Daniel Ricciardo,Renault,10
+2020,1,VET,Sebastian Vettel,Ferrari,11
+2020,1,GAS,Pierre Gasly,AlphaTauri,12
+2020,1,KVY,Daniil Kvyat,AlphaTauri,13
+2020,1,OCO,Esteban Ocon,Renault,14
+2020,1,GRO,Romain Grosjean,Haas F1 Team,15
+2020,1,MAG,Kevin Magnussen,Haas F1 Team,16
+2020,1,RUS,George Russell,Williams,17
+2020,1,GIO,Antonio Giovinazzi,Alfa Romeo,18
+2020,1,RAI,Kimi Räikkönen,Alfa Romeo,19
+2020,1,LAT,Nicholas Latifi,Williams,20
+2020,2,HAM,Lewis Hamilton,Mercedes,1
+2020,2,VER,Max Verstappen,Red Bull,2
+2020,2,SAI,Carlos Sainz,McLaren,3
+2020,2,BOT,Valtteri Bottas,Mercedes,4
+2020,2,OCO,Esteban Ocon,Renault,5
+2020,2,NOR,Lando Norris,McLaren,6
+2020,2,ALB,Alexander Albon,Red Bull,7
+2020,2,GAS,Pierre Gasly,AlphaTauri,8
+2020,2,RIC,Daniel Ricciardo,Renault,9
+2020,2,VET,Sebastian Vettel,Ferrari,10
+2020,2,LEC,Charles Leclerc,Ferrari,11
+2020,2,RUS,George Russell,Williams,12
+2020,2,STR,Lance Stroll,Racing Point,13
+2020,2,KVY,Daniil Kvyat,AlphaTauri,14
+2020,2,MAG,Kevin Magnussen,Haas F1 Team,15
+2020,2,RAI,Kimi Räikkönen,Alfa Romeo,16
+2020,2,PER,Sergio Pérez,Racing Point,17
+2020,2,LAT,Nicholas Latifi,Williams,18
+2020,2,GIO,Antonio Giovinazzi,Alfa Romeo,19
+2020,2,GRO,Romain Grosjean,Haas F1 Team,20
+2020,3,HAM,Lewis Hamilton,Mercedes,1
+2020,3,BOT,Valtteri Bottas,Mercedes,2
+2020,3,STR,Lance Stroll,Racing Point,3
+2020,3,PER,Sergio Pérez,Racing Point,4
+2020,3,VET,Sebastian Vettel,Ferrari,5
+2020,3,LEC,Charles Leclerc,Ferrari,6
+2020,3,VER,Max Verstappen,Red Bull,7
+2020,3,NOR,Lando Norris,McLaren,8
+2020,3,SAI,Carlos Sainz,McLaren,9
+2020,3,GAS,Pierre Gasly,AlphaTauri,10
+2020,3,RIC,Daniel Ricciardo,Renault,11
+2020,3,RUS,George Russell,Williams,12
+2020,3,ALB,Alexander Albon,Red Bull,13
+2020,3,OCO,Esteban Ocon,Renault,14
+2020,3,LAT,Nicholas Latifi,Williams,15
+2020,3,MAG,Kevin Magnussen,Haas F1 Team,16
+2020,3,KVY,Daniil Kvyat,AlphaTauri,17
+2020,3,GRO,Romain Grosjean,Haas F1 Team,18
+2020,3,GIO,Antonio Giovinazzi,Alfa Romeo,19
+2020,3,RAI,Kimi Räikkönen,Alfa Romeo,20
+2020,4,HAM,Lewis Hamilton,Mercedes,1
+2020,4,BOT,Valtteri Bottas,Mercedes,2
+2020,4,VER,Max Verstappen,Red Bull,3
+2020,4,LEC,Charles Leclerc,Ferrari,4
+2020,4,NOR,Lando Norris,McLaren,5
+2020,4,STR,Lance Stroll,Racing Point,6
+2020,4,SAI,Carlos Sainz,McLaren,7
+2020,4,RIC,Daniel Ricciardo,Renault,8
+2020,4,OCO,Esteban Ocon,Renault,9
+2020,4,VET,Sebastian Vettel,Ferrari,10
+2020,4,GAS,Pierre Gasly,AlphaTauri,11
+2020,4,ALB,Alexander Albon,Red Bull,12
+2020,4,HUL,Nico Hülkenberg,Racing Point,13
+2020,4,KVY,Daniil Kvyat,AlphaTauri,14
+2020,4,RUS,George Russell,Williams,15
+2020,4,MAG,Kevin Magnussen,Haas F1 Team,16
+2020,4,GIO,Antonio Giovinazzi,Alfa Romeo,17
+2020,4,RAI,Kimi Räikkönen,Alfa Romeo,18
+2020,4,GRO,Romain Grosjean,Haas F1 Team,19
+2020,4,LAT,Nicholas Latifi,Williams,20
+2020,5,BOT,Valtteri Bottas,Mercedes,1
+2020,5,HAM,Lewis Hamilton,Mercedes,2
+2020,5,HUL,Nico Hülkenberg,Racing Point,3
+2020,5,VER,Max Verstappen,Red Bull,4
+2020,5,RIC,Daniel Ricciardo,Renault,5
+2020,5,STR,Lance Stroll,Racing Point,6
+2020,5,GAS,Pierre Gasly,AlphaTauri,7
+2020,5,LEC,Charles Leclerc,Ferrari,8
+2020,5,ALB,Alexander Albon,Red Bull,9
+2020,5,NOR,Lando Norris,McLaren,10
+2020,5,OCO,Esteban Ocon,Renault,11
+2020,5,VET,Sebastian Vettel,Ferrari,12
+2020,5,SAI,Carlos Sainz,McLaren,13
+2020,5,GRO,Romain Grosjean,Haas F1 Team,14
+2020,5,RUS,George Russell,Williams,15
+2020,5,KVY,Daniil Kvyat,AlphaTauri,16
+2020,5,MAG,Kevin Magnussen,Haas F1 Team,17
+2020,5,LAT,Nicholas Latifi,Williams,18
+2020,5,GIO,Antonio Giovinazzi,Alfa Romeo,19
+2020,5,RAI,Kimi Räikkönen,Alfa Romeo,20
+2020,6,HAM,Lewis Hamilton,Mercedes,1
+2020,6,BOT,Valtteri Bottas,Mercedes,2
+2020,6,VER,Max Verstappen,Red Bull,3
+2020,6,PER,Sergio Pérez,Racing Point,4
+2020,6,STR,Lance Stroll,Racing Point,5
+2020,6,ALB,Alexander Albon,Red Bull,6
+2020,6,SAI,Carlos Sainz,McLaren,7
+2020,6,NOR,Lando Norris,McLaren,8
+2020,6,LEC,Charles Leclerc,Ferrari,9
+2020,6,GAS,Pierre Gasly,AlphaTauri,10
+2020,6,VET,Sebastian Vettel,Ferrari,11
+2020,6,KVY,Daniil Kvyat,AlphaTauri,12
+2020,6,RIC,Daniel Ricciardo,Renault,13
+2020,6,RAI,Kimi Räikkönen,Alfa Romeo,14
+2020,6,OCO,Esteban Ocon,Renault,15
+2020,6,MAG,Kevin Magnussen,Haas F1 Team,16
+2020,6,GRO,Romain Grosjean,Haas F1 Team,17
+2020,6,RUS,George Russell,Williams,18
+2020,6,LAT,Nicholas Latifi,Williams,19
+2020,6,GIO,Antonio Giovinazzi,Alfa Romeo,20
+2020,7,HAM,Lewis Hamilton,Mercedes,1
+2020,7,BOT,Valtteri Bottas,Mercedes,2
+2020,7,VER,Max Verstappen,Red Bull,3
+2020,7,RIC,Daniel Ricciardo,Renault,4
+2020,7,ALB,Alexander Albon,Red Bull,5
+2020,7,OCO,Esteban Ocon,Renault,6
+2020,7,SAI,Carlos Sainz,McLaren,7
+2020,7,PER,Sergio Pérez,Racing Point,8
+2020,7,STR,Lance Stroll,Racing Point,9
+2020,7,NOR,Lando Norris,McLaren,10
+2020,7,KVY,Daniil Kvyat,AlphaTauri,11
+2020,7,GAS,Pierre Gasly,AlphaTauri,12
+2020,7,LEC,Charles Leclerc,Ferrari,13
+2020,7,VET,Sebastian Vettel,Ferrari,14
+2020,7,RUS,George Russell,Williams,15
+2020,7,RAI,Kimi Räikkönen,Alfa Romeo,16
+2020,7,GRO,Romain Grosjean,Haas F1 Team,17
+2020,7,GIO,Antonio Giovinazzi,Alfa Romeo,18
+2020,7,LAT,Nicholas Latifi,Williams,19
+2020,7,MAG,Kevin Magnussen,Haas F1 Team,20
+2020,8,HAM,Lewis Hamilton,Mercedes,1
+2020,8,BOT,Valtteri Bottas,Mercedes,2
+2020,8,SAI,Carlos Sainz,McLaren,3
+2020,8,PER,Sergio Pérez,Racing Point,4
+2020,8,VER,Max Verstappen,Red Bull,5
+2020,8,NOR,Lando Norris,McLaren,6
+2020,8,RIC,Daniel Ricciardo,Renault,7
+2020,8,STR,Lance Stroll,Racing Point,8
+2020,8,ALB,Alexander Albon,Red Bull,9
+2020,8,GAS,Pierre Gasly,AlphaTauri,10
+2020,8,KVY,Daniil Kvyat,AlphaTauri,11
+2020,8,OCO,Esteban Ocon,Renault,12
+2020,8,LEC,Charles Leclerc,Ferrari,13
+2020,8,RAI,Kimi Räikkönen,Alfa Romeo,14
+2020,8,MAG,Kevin Magnussen,Haas F1 Team,15
+2020,8,GRO,Romain Grosjean,Haas F1 Team,16
+2020,8,VET,Sebastian Vettel,Ferrari,17
+2020,8,GIO,Antonio Giovinazzi,Alfa Romeo,18
+2020,8,RUS,George Russell,Williams,19
+2020,8,LAT,Nicholas Latifi,Williams,20
+2020,9,HAM,Lewis Hamilton,Mercedes,1
+2020,9,BOT,Valtteri Bottas,Mercedes,2
+2020,9,VER,Max Verstappen,Red Bull,3
+2020,9,ALB,Alexander Albon,Red Bull,4
+2020,9,LEC,Charles Leclerc,Ferrari,5
+2020,9,PER,Sergio Pérez,Racing Point,6
+2020,9,STR,Lance Stroll,Racing Point,7
+2020,9,RIC,Daniel Ricciardo,Renault,8
+2020,9,SAI,Carlos Sainz,McLaren,9
+2020,9,OCO,Esteban Ocon,Renault,10
+2020,9,NOR,Lando Norris,McLaren,11
+2020,9,KVY,Daniil Kvyat,AlphaTauri,12
+2020,9,RAI,Kimi Räikkönen,Alfa Romeo,13
+2020,9,VET,Sebastian Vettel,Ferrari,14
+2020,9,GRO,Romain Grosjean,Haas F1 Team,15
+2020,9,GAS,Pierre Gasly,AlphaTauri,16
+2020,9,GIO,Antonio Giovinazzi,Alfa Romeo,17
+2020,9,RUS,George Russell,Williams,18
+2020,9,LAT,Nicholas Latifi,Williams,19
+2020,9,MAG,Kevin Magnussen,Haas F1 Team,20
+2020,10,HAM,Lewis Hamilton,Mercedes,1
+2020,10,VER,Max Verstappen,Red Bull,2
+2020,10,BOT,Valtteri Bottas,Mercedes,3
+2020,10,PER,Sergio Pérez,Racing Point,4
+2020,10,RIC,Daniel Ricciardo,Renault,5
+2020,10,SAI,Carlos Sainz,McLaren,6
+2020,10,OCO,Esteban Ocon,Renault,7
+2020,10,NOR,Lando Norris,McLaren,8
+2020,10,GAS,Pierre Gasly,AlphaTauri,9
+2020,10,ALB,Alexander Albon,Red Bull,10
+2020,10,LEC,Charles Leclerc,Ferrari,11
+2020,10,KVY,Daniil Kvyat,AlphaTauri,12
+2020,10,STR,Lance Stroll,Racing Point,13
+2020,10,RUS,George Russell,Williams,14
+2020,10,VET,Sebastian Vettel,Ferrari,15
+2020,10,GRO,Romain Grosjean,Haas F1 Team,16
+2020,10,GIO,Antonio Giovinazzi,Alfa Romeo,17
+2020,10,MAG,Kevin Magnussen,Haas F1 Team,18
+2020,10,LAT,Nicholas Latifi,Williams,19
+2020,10,RAI,Kimi Räikkönen,Alfa Romeo,20
+2020,11,BOT,Valtteri Bottas,Mercedes,1
+2020,11,HAM,Lewis Hamilton,Mercedes,2
+2020,11,VER,Max Verstappen,Red Bull,3
+2020,11,LEC,Charles Leclerc,Ferrari,4
+2020,11,ALB,Alexander Albon,Red Bull,5
+2020,11,RIC,Daniel Ricciardo,Renault,6
+2020,11,OCO,Esteban Ocon,Renault,7
+2020,11,NOR,Lando Norris,McLaren,8
+2020,11,PER,Sergio Pérez,Racing Point,9
+2020,11,SAI,Carlos Sainz,McLaren,10
+2020,11,VET,Sebastian Vettel,Ferrari,11
+2020,11,GAS,Pierre Gasly,AlphaTauri,12
+2020,11,KVY,Daniil Kvyat,AlphaTauri,13
+2020,11,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2020,11,MAG,Kevin Magnussen,Haas F1 Team,15
+2020,11,GRO,Romain Grosjean,Haas F1 Team,16
+2020,11,RUS,George Russell,Williams,17
+2020,11,LAT,Nicholas Latifi,Williams,18
+2020,11,RAI,Kimi Räikkönen,Alfa Romeo,19
+2020,11,HUL,Nico Hülkenberg,Racing Point,20
+2020,12,HAM,Lewis Hamilton,Mercedes,1
+2020,12,BOT,Valtteri Bottas,Mercedes,2
+2020,12,VER,Max Verstappen,Red Bull,3
+2020,12,LEC,Charles Leclerc,Ferrari,4
+2020,12,PER,Sergio Pérez,Racing Point,5
+2020,12,ALB,Alexander Albon,Red Bull,6
+2020,12,SAI,Carlos Sainz,McLaren,7
+2020,12,NOR,Lando Norris,McLaren,8
+2020,12,GAS,Pierre Gasly,AlphaTauri,9
+2020,12,RIC,Daniel Ricciardo,Renault,10
+2020,12,OCO,Esteban Ocon,Renault,11
+2020,12,STR,Lance Stroll,Racing Point,12
+2020,12,KVY,Daniil Kvyat,AlphaTauri,13
+2020,12,RUS,George Russell,Williams,14
+2020,12,VET,Sebastian Vettel,Ferrari,15
+2020,12,RAI,Kimi Räikkönen,Alfa Romeo,16
+2020,12,GIO,Antonio Giovinazzi,Alfa Romeo,17
+2020,12,GRO,Romain Grosjean,Haas F1 Team,18
+2020,12,MAG,Kevin Magnussen,Haas F1 Team,19
+2020,12,LAT,Nicholas Latifi,Williams,20
+2020,13,BOT,Valtteri Bottas,Mercedes,1
+2020,13,HAM,Lewis Hamilton,Mercedes,2
+2020,13,VER,Max Verstappen,Red Bull,3
+2020,13,GAS,Pierre Gasly,AlphaTauri,4
+2020,13,RIC,Daniel Ricciardo,Renault,5
+2020,13,ALB,Alexander Albon,Red Bull,6
+2020,13,LEC,Charles Leclerc,Ferrari,7
+2020,13,KVY,Daniil Kvyat,AlphaTauri,8
+2020,13,NOR,Lando Norris,McLaren,9
+2020,13,SAI,Carlos Sainz,McLaren,10
+2020,13,PER,Sergio Pérez,Racing Point,11
+2020,13,OCO,Esteban Ocon,Renault,12
+2020,13,RUS,George Russell,Williams,13
+2020,13,VET,Sebastian Vettel,Ferrari,14
+2020,13,STR,Lance Stroll,Racing Point,15
+2020,13,GRO,Romain Grosjean,Haas F1 Team,16
+2020,13,MAG,Kevin Magnussen,Haas F1 Team,17
+2020,13,RAI,Kimi Räikkönen,Alfa Romeo,18
+2020,13,LAT,Nicholas Latifi,Williams,19
+2020,13,GIO,Antonio Giovinazzi,Alfa Romeo,20
+2020,14,STR,Lance Stroll,Racing Point,1
+2020,14,VER,Max Verstappen,Red Bull,2
+2020,14,PER,Sergio Pérez,Racing Point,3
+2020,14,ALB,Alexander Albon,Red Bull,4
+2020,14,RIC,Daniel Ricciardo,Renault,5
+2020,14,HAM,Lewis Hamilton,Mercedes,6
+2020,14,OCO,Esteban Ocon,Renault,7
+2020,14,RAI,Kimi Räikkönen,Alfa Romeo,8
+2020,14,BOT,Valtteri Bottas,Mercedes,9
+2020,14,GIO,Antonio Giovinazzi,Alfa Romeo,10
+2020,14,NOR,Lando Norris,McLaren,11
+2020,14,VET,Sebastian Vettel,Ferrari,12
+2020,14,SAI,Carlos Sainz,McLaren,13
+2020,14,LEC,Charles Leclerc,Ferrari,14
+2020,14,GAS,Pierre Gasly,AlphaTauri,15
+2020,14,MAG,Kevin Magnussen,Haas F1 Team,16
+2020,14,KVY,Daniil Kvyat,AlphaTauri,17
+2020,14,RUS,George Russell,Williams,18
+2020,14,GRO,Romain Grosjean,Haas F1 Team,19
+2020,14,LAT,Nicholas Latifi,Williams,20
+2020,15,HAM,Lewis Hamilton,Mercedes,1
+2020,15,BOT,Valtteri Bottas,Mercedes,2
+2020,15,VER,Max Verstappen,Red Bull,3
+2020,15,ALB,Alexander Albon,Red Bull,4
+2020,15,PER,Sergio Pérez,Racing Point,5
+2020,15,RIC,Daniel Ricciardo,Renault,6
+2020,15,OCO,Esteban Ocon,Renault,7
+2020,15,GAS,Pierre Gasly,AlphaTauri,8
+2020,15,NOR,Lando Norris,McLaren,9
+2020,15,KVY,Daniil Kvyat,AlphaTauri,10
+2020,15,VET,Sebastian Vettel,Ferrari,11
+2020,15,LEC,Charles Leclerc,Ferrari,12
+2020,15,STR,Lance Stroll,Racing Point,13
+2020,15,RUS,George Russell,Williams,14
+2020,15,SAI,Carlos Sainz,McLaren,15
+2020,15,GIO,Antonio Giovinazzi,Alfa Romeo,16
+2020,15,RAI,Kimi Räikkönen,Alfa Romeo,17
+2020,15,MAG,Kevin Magnussen,Haas F1 Team,18
+2020,15,GRO,Romain Grosjean,Haas F1 Team,19
+2020,15,LAT,Nicholas Latifi,Williams,20
+2020,16,BOT,Valtteri Bottas,Mercedes,1
+2020,16,RUS,George Russell,Mercedes,2
+2020,16,VER,Max Verstappen,Red Bull,3
+2020,16,LEC,Charles Leclerc,Ferrari,4
+2020,16,PER,Sergio Pérez,Racing Point,5
+2020,16,KVY,Daniil Kvyat,AlphaTauri,6
+2020,16,RIC,Daniel Ricciardo,Renault,7
+2020,16,SAI,Carlos Sainz,McLaren,8
+2020,16,GAS,Pierre Gasly,AlphaTauri,9
+2020,16,STR,Lance Stroll,Racing Point,10
+2020,16,OCO,Esteban Ocon,Renault,11
+2020,16,ALB,Alexander Albon,Red Bull,12
+2020,16,VET,Sebastian Vettel,Ferrari,13
+2020,16,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2020,16,NOR,Lando Norris,McLaren,15
+2020,16,MAG,Kevin Magnussen,Haas F1 Team,16
+2020,16,LAT,Nicholas Latifi,Williams,17
+2020,16,AIT,Jack Aitken,Williams,18
+2020,16,RAI,Kimi Räikkönen,Alfa Romeo,19
+2020,16,FIT,Pietro Fittipaldi,Haas F1 Team,20
+2020,17,VER,Max Verstappen,Red Bull,1
+2020,17,BOT,Valtteri Bottas,Mercedes,2
+2020,17,HAM,Lewis Hamilton,Mercedes,3
+2020,17,NOR,Lando Norris,McLaren,4
+2020,17,ALB,Alexander Albon,Red Bull,5
+2020,17,SAI,Carlos Sainz,McLaren,6
+2020,17,KVY,Daniil Kvyat,AlphaTauri,7
+2020,17,STR,Lance Stroll,Racing Point,8
+2020,17,LEC,Charles Leclerc,Ferrari,9
+2020,17,GAS,Pierre Gasly,AlphaTauri,10
+2020,17,OCO,Esteban Ocon,Renault,11
+2020,17,RIC,Daniel Ricciardo,Renault,12
+2020,17,VET,Sebastian Vettel,Ferrari,13
+2020,17,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2020,17,PER,Sergio Pérez,Racing Point,15
+2020,17,RAI,Kimi Räikkönen,Alfa Romeo,16
+2020,17,MAG,Kevin Magnussen,Haas F1 Team,17
+2020,17,RUS,George Russell,Williams,18
+2020,17,FIT,Pietro Fittipaldi,Haas F1 Team,19
+2020,17,LAT,Nicholas Latifi,Williams,20

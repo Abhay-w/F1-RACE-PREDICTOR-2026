@@ -1,0 +1,440 @@
+Season,Round,DriverCode,Driver,Team,QualifyingPosition
+2021,1,VER,Max Verstappen,Red Bull,1
+2021,1,HAM,Lewis Hamilton,Mercedes,2
+2021,1,BOT,Valtteri Bottas,Mercedes,3
+2021,1,LEC,Charles Leclerc,Ferrari,4
+2021,1,GAS,Pierre Gasly,AlphaTauri,5
+2021,1,RIC,Daniel Ricciardo,McLaren,6
+2021,1,NOR,Lando Norris,McLaren,7
+2021,1,SAI,Carlos Sainz,Ferrari,8
+2021,1,ALO,Fernando Alonso,Alpine F1 Team,9
+2021,1,STR,Lance Stroll,Aston Martin,10
+2021,1,PER,Sergio Pérez,Red Bull,11
+2021,1,GIO,Antonio Giovinazzi,Alfa Romeo,12
+2021,1,TSU,Yuki Tsunoda,AlphaTauri,13
+2021,1,RAI,Kimi Räikkönen,Alfa Romeo,14
+2021,1,RUS,George Russell,Williams,15
+2021,1,OCO,Esteban Ocon,Alpine F1 Team,16
+2021,1,LAT,Nicholas Latifi,Williams,17
+2021,1,VET,Sebastian Vettel,Aston Martin,18
+2021,1,MSC,Mick Schumacher,Haas F1 Team,19
+2021,1,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,2,HAM,Lewis Hamilton,Mercedes,1
+2021,2,PER,Sergio Pérez,Red Bull,2
+2021,2,VER,Max Verstappen,Red Bull,3
+2021,2,LEC,Charles Leclerc,Ferrari,4
+2021,2,GAS,Pierre Gasly,AlphaTauri,5
+2021,2,RIC,Daniel Ricciardo,McLaren,6
+2021,2,NOR,Lando Norris,McLaren,7
+2021,2,BOT,Valtteri Bottas,Mercedes,8
+2021,2,OCO,Esteban Ocon,Alpine F1 Team,9
+2021,2,STR,Lance Stroll,Aston Martin,10
+2021,2,SAI,Carlos Sainz,Ferrari,11
+2021,2,RUS,George Russell,Williams,12
+2021,2,VET,Sebastian Vettel,Aston Martin,13
+2021,2,LAT,Nicholas Latifi,Williams,14
+2021,2,ALO,Fernando Alonso,Alpine F1 Team,15
+2021,2,RAI,Kimi Räikkönen,Alfa Romeo,16
+2021,2,GIO,Antonio Giovinazzi,Alfa Romeo,17
+2021,2,MSC,Mick Schumacher,Haas F1 Team,18
+2021,2,MAZ,Nikita Mazepin,Haas F1 Team,19
+2021,2,TSU,Yuki Tsunoda,AlphaTauri,20
+2021,3,BOT,Valtteri Bottas,Mercedes,1
+2021,3,HAM,Lewis Hamilton,Mercedes,2
+2021,3,VER,Max Verstappen,Red Bull,3
+2021,3,PER,Sergio Pérez,Red Bull,4
+2021,3,SAI,Carlos Sainz,Ferrari,5
+2021,3,OCO,Esteban Ocon,Alpine F1 Team,6
+2021,3,NOR,Lando Norris,McLaren,7
+2021,3,LEC,Charles Leclerc,Ferrari,8
+2021,3,GAS,Pierre Gasly,AlphaTauri,9
+2021,3,VET,Sebastian Vettel,Aston Martin,10
+2021,3,RUS,George Russell,Williams,11
+2021,3,GIO,Antonio Giovinazzi,Alfa Romeo,12
+2021,3,ALO,Fernando Alonso,Alpine F1 Team,13
+2021,3,TSU,Yuki Tsunoda,AlphaTauri,14
+2021,3,RAI,Kimi Räikkönen,Alfa Romeo,15
+2021,3,RIC,Daniel Ricciardo,McLaren,16
+2021,3,STR,Lance Stroll,Aston Martin,17
+2021,3,LAT,Nicholas Latifi,Williams,18
+2021,3,MSC,Mick Schumacher,Haas F1 Team,19
+2021,3,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,4,HAM,Lewis Hamilton,Mercedes,1
+2021,4,VER,Max Verstappen,Red Bull,2
+2021,4,BOT,Valtteri Bottas,Mercedes,3
+2021,4,LEC,Charles Leclerc,Ferrari,4
+2021,4,OCO,Esteban Ocon,Alpine F1 Team,5
+2021,4,SAI,Carlos Sainz,Ferrari,6
+2021,4,RIC,Daniel Ricciardo,McLaren,7
+2021,4,PER,Sergio Pérez,Red Bull,8
+2021,4,NOR,Lando Norris,McLaren,9
+2021,4,ALO,Fernando Alonso,Alpine F1 Team,10
+2021,4,STR,Lance Stroll,Aston Martin,11
+2021,4,GAS,Pierre Gasly,AlphaTauri,12
+2021,4,VET,Sebastian Vettel,Aston Martin,13
+2021,4,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2021,4,RUS,George Russell,Williams,15
+2021,4,TSU,Yuki Tsunoda,AlphaTauri,16
+2021,4,RAI,Kimi Räikkönen,Alfa Romeo,17
+2021,4,MSC,Mick Schumacher,Haas F1 Team,18
+2021,4,LAT,Nicholas Latifi,Williams,19
+2021,4,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,5,LEC,Charles Leclerc,Ferrari,1
+2021,5,VER,Max Verstappen,Red Bull,2
+2021,5,BOT,Valtteri Bottas,Mercedes,3
+2021,5,SAI,Carlos Sainz,Ferrari,4
+2021,5,NOR,Lando Norris,McLaren,5
+2021,5,GAS,Pierre Gasly,AlphaTauri,6
+2021,5,HAM,Lewis Hamilton,Mercedes,7
+2021,5,VET,Sebastian Vettel,Aston Martin,8
+2021,5,PER,Sergio Pérez,Red Bull,9
+2021,5,GIO,Antonio Giovinazzi,Alfa Romeo,10
+2021,5,OCO,Esteban Ocon,Alpine F1 Team,11
+2021,5,RIC,Daniel Ricciardo,McLaren,12
+2021,5,STR,Lance Stroll,Aston Martin,13
+2021,5,RAI,Kimi Räikkönen,Alfa Romeo,14
+2021,5,RUS,George Russell,Williams,15
+2021,5,TSU,Yuki Tsunoda,AlphaTauri,16
+2021,5,ALO,Fernando Alonso,Alpine F1 Team,17
+2021,5,LAT,Nicholas Latifi,Williams,18
+2021,5,MAZ,Nikita Mazepin,Haas F1 Team,19
+2021,6,LEC,Charles Leclerc,Ferrari,1
+2021,6,HAM,Lewis Hamilton,Mercedes,2
+2021,6,VER,Max Verstappen,Red Bull,3
+2021,6,GAS,Pierre Gasly,AlphaTauri,4
+2021,6,SAI,Carlos Sainz,Ferrari,5
+2021,6,NOR,Lando Norris,McLaren,6
+2021,6,PER,Sergio Pérez,Red Bull,7
+2021,6,TSU,Yuki Tsunoda,AlphaTauri,8
+2021,6,ALO,Fernando Alonso,Alpine F1 Team,9
+2021,6,BOT,Valtteri Bottas,Mercedes,10
+2021,6,VET,Sebastian Vettel,Aston Martin,11
+2021,6,OCO,Esteban Ocon,Alpine F1 Team,12
+2021,6,RIC,Daniel Ricciardo,McLaren,13
+2021,6,RAI,Kimi Räikkönen,Alfa Romeo,14
+2021,6,RUS,George Russell,Williams,15
+2021,6,LAT,Nicholas Latifi,Williams,16
+2021,6,MSC,Mick Schumacher,Haas F1 Team,17
+2021,6,MAZ,Nikita Mazepin,Haas F1 Team,18
+2021,6,STR,Lance Stroll,Aston Martin,19
+2021,6,GIO,Antonio Giovinazzi,Alfa Romeo,20
+2021,7,VER,Max Verstappen,Red Bull,1
+2021,7,HAM,Lewis Hamilton,Mercedes,2
+2021,7,BOT,Valtteri Bottas,Mercedes,3
+2021,7,PER,Sergio Pérez,Red Bull,4
+2021,7,SAI,Carlos Sainz,Ferrari,5
+2021,7,GAS,Pierre Gasly,AlphaTauri,6
+2021,7,LEC,Charles Leclerc,Ferrari,7
+2021,7,NOR,Lando Norris,McLaren,8
+2021,7,ALO,Fernando Alonso,Alpine F1 Team,9
+2021,7,RIC,Daniel Ricciardo,McLaren,10
+2021,7,OCO,Esteban Ocon,Alpine F1 Team,11
+2021,7,VET,Sebastian Vettel,Aston Martin,12
+2021,7,GIO,Antonio Giovinazzi,Alfa Romeo,13
+2021,7,RUS,George Russell,Williams,14
+2021,7,MSC,Mick Schumacher,Haas F1 Team,15
+2021,7,LAT,Nicholas Latifi,Williams,16
+2021,7,RAI,Kimi Räikkönen,Alfa Romeo,17
+2021,7,MAZ,Nikita Mazepin,Haas F1 Team,18
+2021,7,STR,Lance Stroll,Aston Martin,19
+2021,7,TSU,Yuki Tsunoda,AlphaTauri,20
+2021,8,VER,Max Verstappen,Red Bull,1
+2021,8,BOT,Valtteri Bottas,Mercedes,2
+2021,8,HAM,Lewis Hamilton,Mercedes,3
+2021,8,NOR,Lando Norris,McLaren,4
+2021,8,PER,Sergio Pérez,Red Bull,5
+2021,8,GAS,Pierre Gasly,AlphaTauri,6
+2021,8,LEC,Charles Leclerc,Ferrari,7
+2021,8,TSU,Yuki Tsunoda,AlphaTauri,8
+2021,8,ALO,Fernando Alonso,Alpine F1 Team,9
+2021,8,STR,Lance Stroll,Aston Martin,10
+2021,8,RUS,George Russell,Williams,11
+2021,8,SAI,Carlos Sainz,Ferrari,12
+2021,8,RIC,Daniel Ricciardo,McLaren,13
+2021,8,VET,Sebastian Vettel,Aston Martin,14
+2021,8,GIO,Antonio Giovinazzi,Alfa Romeo,15
+2021,8,LAT,Nicholas Latifi,Williams,16
+2021,8,OCO,Esteban Ocon,Alpine F1 Team,17
+2021,8,RAI,Kimi Räikkönen,Alfa Romeo,18
+2021,8,MSC,Mick Schumacher,Haas F1 Team,19
+2021,8,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,9,VER,Max Verstappen,Red Bull,1
+2021,9,NOR,Lando Norris,McLaren,2
+2021,9,PER,Sergio Pérez,Red Bull,3
+2021,9,HAM,Lewis Hamilton,Mercedes,4
+2021,9,BOT,Valtteri Bottas,Mercedes,5
+2021,9,GAS,Pierre Gasly,AlphaTauri,6
+2021,9,TSU,Yuki Tsunoda,AlphaTauri,7
+2021,9,VET,Sebastian Vettel,Aston Martin,8
+2021,9,RUS,George Russell,Williams,9
+2021,9,STR,Lance Stroll,Aston Martin,10
+2021,9,SAI,Carlos Sainz,Ferrari,11
+2021,9,LEC,Charles Leclerc,Ferrari,12
+2021,9,RIC,Daniel Ricciardo,McLaren,13
+2021,9,ALO,Fernando Alonso,Alpine F1 Team,14
+2021,9,GIO,Antonio Giovinazzi,Alfa Romeo,15
+2021,9,RAI,Kimi Räikkönen,Alfa Romeo,16
+2021,9,OCO,Esteban Ocon,Alpine F1 Team,17
+2021,9,LAT,Nicholas Latifi,Williams,18
+2021,9,MSC,Mick Schumacher,Haas F1 Team,19
+2021,9,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,10,HAM,Lewis Hamilton,Mercedes,1
+2021,10,VER,Max Verstappen,Red Bull,2
+2021,10,BOT,Valtteri Bottas,Mercedes,3
+2021,10,LEC,Charles Leclerc,Ferrari,4
+2021,10,PER,Sergio Pérez,Red Bull,5
+2021,10,NOR,Lando Norris,McLaren,6
+2021,10,RIC,Daniel Ricciardo,McLaren,7
+2021,10,RUS,George Russell,Williams,8
+2021,10,SAI,Carlos Sainz,Ferrari,9
+2021,10,VET,Sebastian Vettel,Aston Martin,10
+2021,10,ALO,Fernando Alonso,Alpine F1 Team,11
+2021,10,GAS,Pierre Gasly,AlphaTauri,12
+2021,10,OCO,Esteban Ocon,Alpine F1 Team,13
+2021,10,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2021,10,STR,Lance Stroll,Aston Martin,15
+2021,10,TSU,Yuki Tsunoda,AlphaTauri,16
+2021,10,RAI,Kimi Räikkönen,Alfa Romeo,17
+2021,10,LAT,Nicholas Latifi,Williams,18
+2021,10,MSC,Mick Schumacher,Haas F1 Team,19
+2021,10,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,11,HAM,Lewis Hamilton,Mercedes,1
+2021,11,BOT,Valtteri Bottas,Mercedes,2
+2021,11,VER,Max Verstappen,Red Bull,3
+2021,11,PER,Sergio Pérez,Red Bull,4
+2021,11,GAS,Pierre Gasly,AlphaTauri,5
+2021,11,NOR,Lando Norris,McLaren,6
+2021,11,LEC,Charles Leclerc,Ferrari,7
+2021,11,OCO,Esteban Ocon,Alpine F1 Team,8
+2021,11,ALO,Fernando Alonso,Alpine F1 Team,9
+2021,11,VET,Sebastian Vettel,Aston Martin,10
+2021,11,RIC,Daniel Ricciardo,McLaren,11
+2021,11,STR,Lance Stroll,Aston Martin,12
+2021,11,RAI,Kimi Räikkönen,Alfa Romeo,13
+2021,11,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2021,11,SAI,Carlos Sainz,Ferrari,15
+2021,11,TSU,Yuki Tsunoda,AlphaTauri,16
+2021,11,RUS,George Russell,Williams,17
+2021,11,LAT,Nicholas Latifi,Williams,18
+2021,11,MAZ,Nikita Mazepin,Haas F1 Team,19
+2021,11,MSC,Mick Schumacher,Haas F1 Team,20
+2021,12,VER,Max Verstappen,Red Bull,1
+2021,12,RUS,George Russell,Williams,2
+2021,12,HAM,Lewis Hamilton,Mercedes,3
+2021,12,RIC,Daniel Ricciardo,McLaren,4
+2021,12,VET,Sebastian Vettel,Aston Martin,5
+2021,12,GAS,Pierre Gasly,AlphaTauri,6
+2021,12,PER,Sergio Pérez,Red Bull,7
+2021,12,BOT,Valtteri Bottas,Mercedes,8
+2021,12,OCO,Esteban Ocon,Alpine F1 Team,9
+2021,12,NOR,Lando Norris,McLaren,10
+2021,12,LEC,Charles Leclerc,Ferrari,11
+2021,12,LAT,Nicholas Latifi,Williams,12
+2021,12,SAI,Carlos Sainz,Ferrari,13
+2021,12,ALO,Fernando Alonso,Alpine F1 Team,14
+2021,12,STR,Lance Stroll,Aston Martin,15
+2021,12,GIO,Antonio Giovinazzi,Alfa Romeo,16
+2021,12,TSU,Yuki Tsunoda,AlphaTauri,17
+2021,12,MSC,Mick Schumacher,Haas F1 Team,18
+2021,12,RAI,Kimi Räikkönen,Alfa Romeo,19
+2021,12,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,13,VER,Max Verstappen,Red Bull,1
+2021,13,HAM,Lewis Hamilton,Mercedes,2
+2021,13,BOT,Valtteri Bottas,Mercedes,3
+2021,13,GAS,Pierre Gasly,AlphaTauri,4
+2021,13,LEC,Charles Leclerc,Ferrari,5
+2021,13,SAI,Carlos Sainz,Ferrari,6
+2021,13,GIO,Antonio Giovinazzi,Alfa Romeo,7
+2021,13,OCO,Esteban Ocon,Alpine F1 Team,8
+2021,13,ALO,Fernando Alonso,Alpine F1 Team,9
+2021,13,RIC,Daniel Ricciardo,McLaren,10
+2021,13,RUS,George Russell,Williams,11
+2021,13,STR,Lance Stroll,Aston Martin,12
+2021,13,NOR,Lando Norris,McLaren,13
+2021,13,LAT,Nicholas Latifi,Williams,14
+2021,13,TSU,Yuki Tsunoda,AlphaTauri,15
+2021,13,PER,Sergio Pérez,Red Bull,16
+2021,13,VET,Sebastian Vettel,Aston Martin,17
+2021,13,KUB,Robert Kubica,Alfa Romeo,18
+2021,13,MSC,Mick Schumacher,Haas F1 Team,19
+2021,13,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,14,BOT,Valtteri Bottas,Mercedes,1
+2021,14,HAM,Lewis Hamilton,Mercedes,2
+2021,14,VER,Max Verstappen,Red Bull,3
+2021,14,NOR,Lando Norris,McLaren,4
+2021,14,RIC,Daniel Ricciardo,McLaren,5
+2021,14,GAS,Pierre Gasly,AlphaTauri,6
+2021,14,SAI,Carlos Sainz,Ferrari,7
+2021,14,LEC,Charles Leclerc,Ferrari,8
+2021,14,PER,Sergio Pérez,Red Bull,9
+2021,14,GIO,Antonio Giovinazzi,Alfa Romeo,10
+2021,14,VET,Sebastian Vettel,Aston Martin,11
+2021,14,STR,Lance Stroll,Aston Martin,12
+2021,14,ALO,Fernando Alonso,Alpine F1 Team,13
+2021,14,OCO,Esteban Ocon,Alpine F1 Team,14
+2021,14,RUS,George Russell,Williams,15
+2021,14,LAT,Nicholas Latifi,Williams,16
+2021,14,TSU,Yuki Tsunoda,AlphaTauri,17
+2021,14,MSC,Mick Schumacher,Haas F1 Team,18
+2021,14,KUB,Robert Kubica,Alfa Romeo,19
+2021,14,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,15,NOR,Lando Norris,McLaren,1
+2021,15,SAI,Carlos Sainz,Ferrari,2
+2021,15,RUS,George Russell,Williams,3
+2021,15,HAM,Lewis Hamilton,Mercedes,4
+2021,15,RIC,Daniel Ricciardo,McLaren,5
+2021,15,ALO,Fernando Alonso,Alpine F1 Team,6
+2021,15,BOT,Valtteri Bottas,Mercedes,7
+2021,15,STR,Lance Stroll,Aston Martin,8
+2021,15,PER,Sergio Pérez,Red Bull,9
+2021,15,OCO,Esteban Ocon,Alpine F1 Team,10
+2021,15,VET,Sebastian Vettel,Aston Martin,11
+2021,15,GAS,Pierre Gasly,AlphaTauri,12
+2021,15,TSU,Yuki Tsunoda,AlphaTauri,13
+2021,15,LAT,Nicholas Latifi,Williams,14
+2021,15,LEC,Charles Leclerc,Ferrari,15
+2021,15,RAI,Kimi Räikkönen,Alfa Romeo,16
+2021,15,MSC,Mick Schumacher,Haas F1 Team,17
+2021,15,GIO,Antonio Giovinazzi,Alfa Romeo,18
+2021,15,MAZ,Nikita Mazepin,Haas F1 Team,19
+2021,15,VER,Max Verstappen,Red Bull,20
+2021,16,HAM,Lewis Hamilton,Mercedes,1
+2021,16,BOT,Valtteri Bottas,Mercedes,2
+2021,16,VER,Max Verstappen,Red Bull,3
+2021,16,LEC,Charles Leclerc,Ferrari,4
+2021,16,GAS,Pierre Gasly,AlphaTauri,5
+2021,16,ALO,Fernando Alonso,Alpine F1 Team,6
+2021,16,PER,Sergio Pérez,Red Bull,7
+2021,16,NOR,Lando Norris,McLaren,8
+2021,16,STR,Lance Stroll,Aston Martin,9
+2021,16,TSU,Yuki Tsunoda,AlphaTauri,10
+2021,16,VET,Sebastian Vettel,Aston Martin,11
+2021,16,OCO,Esteban Ocon,Alpine F1 Team,12
+2021,16,RUS,George Russell,Williams,13
+2021,16,MSC,Mick Schumacher,Haas F1 Team,14
+2021,16,SAI,Carlos Sainz,Ferrari,15
+2021,16,RIC,Daniel Ricciardo,McLaren,16
+2021,16,LAT,Nicholas Latifi,Williams,17
+2021,16,GIO,Antonio Giovinazzi,Alfa Romeo,18
+2021,16,RAI,Kimi Räikkönen,Alfa Romeo,19
+2021,16,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,17,VER,Max Verstappen,Red Bull,1
+2021,17,HAM,Lewis Hamilton,Mercedes,2
+2021,17,PER,Sergio Pérez,Red Bull,3
+2021,17,BOT,Valtteri Bottas,Mercedes,4
+2021,17,LEC,Charles Leclerc,Ferrari,5
+2021,17,SAI,Carlos Sainz,Ferrari,6
+2021,17,RIC,Daniel Ricciardo,McLaren,7
+2021,17,NOR,Lando Norris,McLaren,8
+2021,17,GAS,Pierre Gasly,AlphaTauri,9
+2021,17,TSU,Yuki Tsunoda,AlphaTauri,10
+2021,17,OCO,Esteban Ocon,Alpine F1 Team,11
+2021,17,VET,Sebastian Vettel,Aston Martin,12
+2021,17,GIO,Antonio Giovinazzi,Alfa Romeo,13
+2021,17,ALO,Fernando Alonso,Alpine F1 Team,14
+2021,17,RUS,George Russell,Williams,15
+2021,17,STR,Lance Stroll,Aston Martin,16
+2021,17,LAT,Nicholas Latifi,Williams,17
+2021,17,RAI,Kimi Räikkönen,Alfa Romeo,18
+2021,17,MSC,Mick Schumacher,Haas F1 Team,19
+2021,17,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,18,BOT,Valtteri Bottas,Mercedes,1
+2021,18,HAM,Lewis Hamilton,Mercedes,2
+2021,18,VER,Max Verstappen,Red Bull,3
+2021,18,PER,Sergio Pérez,Red Bull,4
+2021,18,GAS,Pierre Gasly,AlphaTauri,5
+2021,18,SAI,Carlos Sainz,Ferrari,6
+2021,18,RIC,Daniel Ricciardo,McLaren,7
+2021,18,LEC,Charles Leclerc,Ferrari,8
+2021,18,TSU,Yuki Tsunoda,AlphaTauri,9
+2021,18,NOR,Lando Norris,McLaren,10
+2021,18,VET,Sebastian Vettel,Aston Martin,11
+2021,18,RAI,Kimi Räikkönen,Alfa Romeo,12
+2021,18,RUS,George Russell,Williams,13
+2021,18,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2021,18,OCO,Esteban Ocon,Alpine F1 Team,15
+2021,18,ALO,Fernando Alonso,Alpine F1 Team,16
+2021,18,LAT,Nicholas Latifi,Williams,17
+2021,18,MSC,Mick Schumacher,Haas F1 Team,18
+2021,18,MAZ,Nikita Mazepin,Haas F1 Team,19
+2021,18,STR,Lance Stroll,Aston Martin,20
+2021,19,HAM,Lewis Hamilton,Mercedes,1
+2021,19,VER,Max Verstappen,Red Bull,2
+2021,19,BOT,Valtteri Bottas,Mercedes,3
+2021,19,PER,Sergio Pérez,Red Bull,4
+2021,19,GAS,Pierre Gasly,AlphaTauri,5
+2021,19,SAI,Carlos Sainz,Ferrari,6
+2021,19,LEC,Charles Leclerc,Ferrari,7
+2021,19,NOR,Lando Norris,McLaren,8
+2021,19,RIC,Daniel Ricciardo,McLaren,9
+2021,19,ALO,Fernando Alonso,Alpine F1 Team,10
+2021,19,OCO,Esteban Ocon,Alpine F1 Team,11
+2021,19,VET,Sebastian Vettel,Aston Martin,12
+2021,19,TSU,Yuki Tsunoda,AlphaTauri,13
+2021,19,RAI,Kimi Räikkönen,Alfa Romeo,14
+2021,19,GIO,Antonio Giovinazzi,Alfa Romeo,15
+2021,19,STR,Lance Stroll,Aston Martin,16
+2021,19,LAT,Nicholas Latifi,Williams,17
+2021,19,RUS,George Russell,Williams,18
+2021,19,MSC,Mick Schumacher,Haas F1 Team,19
+2021,19,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,20,HAM,Lewis Hamilton,Mercedes,1
+2021,20,VER,Max Verstappen,Red Bull,2
+2021,20,BOT,Valtteri Bottas,Mercedes,3
+2021,20,GAS,Pierre Gasly,AlphaTauri,4
+2021,20,ALO,Fernando Alonso,Alpine F1 Team,5
+2021,20,NOR,Lando Norris,McLaren,6
+2021,20,SAI,Carlos Sainz,Ferrari,7
+2021,20,TSU,Yuki Tsunoda,AlphaTauri,8
+2021,20,OCO,Esteban Ocon,Alpine F1 Team,9
+2021,20,VET,Sebastian Vettel,Aston Martin,10
+2021,20,PER,Sergio Pérez,Red Bull,11
+2021,20,STR,Lance Stroll,Aston Martin,12
+2021,20,LEC,Charles Leclerc,Ferrari,13
+2021,20,RIC,Daniel Ricciardo,McLaren,14
+2021,20,RUS,George Russell,Williams,15
+2021,20,RAI,Kimi Räikkönen,Alfa Romeo,16
+2021,20,LAT,Nicholas Latifi,Williams,17
+2021,20,GIO,Antonio Giovinazzi,Alfa Romeo,18
+2021,20,MSC,Mick Schumacher,Haas F1 Team,19
+2021,20,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,21,HAM,Lewis Hamilton,Mercedes,1
+2021,21,BOT,Valtteri Bottas,Mercedes,2
+2021,21,VER,Max Verstappen,Red Bull,3
+2021,21,LEC,Charles Leclerc,Ferrari,4
+2021,21,PER,Sergio Pérez,Red Bull,5
+2021,21,GAS,Pierre Gasly,AlphaTauri,6
+2021,21,NOR,Lando Norris,McLaren,7
+2021,21,TSU,Yuki Tsunoda,AlphaTauri,8
+2021,21,OCO,Esteban Ocon,Alpine F1 Team,9
+2021,21,GIO,Antonio Giovinazzi,Alfa Romeo,10
+2021,21,RIC,Daniel Ricciardo,McLaren,11
+2021,21,RAI,Kimi Räikkönen,Alfa Romeo,12
+2021,21,ALO,Fernando Alonso,Alpine F1 Team,13
+2021,21,RUS,George Russell,Williams,14
+2021,21,SAI,Carlos Sainz,Ferrari,15
+2021,21,LAT,Nicholas Latifi,Williams,16
+2021,21,VET,Sebastian Vettel,Aston Martin,17
+2021,21,STR,Lance Stroll,Aston Martin,18
+2021,21,MSC,Mick Schumacher,Haas F1 Team,19
+2021,21,MAZ,Nikita Mazepin,Haas F1 Team,20
+2021,22,VER,Max Verstappen,Red Bull,1
+2021,22,HAM,Lewis Hamilton,Mercedes,2
+2021,22,NOR,Lando Norris,McLaren,3
+2021,22,PER,Sergio Pérez,Red Bull,4
+2021,22,SAI,Carlos Sainz,Ferrari,5
+2021,22,BOT,Valtteri Bottas,Mercedes,6
+2021,22,LEC,Charles Leclerc,Ferrari,7
+2021,22,TSU,Yuki Tsunoda,AlphaTauri,8
+2021,22,OCO,Esteban Ocon,Alpine F1 Team,9
+2021,22,RIC,Daniel Ricciardo,McLaren,10
+2021,22,ALO,Fernando Alonso,Alpine F1 Team,11
+2021,22,GAS,Pierre Gasly,AlphaTauri,12
+2021,22,STR,Lance Stroll,Aston Martin,13
+2021,22,GIO,Antonio Giovinazzi,Alfa Romeo,14
+2021,22,VET,Sebastian Vettel,Aston Martin,15
+2021,22,LAT,Nicholas Latifi,Williams,16
+2021,22,RUS,George Russell,Williams,17
+2021,22,RAI,Kimi Räikkönen,Alfa Romeo,18
+2021,22,MSC,Mick Schumacher,Haas F1 Team,19
+2021,22,MAZ,Nikita Mazepin,Haas F1 Team,20
